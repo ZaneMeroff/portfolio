@@ -3,8 +3,9 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <section>
-      <h1>this is header</h1>
+    <section className='header-outer-container'>
+      <h1>ZACHARY NEMEROFF</h1>
+      <h3>Software Developer</h3>
     </section>
   );
 }
