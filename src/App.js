@@ -1,11 +1,13 @@
 import React from 'react';
+import Header from './components/Header/Header';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <section>
       <h1>Zachary's Portfolio</h1>
-    </div>
+      <Header />
+    </section>
   );
 }
 
