@@ -5,7 +5,6 @@ import './App.css';
 const App = () => {
   return (
     <section>
-      <h1>Zachary's Portfolio</h1>
       <Header />
     </section>
   );
