@@ -1,0 +1,35 @@
+.header-outer-container {
+  background: center/100% url(../../images/star_mountian_background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.title-name {
+  font-family: 'Jost';
+  color: #FFF;
+  font-size: 500%;
+  font-weight: lighter;
+  padding-top: 10%;
+}
+
+.title-industry {
+  color: #FFF;
+  font-size: 150%;
+  font-family: 'Jost';
+}
+
+.social-icons {
+  height: 35px;
+  width: 35px;
+  margin: 12% 1%;
+}
+
+.social-icons:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: transform .5s;
+}
