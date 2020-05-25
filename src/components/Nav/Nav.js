@@ -8,6 +8,7 @@ const Nav = () => {
     <nav className='nav-outer-container'>
       <a href='#header-section' className='nav-links'><p>Home</p></a>
       <a href='#about-section' className='nav-links'><p>About</p></a>
+      <a href='#simon-game-section' className='nav-links'><p>Simon</p></a>
       <a href='#work-experience-section' className='nav-links'><p>Experience</p></a>
       <a href='#projects-section' className='nav-links'><p>Projects</p></a>
       <a href={placeholder} className='nav-links'><p>Contact</p></a>
