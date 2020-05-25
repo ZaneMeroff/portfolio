@@ -1,17 +1,52 @@
 import React from 'react';
 import './Nav.css';
 
-const placeholder = '';
-
 const Nav = () => {
+
+  const scrollToHeader = () => {
+      document.querySelector('#header-section').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
+  const scrollToAbout = () => {
+      document.querySelector('#about-section').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
+  const scrollToSimonGame = () => {
+      document.querySelector('#simon-game-section').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
+  const scrollToWorkExperience = () => {
+      document.querySelector('#work-experience-section').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
+  const scrollToProjects = () => {
+      document.querySelector('#contact-section').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
+  const scrollToContact = () => {
+      document.querySelector('#projects-section').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
   return (
     <nav className='nav-outer-container'>
-      <a href='#header-section' className='nav-links'><p>Home</p></a>
-      <a href='#about-section' className='nav-links'><p>About</p></a>
-      <a href='#simon-game-section' className='nav-links'><p>Simon</p></a>
-      <a href='#work-experience-section' className='nav-links'><p>Experience</p></a>
-      <a href='#projects-section' className='nav-links'><p>Projects</p></a>
-      <a href='#contact-section' className='nav-links'><p>Contact</p></a>
+      <p onClick={scrollToHeader} className='nav-links'>Home</p>
+      <p onClick={scrollToAbout} className='nav-links'>About</p>
+      <p onClick={scrollToSimonGame} className='nav-links'>Simon</p>
+      <p onClick={scrollToWorkExperience} className='nav-links'>Experience</p>
+      <p onClick={scrollToProjects} className='nav-links'>Projects</p>
+      <p onClick={scrollToContact} className='nav-links'>Contact</p>
     </nav>
   );
 }
