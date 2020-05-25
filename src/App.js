@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
+import Header from './components/Header/Header';
+import About from './components/About/About';
 import './App.css';
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <section>
       <Nav />
       <Header />
+      <About />
     </section>
   );
 }
