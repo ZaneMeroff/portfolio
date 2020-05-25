@@ -11,8 +11,9 @@
 .nav-links {
   margin: 1%;
   text-decoration: none;
+  text-transform: uppercase;
   color: #FFF;
-  font-size: 100%;
+  font-size: 80%;
   height: 100%;
   padding: 2% 0.5% 0% 0.5%;
 }

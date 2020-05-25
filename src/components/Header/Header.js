@@ -10,7 +10,7 @@ const twitterURL = 'https://twitter.com/zanemeroff';
 
 const Header = () => {
   return (
-    <section className='header-outer-container'>
+    <section id='header-section' className='header-outer-container'>
       <h1 className='title-name'>ZACHARY NEMEROFF</h1>
       <h3 className='title-industry'>Software Developer</h3>
       <a href={gitHubURL} target="_blank"><img src={gitHubIcon} className='social-icons'/></a>
