@@ -11,7 +11,7 @@ const Nav = () => {
       <a href='#simon-game-section' className='nav-links'><p>Simon</p></a>
       <a href='#work-experience-section' className='nav-links'><p>Experience</p></a>
       <a href='#projects-section' className='nav-links'><p>Projects</p></a>
-      <a href={placeholder} className='nav-links'><p>Contact</p></a>
+      <a href='#contact-section' className='nav-links'><p>Contact</p></a>
     </nav>
   );
 }
