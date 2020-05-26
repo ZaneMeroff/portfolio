@@ -22,17 +22,19 @@
 }
 
 .turn-text-1 {
-  margin-top: 28px;
+  margin-top: 5px;
   margin-bottom: 0px;
   color: #FFF;
   font-size: 90%;
   font-family: 'Press Start 2P', cursive;
+
 }
 
 .turn-text-2 {
   color: #FFF;
   font-size: 90%;
   font-family: 'Press Start 2P', cursive;
+  margin-top: 10px;
 }
 
 .red-box,
@@ -153,6 +155,7 @@
 
 .rules-text {
   font-family: 'Press Start 2P', cursive;
+  line-height: 25px;
   color: #FFF;
   font-size: 90%;
 }

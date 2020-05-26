@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.new-game-button {
+.game-button {
   height: auto;
   width: 150px;
   border: 2px dotted #FFF;
@@ -14,22 +14,18 @@
   outline: none;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding: 0px;
+  padding: 4px;
   font-size: 70%;
   font-family: 'Press Start 2P', cursive;
 }
 
-.new-game-button:hover,
-.new-game-button:focus {
+.game-button:hover,
+.game-button:focus {
   cursor: pointer;
   color: #313131;
   background-color: #FFF;
   border: 2px dotted #313131;
 }
-
-/* .new-game-button:focus {
-  background-color: purple;
-} */
 
 .round-display {
   color: #FFF;
