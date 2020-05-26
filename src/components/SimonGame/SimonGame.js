@@ -4,7 +4,7 @@ import './SimonGame.css';
 const SimonGame = () => {
 
   return (
-    <section id='simon-game-section' className='simon-game-outer-container'>
+    <section id='simon-section' className='simon-game-outer-container'>
       <h1>SIMON GAME</h1>
     </section>
   );
