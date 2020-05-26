@@ -2,6 +2,8 @@ import React from 'react';
 import profilePic from '../../images/profile_pic.jpg';
 import './About.css';
 
+const resumeURL = 'https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020.pdf';
+
 const About = () => {
 
   return (
@@ -19,7 +21,7 @@ const About = () => {
             <p className='about-text'>Denver, CO</p>
             <p className='about-text'>ZaNemeroff@gmail.com</p>
           </div>
-          <button>view resume.pdf</button>
+          <a href={resumeURL} target='_blank'><button className='resume-button'>view resume.pdf</button></a>
         </div>
       </div>
     </section>
