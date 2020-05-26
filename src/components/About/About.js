@@ -19,7 +19,7 @@ const About = () => {
             <h2 className='about-text'>Contact Details</h2>
             <p className='about-text'>Zachary Nemeroff</p>
             <p className='about-text'>Denver, CO</p>
-            <p className='about-text'>ZaNemeroff@gmail.com</p>
+            <a href='mailto: ZaNemeroff@gmail.com' target='_blank'><p className='about-text email-text'>ZaNemeroff@gmail.com</p></a>
           </div>
           <a href={resumeURL} target='_blank'><button className='resume-button'>view resume.pdf</button></a>
         </div>
