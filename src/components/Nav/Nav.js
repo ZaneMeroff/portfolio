@@ -1,17 +1,25 @@
 import React from 'react';
 import './Nav.css';
 
-const placeholder = '';
-
 const Nav = () => {
+
+  const performSmoothScroll = sectionName => {
+    document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
+  }
+
+  const testFunc = () => {
+    let testEl = document.querySelector('.testElement').getBoundingClientRect();
+    console.log(testEl)
+  }
+
+  const navHeadings = ['home', 'about', 'simon', 'experience', 'projects', 'contact']
+
   return (
     <nav className='nav-outer-container'>
-      <a href='#header-section' className='nav-links'><p>Home</p></a>
-      <a href='#about-section' className='nav-links'><p>About</p></a>
-      <a href='#simon-game-section' className='nav-links'><p>Simon</p></a>
-      <a href='#work-experience-section' className='nav-links'><p>Experience</p></a>
-      <a href='#projects-section' className='nav-links'><p>Projects</p></a>
-      <a href='#contact-section' className='nav-links'><p>Contact</p></a>
+      {navHeadings.map(heading => {
+        return <p tabindex='0' key={`${heading}`} onClick={() => performSmoothScroll(`${heading}`)} className='nav-links'>{`${heading}`}</p>
+      })}
+      <p onClick={testFunc} className='nav-links testElement'>{'TEST'}</p>
     </nav>
   );
 }

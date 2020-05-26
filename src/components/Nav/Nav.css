@@ -3,21 +3,24 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   height: 35px;
   width: 100%;
+  background-color: grey;
 }
 
 .nav-links {
-  margin: 1%;
+  font-weight: bold;
   text-decoration: none;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #FFF;
-  font-size: 80%;
+  font-size: 70%;
   height: 100%;
-  padding: 2% 0.5% 0% 0.5%;
+  padding: 2% 2% 0% 2%;
 }
 
 .nav-links:hover {
+  cursor: pointer;
   background-color: rgba(182, 53, 185, 0.4);
 }
