@@ -7,6 +7,11 @@ const Nav = () => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
   }
 
+  const testFunc = () => {
+    let testEl = document.querySelector('.testElement').getBoundingClientRect();
+    console.log(testEl)
+  }
+
   const navHeadings = ['home', 'about', 'simon', 'experience', 'projects', 'contact']
 
   return (
@@ -14,6 +19,7 @@ const Nav = () => {
       {navHeadings.map(heading => {
         return <p tabindex='0' key={`${heading}`} onClick={() => performSmoothScroll(`${heading}`)} className='nav-links'>{`${heading}`}</p>
       })}
+      <p onClick={testFunc} className='nav-links testElement'>{'TEST'}</p>
     </nav>
   );
 }
