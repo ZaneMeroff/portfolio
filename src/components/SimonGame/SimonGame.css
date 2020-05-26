@@ -1,5 +1,16 @@
 .simon-game-outer-container {
   height: 100vh;
   width: 100%;
-  background-color: #c08a8a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #313131;
+}
+
+.simon-title {
+  margin-top: 60px;
+  color: #FFF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 150%;
 }

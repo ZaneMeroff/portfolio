@@ -1,0 +1,59 @@
+.scoreboard-outer-container {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.new-game-button {
+  height: auto;
+  width: 150px;
+  border: 2px dotted #FFF;
+  background-color: #313131;
+  color: #FFF;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  font-size: 70%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.new-game-button:hover,
+.new-game-button:focus {
+  cursor: pointer;
+  color: #313131;
+  background-color: #FFF;
+  border: 2px dotted #313131;
+}
+
+/* .new-game-button:focus {
+  background-color: purple;
+} */
+
+.round-display {
+  color: #FFF;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 70%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.round-moves-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.score-board-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
