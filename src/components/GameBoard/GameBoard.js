@@ -81,52 +81,40 @@ const GameBoard = () => {
     }
   }
 
-  const increaseRoundCount = () => {
-    setRoundCount(roundCount + 1)
-  }
+  const makeColorFlash = i => {
+  setTimeout(() => {
+    if (i % 2) {
+      colorKey[randomNumArray[Math.floor(j)]](true)
+    } else {
+      colorKey[randomNumArray[Math.floor(j)]](false)
+    }
+    j += 0.5
+    if (i === (roundCount * 2)) {
+      setMyOrYours('YOUR');
+      setDisableButtons(false);
+    }
+  }, i * 800 );
+}
 
-  const randomNum = () => {
-    return Math.floor(Math.random() * 4)
+const generate10randomNumbers = () => {
+  let randomArray = [];
+  for (let i = 0; i < 10; i++) {
+    randomArray.push(Math.floor(Math.random() * 4))
   }
+  return randomArray;
+}
 
-  const handlePlayerResponse = colorNum => {
-    playerResponse.push(colorNum)
-    playerClickCounter++
-    setPlayerClickDisplay(playerClickDisplay + 1)
-    if (roundCount === 1 && playerClickCounter === 1) {
-      validateAnswer();
-    }
-    if (roundCount === 2 && playerClickCounter === 2) {
-      validateAnswer();
-    }
-    if (roundCount === 3 && playerClickCounter === 3) {
-      validateAnswer();
-    }
-    if (roundCount === 4 && playerClickCounter === 4) {
-      validateAnswer();
-    }
-    if (roundCount === 5 && playerClickCounter === 5) {
-      validateAnswer();
-    }
-    if (roundCount === 6 && playerClickCounter === 6) {
-      validateAnswer();
-    }
-    if (roundCount === 7 && playerClickCounter === 7) {
-      validateAnswer();
-    }
-    if (roundCount === 8 && playerClickCounter === 8) {
-      validateAnswer();
-    }
-    if (roundCount === 9 && playerClickCounter === 9) {
-      validateAnswer();
-    }
-    if (roundCount === 10 && playerClickCounter === 10) {
-      validateAnswer();
-    }
+const handlePlayerResponse = colorNum => {
+  playerResponse.push(colorNum);
+  playerClickCounter++
+  setPlayerClickDisplay(playerClickDisplay + 1);
+  if (roundCount === playerClickCounter) {
+    validateAnswer();
   }
+}
 
   return (
-    <>
+    <section>
     <ScoreBoard roundCount={roundCount} startGame={startGame} playerClickDisplay={playerClickDisplay} randomNumArray={randomNumArray} onViewRulesClick={onViewRulesClick} rulesVisible={rulesVisible}/>
     <div className={ rulesVisible ? 'rules-outer-container' : 'hidden' }>
       <div className='rules-inner-container'>
@@ -151,7 +139,7 @@ const GameBoard = () => {
         <div tabindex='0' onClick={() => handlePlayerResponse(3)} className={ blueActive ? 'blue-box blue-active' : 'blue-box' }></div>
       </div>
     </div>
-    </>
+    </section>
   );
 
 }
