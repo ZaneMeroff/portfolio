@@ -10,8 +10,8 @@ const ScoreBoard = props => {
         <h3 className='round-display'>MOVES: {props.playerClickDisplay}/{props.roundCount}</h3>
       </div>
       <div className='score-board-button-container'>
-        <button onClick={props.startGame} className='new-game-button'>{props.randomNumArray.length !== 0 ? 'NEW GAME' : 'START GAME'}</button>
-        <button onClick={props.onViewRulesClick} className='new-game-button'>{props.rulesVisible ? 'HIDE RULES' : 'VIEW RULES'}</button>
+        <button onClick={props.startGame} className='game-button'>{props.randomNumArray.length !== 0 ? 'NEW GAME' : 'START GAME'}</button>
+        <button onClick={props.onViewRulesClick} className='game-button'>{props.rulesVisible ? 'HIDE RULES' : 'VIEW RULES'}</button>
       </div>
     </div>
   );
