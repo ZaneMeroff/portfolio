@@ -50,23 +50,33 @@ const GameBoard = () => {
   }
 
   const validateAnswer = () => {
+    let correctSoFar = true;
     for (let i = 0; i < playerResponse.length; i++) {
-      if (playerResponse[i] === randomNumArray[i]) {
-        if ( i === (playerResponse.length - 1)) {
-          setMyOrYours('RIGHT!');
-          setTurnText('');
-          setDisableButtons(true);
-          playerResponse = [];
-          setTimeout(() => {
-            nextRound();
-          }, 1000)
-        }
-      } else {
-        setMyOrYours('GAME');
-        setTurnText('OVER!');
-        setDisableButtons(true);
+      if (playerResponse[i] !== randomNumArray[i] && correctSoFar) {
+        correctSoFar = false;
       }
     }
+    if (correctSoFar) {
+      onCorrectRoundGuess();
+    } else {
+      gameOver();
+    }
+  }
+
+  const gameOver = () => {
+    setMyOrYours('GAME');
+    setTurnText('OVER!');
+    setDisableButtons(true);
+  }
+
+  const onCorrectRoundGuess = () => {
+    setMyOrYours('RIGHT!');
+    setTurnText('');
+    setDisableButtons(true);
+    playerResponse = [];
+    setTimeout(() => {
+      nextRound();
+    }, 1000)
   }
 
   const nextRound = () => {
