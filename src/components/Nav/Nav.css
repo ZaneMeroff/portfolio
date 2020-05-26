@@ -1,12 +1,10 @@
 .nav-outer-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
   position: fixed;
   height: 35px;
   width: 100%;
-  background-color: grey;
+  background-color: rgba(50, 76, 124, 0.9);
 }
 
 .nav-links {
@@ -17,7 +15,7 @@
   color: #FFF;
   font-size: 70%;
   height: 100%;
-  padding: 2% 2% 0% 2%;
+  padding: 0px 20px 0px 20px;
 }
 
 .nav-links:hover {
