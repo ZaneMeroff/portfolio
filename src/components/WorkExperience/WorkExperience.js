@@ -30,7 +30,6 @@ const WorkExperience = () => {
       <div className='experience-container'>
         <div className='experience-heading-box'>
           <div className='experience-heading-border'>
-            <h3 className='experience-heading'>Professional</h3>
             <h3 className='experience-heading'>Experience</h3>
           </div>
         </div>
