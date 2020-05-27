@@ -34,7 +34,7 @@ const WorkExperience = () => {
         <div className='experience-right-container'>
           {resumeData.jobs.map(job => {
             return (
-              <div>
+              <div className='job-container'>
                 <h1 className='experience-title'>{job.name}</h1>
                 <i className='experience-position'>{job.position}</i>
                 <p className='experience-time'>{job.time}</p>
@@ -44,7 +44,9 @@ const WorkExperience = () => {
               </div>)
           })}
         </div>
+
       </div>
+
     </section>
   );
 
