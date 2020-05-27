@@ -27,16 +27,33 @@ export const resumeData = {
       ]
     },
     {
-      name: '',
-      position: '',
-      time: '',
+      name: 'Camp Watcha Wanna Do',
+      position: 'Event Planner / Board Secretary',
+      time: 'June 2010 - March 2016',
       description: [
-        '',
-        '',
-        '',
-        '',
-        '',
+        'Nonprofit organization bettering the quality of life for individuals with childhood cancer',
+        'Served on camp planning committee and as camp counselor',
+        'Organized and ran fundraising events generating over one million dollars',
+        'Led and ran board meetings and created detialed outlines/records',
+        'Served as leader and adult role model to all campers and staff',
       ]
     }
+  ],
+  techSkillz: [
+    'JavaScript',
+    'HTML 5',
+    'CSS3/SASS',
+    'ReactJS',
+    'React Native',
+    'React Router',
+    'React Navigator',
+    'jQuery',
+    'Redux',
+    'TravisCI',
+    'Jest/Enzyme',
+    'Mocha/Chai',
+    'NPM/Yarn',
+    'Git/GitHub'
   ]
+
 }
