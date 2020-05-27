@@ -6,10 +6,10 @@ const WorkExperience = () => {
   return (
     <section id='experience-section' className='work-experience-outer-container'>
       <h3 className='experience-heading'>Education</h3>
-      <div>
-        <h1>Turing School of Software & Design</h1>
-        <p>Graduate of Front End Development Program</p>
-        <p>September 2019 - April 2020</p>
+      <div className='experience-right-container'>
+        <h1 className='experience-title'>Turing School of Software & Design</h1>
+        <p className='experience-position'>Graduate of Front End Development Program</p>
+        <p className='experience-time'>September 2019 - April 2020</p>
         <ul>
           <li>Built 14 unique web applications from scratch with vanilla JS, React, & React Native</li>
           <li>Created thorough unit testing suites for every application</li>
