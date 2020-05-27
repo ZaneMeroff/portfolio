@@ -151,12 +151,12 @@ const GameBoard = () => {
           <p className='turn-text-2'>{turnText}</p>
         </div>
         <div className={ disableButtons ? 'top-section disabled' : 'top-section' }>
-          <div tabindex='0' onClick={() => handlePlayerResponse(0)} className={ redActive ? 'red-box red-active' : 'red-box' }></div>
-          <div tabindex='0' onClick={() => handlePlayerResponse(1)} className={ yellowActive ? 'yellow-box yellow-active' : 'yellow-box' }></div>
+          <div tabIndex='0' onClick={() => handlePlayerResponse(0)} className={ redActive ? 'red-box red-active' : 'red-box' }></div>
+          <div tabIndex='0' onClick={() => handlePlayerResponse(1)} className={ yellowActive ? 'yellow-box yellow-active' : 'yellow-box' }></div>
         </div>
         <div className={ disableButtons ? 'bottom-section disabled' : 'bottom-section' }>
-          <div tabindex='0' onClick={() => handlePlayerResponse(2)} className={ greenActive ? 'green-box green-active' : 'green-box' }></div>
-          <div tabindex='0' onClick={() => handlePlayerResponse(3)} className={ blueActive ? 'blue-box blue-active' : 'blue-box' }></div>
+          <div tabIndex='0' onClick={() => handlePlayerResponse(2)} className={ greenActive ? 'green-box green-active' : 'green-box' }></div>
+          <div tabIndex='0' onClick={() => handlePlayerResponse(3)} className={ blueActive ? 'blue-box blue-active' : 'blue-box' }></div>
         </div>
       </div>
     </section>
