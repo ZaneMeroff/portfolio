@@ -3,7 +3,6 @@ import { resumeData } from '../../resumeData';
 import './WorkExperience.css';
 
 const WorkExperience = () => {
-
   return (
     <section id='experience-section' className='work-experience-outer-container'>
 
