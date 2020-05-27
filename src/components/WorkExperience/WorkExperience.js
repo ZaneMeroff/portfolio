@@ -1,4 +1,5 @@
 import React from 'react';
+import { resumeData } from '../../resumeData';
 import './WorkExperience.css';
 
 const WorkExperience = () => {
