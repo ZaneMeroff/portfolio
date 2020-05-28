@@ -1,5 +1,34 @@
 .contact-outer-container {
   height: 100vh;
   width: 100%;
-  background-color: #696969;
+  background-color: #313131;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-message {
+  color: #b1b1b1;
+  margin: 150px 0px 50px 0px;
+}
+
+.resume-button-footer {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: #11ABB0;
+  color: #FFF;
+  font-size: 100%;
+  margin-top: 50px;
+}
+
+.resume-button-footer:hover {
+  cursor: pointer;
+  background-color: #B635B9;
+}
+
+.social-icons-container {
+  width: 100%;
+  text-align: center;
 }

@@ -23,7 +23,6 @@
 
 .about-info-container {
   width: 70%;
-  /* border: 2px solid red; */
   padding: 10%;
 }
 
@@ -57,4 +56,5 @@
 
 .resume-button:hover {
   cursor: pointer;
+  background-color: #B635B9;
 }
