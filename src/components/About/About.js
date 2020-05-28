@@ -3,7 +3,7 @@ import profilePic from '../../images/profile_pic.jpg';
 import { resumeData } from '../../resumeData';
 import './About.css';
 
-const About = () => {
+export const About = () => {
 
   return (
     <section id='about-section' className='about-outer-container'>
@@ -27,5 +27,3 @@ const About = () => {
   );
 
 }
-
-export default About;
