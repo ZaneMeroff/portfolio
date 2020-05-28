@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should match the snapshot 1`] = `
+<nav
+  className="nav-outer-container"
+>
+  <p
+    className="nav-links"
+    key="home"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    home
+  </p>
+  <p
+    className="nav-links"
+    key="about"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    about
+  </p>
+  <p
+    className="nav-links"
+    key="simon"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    simon
+  </p>
+  <p
+    className="nav-links"
+    key="experience"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    experience
+  </p>
+  <p
+    className="nav-links"
+    key="projects"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    projects
+  </p>
+  <p
+    className="nav-links"
+    key="contact"
+    onClick={[Function]}
+    tabIndex="0"
+  >
+    contact
+  </p>
+</nav>
+`;
