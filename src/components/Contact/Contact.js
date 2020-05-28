@@ -3,7 +3,6 @@ import { resumeData } from '../../resumeData';
 import './Contact.css';
 
 const Contact = () => {
-
   return (
     <section id='contact-section' className='contact-outer-container'>
       <i className='contact-message'>Please feel free to contact me for work, suggestions, or networking!</i>
