@@ -1,5 +1,6 @@
 export const resumeData = {
   resumeURL: 'https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020.pdf',
+  turingAlumniURL: 'https://alumni.turing.io/alumni/zachary-nemeroff',
   education: {
     school: 'Turing School of Software & Design',
     position: 'Graduate of Front End Development Program',
