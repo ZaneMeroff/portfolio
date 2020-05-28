@@ -28,9 +28,14 @@
   letter-spacing: 2px;
 }
 
-.experience-right-container {
+.experience-right-container,
+.tech-skills-right-container {
   margin-top: 80px;
   width: 70%;
+}
+
+.tech-skills-right-container {
+  display: flex;
 }
 
 .job-container {

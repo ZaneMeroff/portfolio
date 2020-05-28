@@ -1,5 +1,50 @@
 .projects-outer-container {
   height: 100vh;
   width: 100%;
-  background-color: #383838;
+  background-color: #ebeeee;
+
+}
+
+.all-projects-container {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container {
+  width: 80%;
+  background-color: #FFF;
+  padding: 1%;
+  border-radius: 15px;
+  margin: 2% 0% 2% 0%;
+}
+
+.project-title {
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+
+.project-techs {
+
+}
+
+.project-description {
+  margin-top: 10px;
+}
+
+.project-button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: #11ABB0;
+  color: #FFF;
+  font-size: 100%;
+  margin: 1% 2% 0% 0%;
+}
+
+.project-button:hover {
+  cursor: pointer;
+  background-color: rgba(182, 53, 185, 1);
 }
