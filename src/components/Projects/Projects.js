@@ -12,8 +12,8 @@ const Projects = () => {
           <h1 className='project-title'>{projectData[0].name}</h1>
           <i className='project-techs'>{projectData[0].techsUsed}</i>
           <p className='project-description'>{projectData[0].description}</p>
-          <button className='view-repo-button'>view repo</button>
-          <button className='live-project-button'>{projectData[0].liveButtonText}</button>
+          <button className='project-button'>view repo</button>
+          <button className='project-button'>{projectData[0].liveButtonText}</button>
         </div>
 
       </div>
