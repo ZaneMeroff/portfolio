@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   position: fixed;
+  z-index: 5;
   height: 35px;
   width: 100%;
   background-color: rgba(50, 76, 124, 0.9);
@@ -14,8 +15,8 @@
   text-transform: uppercase;
   color: #FFF;
   font-size: 70%;
-  height: 100%;
-  padding: 0px 20px 0px 20px;
+  height: 35px;
+  padding: 10px 20px 0px 20px;
 }
 
 .nav-links:hover {
