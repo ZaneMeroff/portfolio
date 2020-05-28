@@ -1,5 +1,57 @@
 .work-experience-outer-container {
-  height: 100vh;
+  height: auto;
   width: 100%;
-  background-color: #696969;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-container {
+  display: flex;
+}
+
+.experience-heading-box {
+  width: 30%;
+  margin-top: 90px;
+  height: 30px;
+  display: flex;
+}
+
+.experience-heading-border {
+  border-bottom: 3px solid #11ABB0;
+  width: auto;
+  margin-left: 25%;
+}
+
+.experience-heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.experience-right-container {
+  margin-top: 80px;
+  width: 70%;
+}
+
+.job-container {
+  margin-bottom: 50px;
+}
+
+.experience-title {
+  font-size: 150%;
+  margin-bottom: 20px;
+}
+
+.experience-position {
+  font-family: 'Palatino Linotype';
+  font-size: 110%;
+}
+
+.experience-time {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  margin-top: 10px;
 }
