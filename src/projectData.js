@@ -13,6 +13,6 @@ export const projectData = [
     description: 'A virtual recreation of the classic electronic Milton Bradley game from 1978. All game logic is built with dynamic/reusable code using React Hooks. Jest and Enzyme are used for unit testing.',
     repoURL: 'https://github.com/ZaneMeroff/simon_game',
     liveButtonText: 'play game',
-    liveLink: 'https://github.com/ZaneMeroff/simon_game'
+    liveLink: 'https://zanemeroff.github.io/simon_game/index.html'
   },
 ]
