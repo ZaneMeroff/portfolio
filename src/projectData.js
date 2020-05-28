@@ -1,4 +1,4 @@
-export const projects = [
+export const projectData = [
   {
     name: 'Game On! iOS',
     techsUsed: 'React Native • React Navigator • TravisCI',
