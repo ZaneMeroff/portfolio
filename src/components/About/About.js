@@ -1,8 +1,7 @@
 import React from 'react';
 import profilePic from '../../images/profile_pic.jpg';
+import { resumeData } from '../../resumeData';
 import './About.css';
-
-const resumeURL = 'https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020.pdf';
 
 const About = () => {
 
@@ -21,7 +20,7 @@ const About = () => {
             <p className='about-text'>Denver, CO</p>
             <a rel='noopener noreferrer' href='mailto: ZaNemeroff@gmail.com' target='_blank'><p className='about-text email-text'>ZaNemeroff@gmail.com</p></a>
           </div>
-          <a rel='noopener noreferrer' href={resumeURL} target='_blank'><button className='resume-button'>view resume.pdf</button></a>
+          <a rel='noopener noreferrer' href={resumeData.resumeURL} target='_blank'><button className='resume-button'>view resume.pdf</button></a>
         </div>
       </div>
     </section>
