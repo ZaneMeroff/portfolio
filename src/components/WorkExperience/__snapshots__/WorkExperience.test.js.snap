@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorkExperience should match the snapshot 1`] = `
+<section
+  className="work-experience-outer-container"
+  id="experience-section"
+>
+  <div
+    className="experience-container"
+  >
+    <div
+      className="experience-heading-box"
+    >
+      <div
+        className="experience-heading-border"
+      >
+        <h3
+          className="experience-heading"
+        >
+          Education
+        </h3>
+      </div>
+    </div>
+    <div
+      className="experience-right-container"
+    >
+      <h1
+        className="experience-title"
+      >
+        Turing School of Software & Design
+      </h1>
+      <i
+        className="experience-position"
+      >
+        Graduate of Front End Development Program
+      </i>
+      <p
+        className="experience-time"
+      >
+        September 2019 - April 2020
+      </p>
+      <ul>
+        <li
+          className="experience-item"
+          key="Built 14 unique web applications from scratch with vanilla JS, React, & React Native"
+        >
+          Built 14 unique web applications from scratch with vanilla JS, React, & React Native
+        </li>
+        <li
+          className="experience-item"
+          key="Created thorough unit testing suites for every application"
+        >
+          Created thorough unit testing suites for every application
+        </li>
+        <li
+          className="experience-item"
+          key="Programmed for team projects of four people, paired projects, and solo projects"
+        >
+          Programmed for team projects of four people, paired projects, and solo projects
+        </li>
+        <li
+          className="experience-item"
+          key="Focused on JavaScript fundamentals for 12 weeks"
+        >
+          Focused on JavaScript fundamentals for 12 weeks
+        </li>
+        <li
+          className="experience-item"
+          key="Commited 1,200 hours building applications with front end and back end technologies"
+        >
+          Commited 1,200 hours building applications with front end and back end technologies
+        </li>
+        <li
+          className="experience-item"
+          key="Dedicated 600 hours working strictly with React, React Native, Router, and Redux"
+        >
+          Dedicated 600 hours working strictly with React, React Native, Router, and Redux
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="experience-container"
+  >
+    <div
+      className="experience-heading-box"
+    >
+      <div
+        className="experience-heading-border"
+      >
+        <h3
+          className="experience-heading"
+        >
+          Experience
+        </h3>
+      </div>
+    </div>
+    <div
+      className="experience-right-container"
+    >
+      <div
+        className="job-container"
+        key="Adrift Tiki Bar & Restaurant"
+      >
+        <h1
+          className="experience-title"
+        >
+          Adrift Tiki Bar & Restaurant
+        </h1>
+        <i
+          className="experience-position"
+        >
+          General Manager
+        </i>
+        <p
+          className="experience-time"
+        >
+          March 2016 - March 2019
+        </p>
+        <ul>
+          <li
+            className="experience-item"
+            key="Sole general manager responsible for overseeing two million dollar gross annual operation"
+          >
+            Sole general manager responsible for overseeing two million dollar gross annual operation
+          </li>
+          <li
+            className="experience-item"
+            key="Reduced annual labor costs by 8% within first year"
+          >
+            Reduced annual labor costs by 8% within first year
+          </li>
+          <li
+            className="experience-item"
+            key="Increased annual gross sales by 15% within first year"
+          >
+            Increased annual gross sales by 15% within first year
+          </li>
+          <li
+            className="experience-item"
+            key="Created multiple successful marketing campaigns and special events"
+          >
+            Created multiple successful marketing campaigns and special events
+          </li>
+          <li
+            className="experience-item"
+            key="Managed social media accounts to increase brand awareness"
+          >
+            Managed social media accounts to increase brand awareness
+          </li>
+          <li
+            className="experience-item"
+            key="Created SOPs for all positions and comprehensive onboard training programs"
+          >
+            Created SOPs for all positions and comprehensive onboard training programs
+          </li>
+        </ul>
+      </div>
+      <div
+        className="job-container"
+        key="Camp Watcha Wanna Do"
+      >
+        <h1
+          className="experience-title"
+        >
+          Camp Watcha Wanna Do
+        </h1>
+        <i
+          className="experience-position"
+        >
+          Event Planner / Board Secretary
+        </i>
+        <p
+          className="experience-time"
+        >
+          June 2010 - March 2016
+        </p>
+        <ul>
+          <li
+            className="experience-item"
+            key="Nonprofit organization bettering the quality of life for individuals with childhood cancer"
+          >
+            Nonprofit organization bettering the quality of life for individuals with childhood cancer
+          </li>
+          <li
+            className="experience-item"
+            key="Served on camp planning committee and as camp counselor"
+          >
+            Served on camp planning committee and as camp counselor
+          </li>
+          <li
+            className="experience-item"
+            key="Organized and ran fundraising events generating over one million dollars"
+          >
+            Organized and ran fundraising events generating over one million dollars
+          </li>
+          <li
+            className="experience-item"
+            key="Led and ran board meetings and created detailed outlines/records"
+          >
+            Led and ran board meetings and created detailed outlines/records
+          </li>
+          <li
+            className="experience-item"
+            key="Served as leader and adult role model to all campers and staff"
+          >
+            Served as leader and adult role model to all campers and staff
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    className="experience-container"
+  >
+    <div
+      className="experience-heading-box"
+    >
+      <div
+        className="experience-heading-border"
+      >
+        <h3
+          className="experience-heading"
+        >
+          Tech Skills
+        </h3>
+      </div>
+    </div>
+    <div
+      className="tech-skills-right-container"
+    >
+      <div>
+        <li
+          className="experience-item"
+          key="JavaScript"
+        >
+          JavaScript
+        </li>
+        <li
+          className="experience-item"
+          key="HTML 5"
+        >
+          HTML 5
+        </li>
+        <li
+          className="experience-item"
+          key="CSS3/SASS"
+        >
+          CSS3/SASS
+        </li>
+        <li
+          className="experience-item"
+          key="ReactJS"
+        >
+          ReactJS
+        </li>
+        <li
+          className="experience-item"
+          key="React Native"
+        >
+          React Native
+        </li>
+        <li
+          className="experience-item"
+          key="React Router"
+        >
+          React Router
+        </li>
+        <li
+          className="experience-item"
+          key="React Navigator"
+        >
+          React Navigator
+        </li>
+      </div>
+      <div>
+        <li
+          className="experience-item"
+          key="jQuery"
+        >
+          jQuery
+        </li>
+        <li
+          className="experience-item"
+          key="Redux"
+        >
+          Redux
+        </li>
+        <li
+          className="experience-item"
+          key="TravisCI"
+        >
+          TravisCI
+        </li>
+        <li
+          className="experience-item"
+          key="Jest/Enzyme"
+        >
+          Jest/Enzyme
+        </li>
+        <li
+          className="experience-item"
+          key="Mocha/Chai"
+        >
+          Mocha/Chai
+        </li>
+        <li
+          className="experience-item"
+          key="NPM/Yarn"
+        >
+          NPM/Yarn
+        </li>
+        <li
+          className="experience-item"
+          key="Git/GitHub"
+        >
+          Git/GitHub
+        </li>
+      </div>
+    </div>
+  </div>
+</section>
+`;

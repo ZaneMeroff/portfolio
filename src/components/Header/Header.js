@@ -5,7 +5,7 @@ import gitHubIcon from '../../images/github_icon.png';
 import twitterIcon from '../../images/twitter_icon.png';
 import linkedInIcon from '../../images/linkedin_icon.png';
 
-const Header = () => {
+export const Header = () => {
   return (
     <section id='home-section' className='header-outer-container'>
       <h1 className='title-name'>ZACHARY NEMEROFF</h1>
@@ -16,5 +16,3 @@ const Header = () => {
     </section>
   );
 }
-
-export default Header;

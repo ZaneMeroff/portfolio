@@ -2,7 +2,7 @@ import React from 'react';
 import { resumeData } from '../../resumeData';
 import './WorkExperience.css';
 
-const WorkExperience = () => {
+export const WorkExperience = () => {
 
   const buildExperienceHeading = title => {
     return (
@@ -58,5 +58,3 @@ const WorkExperience = () => {
   );
 
 }
-
-export default WorkExperience;

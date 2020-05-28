@@ -2,7 +2,7 @@ import React from 'react';
 import { projectData } from '../../projectData';
 import './Projects.css';
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <section id='projects-section' className='projects-outer-container'>
       <div className='all-projects-container'>
@@ -22,5 +22,3 @@ const Projects = () => {
   );
 
 }
-
-export default Projects;
