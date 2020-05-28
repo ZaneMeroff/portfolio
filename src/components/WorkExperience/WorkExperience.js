@@ -34,7 +34,7 @@ const WorkExperience = () => {
         <div className='experience-right-container'>
           {resumeData.jobs.map(job => {
             return (
-              <div className='job-container'>
+              <div key={job.name} className='job-container'>
                 <h1 className='experience-title'>{job.name}</h1>
                 <i className='experience-position'>{job.position}</i>
                 <p className='experience-time'>{job.time}</p>
@@ -44,7 +44,13 @@ const WorkExperience = () => {
               </div>)
           })}
         </div>
+      </div>
 
+      <div className='experience-container'>
+        { buildExperienceHeading('Tech Skills') }
+        <div className='experience-right-container'>
+          {resumeData.techSkillz.map(item => <li key={item} className='experience-item'>{item}</li>)}
+        </div>
       </div>
 
     </section>
