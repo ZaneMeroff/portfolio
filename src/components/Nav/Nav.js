@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
 
-const Nav = () => {
+export const Nav = () => {
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
@@ -17,5 +17,3 @@ const Nav = () => {
     </nav>
   );
 }
-
-export default Nav;
