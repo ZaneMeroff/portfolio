@@ -55,5 +55,4 @@ export const resumeData = {
     'NPM/Yarn',
     'Git/GitHub'
   ]
-
 }
