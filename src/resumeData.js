@@ -34,7 +34,7 @@ export const resumeData = {
         'Nonprofit organization bettering the quality of life for individuals with childhood cancer',
         'Served on camp planning committee and as camp counselor',
         'Organized and ran fundraising events generating over one million dollars',
-        'Led and ran board meetings and created detialed outlines/records',
+        'Led and ran board meetings and created detailed outlines/records',
         'Served as leader and adult role model to all campers and staff',
       ]
     }
