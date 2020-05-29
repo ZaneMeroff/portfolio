@@ -14,5 +14,5 @@ export const projectData = [
     repoURL: 'https://github.com/ZaneMeroff/simon_game',
     liveButtonText: 'play game',
     liveLink: 'https://zanemeroff.github.io/simon_game'
-  },
+  }
 ]
