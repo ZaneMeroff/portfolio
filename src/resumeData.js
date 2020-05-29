@@ -48,7 +48,7 @@ export const resumeData = {
   techSkillz: [
     "JavaScript",
     "HTML 5",
-    "CSS3/SASS",
+    "CSS3 / SASS",
     "ReactJS",
     "React Native",
     "React Router",
@@ -56,9 +56,9 @@ export const resumeData = {
     "jQuery",
     "Redux",
     "TravisCI",
-    "Jest/Enzyme",
-    "Mocha/Chai",
-    "NPM/Yarn",
-    "Git/GitHub"
+    "Jest / Enzyme",
+    "Mocha / Chai",
+    "NPM / Yarn",
+    "Git / GitHub"
   ]
 }
