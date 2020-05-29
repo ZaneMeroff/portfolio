@@ -13,8 +13,8 @@ describe('ScoreBoard', () => {
      playerClickDisplay: 0,
      randomNumArray: [1, 0, 3, 1, 2, 0, 2, 1, 0, 2]
     }
-      wrapper = shallow(<ScoreBoard {...mockProps} />);
-    })
+    wrapper = shallow(<ScoreBoard {...mockProps} />);
+  })
 
   it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
