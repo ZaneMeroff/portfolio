@@ -4,7 +4,6 @@ import { resumeData } from '../../resumeData';
 import './About.css';
 
 export const About = () => {
-
   return (
     <section id='about-section' className='about-outer-container'>
       <div className='profile-pic-container'><img alt='zacharys profile' src={profilePic} className='profile-pic'/></div>
@@ -14,12 +13,10 @@ export const About = () => {
            My name is Zachary Nemeroff, and I’m a front end software developer and recent graduate of the Turing School of Software and Design. I have an affinity for test driven development and object-oriented programming with agile workflow processes. At Turing I focused on building applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React, and React Native, using Git/GitHub for version control and creating comprehensive unit testing suites. I'm currently seeking a new career opportunity where I will be challenged daily, so that I may expand my knowledge and grow my technical skills. If <em>you're</em> up for a challenge, try the Mr. Simon Game I created below!
         </p>
         <div className='contact-info-container'>
-          <div>
-            <h2 className='about-text'>Contact Details</h2>
-            <p className='about-text'>Zachary Nemeroff</p>
-            <p className='about-text'>Denver, CO</p>
-            <a rel='noopener noreferrer' href='mailto: ZaNemeroff@gmail.com' target='_blank'><p className='about-text email-text'>ZaNemeroff@gmail.com</p></a>
-          </div>
+          <h2 className='about-text'>Contact Details</h2>
+          <p className='about-text'>Zachary Nemeroff</p>
+          <p className='about-text'>Denver, CO</p>
+          <a rel='noopener noreferrer' href='mailto: ZaNemeroff@gmail.com' target='_blank'><p className='about-text email-text'>ZaNemeroff@gmail.com</p></a>
           <a rel='noopener noreferrer' href={resumeData.resumeURL} target='_blank'><button className='resume-button'>view resume.pdf</button></a>
         </div>
       </div>
