@@ -3,13 +3,16 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
   width: 100%;
 }
 
 .title-name {
   font-family: 'Jost';
+  text-transform: uppercase;
   color: #FFF;
   font-size: 500%;
   font-weight: lighter;
@@ -22,10 +25,19 @@
   font-family: 'Jost';
 }
 
+.social-icon-container {
+  margin-top: 12%;
+  display: flex;
+}
+
 .social-icons {
   height: 35px;
   width: 35px;
-  margin: 12% 1%;
+  margin: 0px 10px 0px 10px;
+}
+
+.down-arrow-button {
+  margin-top: 10%;
 }
 
 .social-icons:hover {
