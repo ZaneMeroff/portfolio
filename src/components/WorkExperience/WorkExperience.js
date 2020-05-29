@@ -16,7 +16,6 @@ export const WorkExperience = () => {
 
   return (
     <section id='experience-section' className='work-experience-outer-container'>
-
       <div className='experience-container'>
         { buildExperienceHeading('Education') }
         <div className='experience-right-container'>
@@ -28,7 +27,6 @@ export const WorkExperience = () => {
           </ul>
         </div>
       </div>
-
       <div className='experience-container'>
         { buildExperienceHeading('Experience') }
         <div className='experience-right-container'>
@@ -45,15 +43,13 @@ export const WorkExperience = () => {
           })}
         </div>
       </div>
-
-      <div className='experience-container'>
+      <div className='tech-experience-container'>
         { buildExperienceHeading('Tech Skills') }
         <div className='tech-skills-right-container'>
-          <div>{resumeData.techSkillz.slice(0, 7).map(item => <li key={item} className='experience-item'>{item}</li>)}</div>
-          <div>{resumeData.techSkillz.slice(7).map(item => <li key={item} className='experience-item'>{item}</li>)}</div>
+          <div className='tech-skills-bullets'>{resumeData.techSkillz.slice(0, 7).map(item => <li key={item} className='experience-item'>{item}</li>)}</div>
+          <div className='tech-skills-bullets'>{resumeData.techSkillz.slice(7).map(item => <li key={item} className='experience-item'>{item}</li>)}</div>
         </div>
       </div>
-
     </section>
   );
 

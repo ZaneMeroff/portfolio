@@ -15,7 +15,7 @@
 }
 
 .profile-pic {
-  margin-top: 10%;
+  margin: 35% 0% 0% 20%;
   width: 200px;
   height: 200px;
   border-radius: 100px;
@@ -23,7 +23,7 @@
 
 .about-info-container {
   width: 70%;
-  padding: 10%;
+  padding: 8% 10% 0% 5%;
 }
 
 .about-text {
@@ -39,14 +39,12 @@
 
 .contact-info-container {
   margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .resume-button {
   height: 50px;
   width: 150px;
+  margin-top: 5%;
   border-radius: 10px;
   border: none;
   background-color: #11ABB0;
