@@ -14,7 +14,7 @@ export const Header = () => {
 
   return (
     <section id='home-section' className='header-outer-container'>
-      <h1 className='title-name'>ZACHARY NEMEROFF</h1>
+      <h1 className='title-name'>Zachary Nemeroff</h1>
       <h3 className='title-industry'>Software Developer</h3>
       <div className='social-icon-container'>
         <a rel='noopener noreferrer' href={resumeData.gitHubURL} target='_blank'><img alt='Github icon' src={gitHubIcon} className='social-icons'/></a>
