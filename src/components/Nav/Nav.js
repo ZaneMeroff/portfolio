@@ -4,7 +4,7 @@ import './Nav.css';
 
 export const Nav = () => {
 
-  const [mobileNavVisible, setMobileNavVisible] = useState(false);
+  const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
@@ -18,11 +18,19 @@ export const Nav = () => {
     return navButtons;
   }
 
+  const onHamburgerClick = () => {
+    if (mobileNavVisible) {
+      setMobileNavVisible(false);
+    } else {
+      setMobileNavVisible(true);
+    }
+  }
+
   return (
     <nav className='nav-outer-container'>
-      <div className='mobile-nav-container'>
+      <div onClick={onHamburgerClick} className='mobile-nav-container'>
         <img className='hamburger-image' src={hamburgerIcon} />
-        <div className='mobile-menu'>
+        <div className={ mobileNavVisible ? 'mobile-menu' : 'hidden'}>
           {printNavButtons()}
         </div>
       </div>
