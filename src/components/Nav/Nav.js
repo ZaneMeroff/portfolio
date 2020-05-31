@@ -18,10 +18,13 @@ export const Nav = () => {
 
   return (
     <nav className='nav-outer-container'>
-      <div className='mobile-nav-container hidden'>
+      <div className='mobile-nav-container'>
         <img className='hamburger-image' src={hamburgerIcon} />
+        <div className='mobile-menu'>
+          {printNavButtons()}
+        </div>
       </div>
-      <div className='full-nav-container'>
+      <div className='full-nav-container hidden'>
         {printNavButtons()}
       </div>
     </nav>
