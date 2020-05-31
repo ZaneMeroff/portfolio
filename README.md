@@ -18,6 +18,7 @@ This mobile friendly website built with ReactJS showcases projects created while
 
 #### Technologies Used
 - ReactJS
+- React Hooks
 - CSS
 - Jest
 - Enzyme
