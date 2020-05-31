@@ -68,4 +68,8 @@
     display: none;
   }
 
+  .about-info-container {
+    padding-left: 50px;
+  }
+
 }

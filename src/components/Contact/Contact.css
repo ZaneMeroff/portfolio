@@ -8,8 +8,10 @@
 }
 
 .contact-message {
+  text-align: center;
   color: #b1b1b1;
   margin: 150px 0px 50px 0px;
+  padding: 0px 60px 0px 60px;
 }
 
 .resume-button-footer {
@@ -29,7 +31,7 @@
 }
 
 .social-icons-container {
-  margin-top: 5%;
+  margin-top: 50px;
   width: 100%;
   text-align: center;
 }

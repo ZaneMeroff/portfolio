@@ -27,7 +27,7 @@ export const Nav = () => {
   }
 
   return (
-    <nav className='nav-outer-container'>
+    <nav>
       <div onClick={onHamburgerClick} className='mobile-nav-container'>
         <img alt='menu icon' className='hamburger-image' src={hamburgerIcon} />
         <div className={ mobileNavVisible ? 'mobile-menu' : 'hidden'}>
