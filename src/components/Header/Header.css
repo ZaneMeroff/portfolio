@@ -45,3 +45,24 @@
   transform: scale(1.2);
   transition: transform .5s;
 }
+
+@media only screen and (max-width: 950px) {
+
+  .title-name {
+    font-size: 200%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  .title-name {
+    padding-top: 20%;
+    font-size: 150%;
+  }
+
+  .title-industry {
+    font-size: 120%;
+  }
+
+}
