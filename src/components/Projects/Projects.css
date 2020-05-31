@@ -2,7 +2,6 @@
   height: 100vh;
   width: 100%;
   background-color: #ebeeee;
-
 }
 
 .all-projects-container {
@@ -48,4 +47,12 @@
 .project-button:hover {
   cursor: pointer;
   background-color: #B635B9;
+}
+
+@media only screen and (max-width: 450px) {
+
+  .projects-outer-container {
+    height: auto;
+  }
+
 }

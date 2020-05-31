@@ -79,4 +79,29 @@
     align-items: center;
   }
 
+  .tech-experience-container {
+    padding-bottom: 50px;
+  }
+
+  .experience-heading-box {
+    margin-top: 50px;
+  }
+
+  .tech-skills-bullets {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .tech-skills-right-container {
+    flex-direction: column;
+  }
+
+  .experience-heading-box {
+    width: 100%;
+  }
+
+  .experience-title {
+    font-size: 120%;
+  }
+
 }

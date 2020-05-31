@@ -57,12 +57,16 @@
 @media only screen and (max-width: 500px) {
 
   .title-name {
-    padding-top: 20%;
-    font-size: 150%;
+    padding-top: 30%;
+    font-size: 160%;
   }
 
   .title-industry {
     font-size: 120%;
+  }
+
+  .down-arrow-button {
+    margin-top: 50%;
   }
 
 }
