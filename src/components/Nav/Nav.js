@@ -31,11 +31,11 @@ export const Nav = () => {
       <div onClick={onHamburgerClick} className='mobile-nav-container'>
         <img className='hamburger-image' src={hamburgerIcon} />
         <div className={ mobileNavVisible ? 'mobile-menu' : 'hidden'}>
-          {printNavButtons()}
+          { printNavButtons() }
         </div>
       </div>
-      <div className='full-nav-container hidden'>
-        {printNavButtons()}
+      <div className='full-nav-container'>
+        { printNavButtons() }
       </div>
     </nav>
   );
