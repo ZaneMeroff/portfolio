@@ -56,3 +56,16 @@
   cursor: pointer;
   background-color: #B635B9;
 }
+
+@media only screen and (max-width: 800px) {
+
+  .about-outer-container {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .profile-pic-container {
+    display: none;
+  }
+
+}
