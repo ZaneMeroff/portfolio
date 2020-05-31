@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import hamburgerIcon from '../../images/hamburger_icon.png';
 import './Nav.css';
 
 export const Nav = () => {
+
+  const [mobileNavVisible, setMobileNavVisible] = useState(false);
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
