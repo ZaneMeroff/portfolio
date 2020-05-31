@@ -9,7 +9,7 @@ export const Nav = () => {
   }
 
   const printNavButtons = () => {
-    const navHeadings = ['home', 'about', 'simon', 'experience', 'projects', 'contact']
+    const navHeadings = ['home', 'about', 'simon', 'experience', 'projects', 'contact'];
     const navButtons = navHeadings.map(heading => {
       return <p tabIndex='0' key={`${heading}`} onClick={() => performSmoothScroll(`${heading}`)} className='nav-links'>{`${heading}`}</p>
     })
@@ -18,8 +18,12 @@ export const Nav = () => {
 
   return (
     <nav className='nav-outer-container'>
-      <img className='hamburger-image' src={hamburgerIcon} />
-      {printNavButtons()}
+      <div className='mobile-nav-container hidden'>
+        <img className='hamburger-image' src={hamburgerIcon} />
+      </div>
+      <div className='full-nav-container'>
+        {printNavButtons()}
+      </div>
     </nav>
   );
 }
