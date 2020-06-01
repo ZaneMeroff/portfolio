@@ -1,7 +1,8 @@
 .projects-outer-container {
-  height: 100vh;
+  height: auto;
   width: 100%;
   background-color: #ebeeee;
+  padding-bottom: 50px;
 }
 
 .all-projects-container {
@@ -14,7 +15,7 @@
 .project-container {
   width: 80%;
   background-color: #FFF;
-  padding: 1%;
+  padding: 2%;
   border-radius: 15px;
   margin: 2% 0% 2% 0%;
   box-shadow: 5px 10px 18px #bbbbbb;
@@ -26,22 +27,23 @@
 }
 
 .project-techs {
-
+  font-family: 'Muli';
 }
 
 .project-description {
   margin-top: 10px;
+  font-family: 'Muli';
 }
 
 .project-button {
-  height: 50px;
-  width: 150px;
-  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
   border: none;
   background-color: #11ABB0;
   color: #FFF;
-  font-size: 100%;
-  margin: 1% 2% 0% 0%;
+  font-size: 90%;
+  margin: 2% 2% 0% 0%;
 }
 
 .project-button:hover {
@@ -53,6 +55,14 @@
 
   .projects-outer-container {
     height: auto;
+  }
+
+  .project-button {
+    margin: 5% 5% 5% 2%;
+  }
+
+  .project-container {
+    padding: 4%;
   }
 
 }
