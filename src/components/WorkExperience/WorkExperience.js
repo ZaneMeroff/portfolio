@@ -20,7 +20,7 @@ export const WorkExperience = () => {
         { buildExperienceHeading('Education') }
         <div className='experience-right-container'>
           <h1 className='experience-title'>{resumeData.education.school}</h1>
-          <i className='experience-position'>{resumeData.education.position}</i>
+          <p className='experience-position'>{resumeData.education.position}</p>
           <p className='experience-time'>{resumeData.education.time}</p>
           <ul>
             {resumeData.education.description.map(item => <li key={item} className='experience-item'>{item}</li>)}
@@ -34,7 +34,7 @@ export const WorkExperience = () => {
             return (
               <div key={job.name} className='job-container'>
                 <h1 className='experience-title'>{job.name}</h1>
-                <i className='experience-position'>{job.position}</i>
+                <p className='experience-position'>{job.position}</p>
                 <p className='experience-time'>{job.time}</p>
                 <ul>
                   {job.description.map(item => <li key={item} className='experience-item'>{item}</li>)}
