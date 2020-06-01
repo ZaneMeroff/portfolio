@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import hamburgerIcon from '../../images/hamburger_icon.png';
+import inactiveHamburger from '../../images/hamburger_icon.png';
+import activeHamburger from '../../images/hamburger_icon_white.png';
 import './Nav.css';
 
 export const Nav = () => {
 
   const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
+  const [ hamburgerStatus, setHamburgerStatus ] = useState(inactiveHamburger)
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
@@ -20,8 +22,10 @@ export const Nav = () => {
 
   const onHamburgerClick = () => {
     if (mobileNavVisible) {
+      setHamburgerStatus(inactiveHamburger)
       setMobileNavVisible(false);
     } else {
+      setHamburgerStatus(activeHamburger)
       setMobileNavVisible(true);
     }
   }
@@ -29,7 +33,7 @@ export const Nav = () => {
   return (
     <nav>
       <div onClick={onHamburgerClick} className='mobile-nav-container'>
-        <img alt='menu icon' className='hamburger-image' src={hamburgerIcon} />
+        <img alt='menu icon' className='hamburger-image' src={hamburgerStatus} />
         <div className={ mobileNavVisible ? 'mobile-menu' : 'hidden'}>
           { printNavButtons() }
         </div>

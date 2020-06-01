@@ -58,17 +58,19 @@
 }
 
 .experience-position {
-  font-family: 'Palatino Linotype';
-  font-size: 110%;
+  font-family: 'Muli';
 }
 
 .experience-time {
   margin-top: 10px;
   margin-bottom: 20px;
+  display: block;
+  font-family: 'Muli';
 }
 
 .experience-item {
   margin-top: 10px;
+  font-family: 'Muli';
 }
 
 @media only screen and (max-width: 760px) {
