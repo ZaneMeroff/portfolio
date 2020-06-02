@@ -40,11 +40,13 @@ exports[`GameBoard should match the snapshot 1`] = `
       className="top-section disabled"
     >
       <div
+        aria-label="red button"
         className="red-box"
         onClick={[Function]}
         tabIndex="0"
       />
       <div
+        aria-label="yellow button"
         className="yellow-box"
         onClick={[Function]}
         tabIndex="0"
@@ -54,11 +56,13 @@ exports[`GameBoard should match the snapshot 1`] = `
       className="bottom-section disabled"
     >
       <div
+        aria-label="green button"
         className="green-box"
         onClick={[Function]}
         tabIndex="0"
       />
       <div
+        aria-label="blue button"
         className="blue-box"
         onClick={[Function]}
         tabIndex="0"
