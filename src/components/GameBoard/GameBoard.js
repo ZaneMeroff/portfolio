@@ -151,12 +151,12 @@ export const GameBoard = () => {
           <p className='turn-text-2'>{turnText}</p>
         </div>
         <div className={ disableButtons ? 'top-section disabled' : 'top-section' }>
-          <div tabIndex='0' onClick={() => handlePlayerResponse(0)} className={ redActive ? 'red-box red-active' : 'red-box' }></div>
-          <div tabIndex='0' onClick={() => handlePlayerResponse(1)} className={ yellowActive ? 'yellow-box yellow-active' : 'yellow-box' }></div>
+          <div tabIndex='0' aria-label='red button' onClick={() => handlePlayerResponse(0)} className={ redActive ? 'red-box red-active' : 'red-box' }></div>
+          <div tabIndex='0' aria-label='yellow button' onClick={() => handlePlayerResponse(1)} className={ yellowActive ? 'yellow-box yellow-active' : 'yellow-box' }></div>
         </div>
         <div className={ disableButtons ? 'bottom-section disabled' : 'bottom-section' }>
-          <div tabIndex='0' onClick={() => handlePlayerResponse(2)} className={ greenActive ? 'green-box green-active' : 'green-box' }></div>
-          <div tabIndex='0' onClick={() => handlePlayerResponse(3)} className={ blueActive ? 'blue-box blue-active' : 'blue-box' }></div>
+          <div tabIndex='0' aria-label='green button' onClick={() => handlePlayerResponse(2)} className={ greenActive ? 'green-box green-active' : 'green-box' }></div>
+          <div tabIndex='0' aria-label='blue button' onClick={() => handlePlayerResponse(3)} className={ blueActive ? 'blue-box blue-active' : 'blue-box' }></div>
         </div>
       </div>
     </section>
