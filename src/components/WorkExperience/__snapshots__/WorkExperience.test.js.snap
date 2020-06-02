@@ -34,11 +34,11 @@ exports[`WorkExperience should match the snapshot 1`] = `
       >
         Graduate of Front End Development Program
       </i>
-      <p
+      <i
         className="experience-time"
       >
         September 2019 - April 2020
-      </p>
+      </i>
       <ul>
         <li
           className="experience-item"
@@ -112,11 +112,11 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           General Manager
         </i>
-        <p
+        <i
           className="experience-time"
         >
           March 2016 - March 2019
-        </p>
+        </i>
         <ul>
           <li
             className="experience-item"
@@ -170,11 +170,11 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           Event Planner / Board Secretary
         </i>
-        <p
+        <i
           className="experience-time"
         >
           June 2010 - March 2016
-        </p>
+        </i>
         <ul>
           <li
             className="experience-item"
@@ -211,7 +211,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
     </div>
   </div>
   <div
-    className="experience-container"
+    className="tech-experience-container"
   >
     <div
       className="experience-heading-box"
@@ -229,7 +229,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
     <div
       className="tech-skills-right-container"
     >
-      <div>
+      <div
+        className="tech-skills-bullets"
+      >
         <li
           className="experience-item"
           key="JavaScript"
@@ -244,9 +246,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="CSS3/SASS"
+          key="CSS3 / SASS"
         >
-          CSS3/SASS
+          CSS3 / SASS
         </li>
         <li
           className="experience-item"
@@ -273,7 +275,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
           React Navigator
         </li>
       </div>
-      <div>
+      <div
+        className="tech-skills-bullets"
+      >
         <li
           className="experience-item"
           key="jQuery"
@@ -294,27 +298,27 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="Jest/Enzyme"
+          key="Jest / Enzyme"
         >
-          Jest/Enzyme
+          Jest / Enzyme
         </li>
         <li
           className="experience-item"
-          key="Mocha/Chai"
+          key="Mocha / Chai"
         >
-          Mocha/Chai
+          Mocha / Chai
         </li>
         <li
           className="experience-item"
-          key="NPM/Yarn"
+          key="NPM / Yarn"
         >
-          NPM/Yarn
+          NPM / Yarn
         </li>
         <li
           className="experience-item"
-          key="Git/GitHub"
+          key="Git / GitHub"
         >
-          Git/GitHub
+          Git / GitHub
         </li>
       </div>
     </div>
