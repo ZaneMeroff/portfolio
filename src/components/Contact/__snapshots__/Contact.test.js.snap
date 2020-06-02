@@ -21,6 +21,7 @@ exports[`Contact should match the snapshot 1`] = `
     Denver, CO
   </p>
   <a
+    aria-label="send email"
     href="mailto: ZaNemeroff@gmail.com"
     rel="noopener noreferrer"
     target="_blank"
@@ -32,6 +33,7 @@ exports[`Contact should match the snapshot 1`] = `
     </p>
   </a>
   <a
+    aria-label="Turing alumni portfolio"
     href="https://alumni.turing.io/alumni/zachary-nemeroff"
     rel="noopener noreferrer"
     target="_blank"
@@ -43,7 +45,8 @@ exports[`Contact should match the snapshot 1`] = `
     </p>
   </a>
   <a
-    href="https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020.pdf"
+    aria-label="view resume as PDF"
+    href="https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020_0.pdf"
     rel="noopener noreferrer"
     target="_blank"
   >
@@ -57,6 +60,7 @@ exports[`Contact should match the snapshot 1`] = `
     className="social-icons-container"
   >
     <a
+      aria-label="my github profile"
       href="https://github.com/ZaneMeroff"
       rel="noopener noreferrer"
       target="_blank"
@@ -68,6 +72,7 @@ exports[`Contact should match the snapshot 1`] = `
       />
     </a>
     <a
+      aria-label="my linkedin profile"
       href="https://www.linkedin.com/in/zachary-nemeroff"
       rel="noopener noreferrer"
       target="_blank"
@@ -79,6 +84,7 @@ exports[`Contact should match the snapshot 1`] = `
       />
     </a>
     <a
+      aria-label="my twitter profile"
       href="https://twitter.com/zanemeroff"
       rel="noopener noreferrer"
       target="_blank"
