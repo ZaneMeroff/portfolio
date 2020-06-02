@@ -1,39 +1,38 @@
 .header-outer-container {
+  align-items: center;
   background: center/100% url(../../images/star_mountian_background.jpg);
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-size: cover;
   display: flex;
-  align-items: center;
   flex-direction: column;
   height: 100vh;
   width: 100%;
 }
 
 .title-name {
-  font-family: 'Jost';
-  text-transform: uppercase;
   color: #FFF;
+  font-family: 'Jost';
   font-size: 500%;
   font-weight: lighter;
   padding-top: 10%;
+  text-transform: uppercase;
 }
 
 .title-industry {
   color: #FFF;
-  font-size: 150%;
   font-family: 'Jost';
+  font-size: 150%;
 }
 
 .social-icon-container {
-  margin-top: 12%;
   display: flex;
+  margin-top: 12%;
 }
 
 .social-icons {
   height: 35px;
-  width: 35px;
   margin: 0px 10px 0px 10px;
+  width: 35px;
 }
 
 .down-arrow-button {
@@ -57,8 +56,8 @@
 @media only screen and (max-width: 500px) {
 
   .title-name {
-    padding-top: 30%;
     font-size: 160%;
+    padding-top: 30%;
   }
 
   .title-industry {

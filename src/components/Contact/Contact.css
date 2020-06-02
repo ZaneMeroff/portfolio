@@ -1,37 +1,37 @@
 .contact-outer-container {
-  height: 100vh;
-  width: 100%;
+  align-items: center;
   background-color: #313131;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
 .contact-message {
-  text-align: center;
   color: #b1b1b1;
   margin: 150px 0px 50px 0px;
   padding: 0px 60px 0px 60px;
+  text-align: center;
 }
 
 .resume-button-footer {
-  height: 50px;
-  width: 150px;
-  border-radius: 10px;
-  border: none;
   background-color: #11ABB0;
+  border: none;
+  border-radius: 10px;
   color: #FFF;
   font-size: 100%;
+  height: 50px;
   margin-top: 50px;
+  width: 150px;
 }
 
 .resume-button-footer:hover {
-  cursor: pointer;
   background-color: #B635B9;
+  cursor: pointer;
 }
 
 .social-icons-container {
   margin-top: 50px;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }

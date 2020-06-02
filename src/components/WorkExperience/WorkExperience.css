@@ -1,9 +1,9 @@
 .work-experience-outer-container {
-  height: auto;
-  width: 100%;
   background-color: #FFF;
   display: flex;
   flex-direction: column;
+  height: auto;
+  width: 100%;
 }
 
 .experience-container,
@@ -16,21 +16,21 @@
 }
 
 .experience-heading-box {
-  width: 30%;
-  margin-top: 90px;
-  height: 30px;
   display: flex;
+  height: 30px;
+  margin-top: 90px;
+  width: 30%;
 }
 
 .experience-heading-border {
   border-bottom: 3px solid #11ABB0;
-  width: auto;
   margin-left: 25%;
+  width: auto;
 }
 
 .experience-heading {
-  text-transform: uppercase;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .experience-right-container,
@@ -62,23 +62,23 @@
 }
 
 .experience-time {
-  margin-top: 10px;
-  margin-bottom: 20px;
   display: block;
   font-family: 'Muli';
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .experience-item {
-  margin-top: 10px;
   font-family: 'Muli';
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 760px) {
 
   .experience-container,
   .tech-experience-container {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 
   .tech-experience-container {
