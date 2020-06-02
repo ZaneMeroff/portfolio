@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import inactiveHamburger from '../../images/hamburger_icon.png';
 import activeHamburger from '../../images/hamburger_icon_white.png';
 import './Nav.css';
+import smoothscroll from 'smoothscroll-polyfill';
 
 export const Nav = () => {
+
+  smoothscroll.polyfill();
 
   const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
   const [ hamburgerStatus, setHamburgerStatus ] = useState(inactiveHamburger)
