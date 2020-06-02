@@ -10,7 +10,7 @@ export const projectData = [
   {
     name: 'MTV Music Trivia App',
     techsUsed: 'ReactJS, Redux, Router, Jest, Enzyme',
-    description: 'A mobile friendly music trivia app using Redux for global state management and React Router for dynamic URL routing. Jest and Enzyme are used for 97% testing coverage. All Redux and asynchronous functions are tested with happy and sad paths (62 tests overall). PropType checks are implemented for each variable and function.',
+    description: 'A mobile friendly music trivia app using Redux for global state management and React Router for dynamic URL routing. Jest and Enzyme are used for 97% testing coverage. All Redux and asynchronous functions are tested with happy and sad paths (62 tests overall). PropTypes are implemented for typechecking each variable and function.',
     repoURL: 'https://github.com/ZaneMeroff/mtv_music_trivia',
     liveButtonText: 'play game',
     liveLink: 'https://zanemeroff.github.io/mtv_music_trivia'

@@ -1,7 +1,7 @@
 .header-outer-container {
   background: center/100% url(../../images/star_mountian_background.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   display: flex;
   align-items: center;
