@@ -1,56 +1,132 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav should match the snapshot 1`] = `
-<nav
-  className="nav-outer-container"
->
-  <p
-    className="nav-links"
-    key="home"
+<nav>
+  <div
+    className="mobile-nav-container"
     onClick={[Function]}
-    tabIndex="0"
   >
-    home
-  </p>
-  <p
-    className="nav-links"
-    key="about"
-    onClick={[Function]}
-    tabIndex="0"
+    <img
+      alt="menu icon"
+      className="hamburger-image"
+      src="hamburger_icon.png"
+    />
+    <div
+      className="hidden"
+    >
+      <p
+        aria-label="home section"
+        className="nav-links"
+        key="home"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        home
+      </p>
+      <p
+        aria-label="about section"
+        className="nav-links"
+        key="about"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        about
+      </p>
+      <p
+        aria-label="simon section"
+        className="nav-links"
+        key="simon"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        simon
+      </p>
+      <p
+        aria-label="experience section"
+        className="nav-links"
+        key="experience"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        experience
+      </p>
+      <p
+        aria-label="projects section"
+        className="nav-links"
+        key="projects"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        projects
+      </p>
+      <p
+        aria-label="contact section"
+        className="nav-links"
+        key="contact"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        contact
+      </p>
+    </div>
+  </div>
+  <div
+    className="full-nav-container"
   >
-    about
-  </p>
-  <p
-    className="nav-links"
-    key="simon"
-    onClick={[Function]}
-    tabIndex="0"
-  >
-    simon
-  </p>
-  <p
-    className="nav-links"
-    key="experience"
-    onClick={[Function]}
-    tabIndex="0"
-  >
-    experience
-  </p>
-  <p
-    className="nav-links"
-    key="projects"
-    onClick={[Function]}
-    tabIndex="0"
-  >
-    projects
-  </p>
-  <p
-    className="nav-links"
-    key="contact"
-    onClick={[Function]}
-    tabIndex="0"
-  >
-    contact
-  </p>
+    <p
+      aria-label="home section"
+      className="nav-links"
+      key="home"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      home
+    </p>
+    <p
+      aria-label="about section"
+      className="nav-links"
+      key="about"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      about
+    </p>
+    <p
+      aria-label="simon section"
+      className="nav-links"
+      key="simon"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      simon
+    </p>
+    <p
+      aria-label="experience section"
+      className="nav-links"
+      key="experience"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      experience
+    </p>
+    <p
+      aria-label="projects section"
+      className="nav-links"
+      key="projects"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      projects
+    </p>
+    <p
+      aria-label="contact section"
+      className="nav-links"
+      key="contact"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      contact
+    </p>
+  </div>
 </nav>
 `;
