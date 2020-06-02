@@ -26,12 +26,14 @@ exports[`ScoreBoard should match the snapshot 1`] = `
     className="score-board-button-container"
   >
     <button
+      aria-label="start game"
       className="game-button"
       onClick={[MockFunction]}
     >
       NEW GAME
     </button>
     <button
+      aria-label="toggle view rules"
       className="game-button"
     >
       VIEW RULES
