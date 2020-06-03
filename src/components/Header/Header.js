@@ -4,7 +4,6 @@ import { resumeData } from '../../resumeData';
 import gitHubIcon from '../../images/github_icon.png';
 import twitterIcon from '../../images/twitter_icon.png';
 import linkedInIcon from '../../images/linkedin_icon.png';
-import downArrowIcon from '../../images/down_arrow_icon.png';
 
 export const Header = () => {
 
@@ -21,7 +20,7 @@ export const Header = () => {
         <a rel='noopener noreferrer' aria-label='my linkedin profile' href={resumeData.linkedInURL} target='_blank'><img alt='Linkedin icon' src={linkedInIcon} className='social-icons'/></a>
         <a rel='noopener noreferrer' aria-label='my twitter profile' href={resumeData.twitterURL} target='_blank'><img alt='Twitter icon' src={twitterIcon} className='social-icons'/></a>
       </div>
-      <img onClick={performSmoothScroll} aria-label='scroll down' alt='down arrow button' tabIndex='0' src={downArrowIcon} className='social-icons down-arrow-button'/>
+      <button aria-label='scroll down' onClick={performSmoothScroll} className='down-arrow'></button>
     </section>
   );
 }

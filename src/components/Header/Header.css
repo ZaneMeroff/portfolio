@@ -5,7 +5,8 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 100px;
   width: 100%;
 }
 
@@ -26,7 +27,7 @@
 
 .social-icon-container {
   display: flex;
-  margin-top: 12%;
+  margin-top: 8%;
 }
 
 .social-icons {
@@ -35,14 +36,19 @@
   width: 35px;
 }
 
-.down-arrow-button {
-  margin-top: 10%;
-}
-
-.social-icons:hover {
+.social-icons:hover,
+.down-arrow:hover {
   cursor: pointer;
   transform: scale(1.2);
   transition: transform .5s;
+}
+
+.down-arrow {
+  border: none;
+  height: 35px;
+  width: 35px;
+  margin-top: 150px;
+  background: center/100% url(../../images/down_arrow_icon.png);
 }
 
 @media only screen and (max-width: 950px) {
