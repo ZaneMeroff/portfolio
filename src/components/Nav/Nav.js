@@ -9,7 +9,7 @@ export const Nav = () => {
   smoothscroll.polyfill();
 
   const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
-  const [ hamburgerStatus, setHamburgerStatus ] = useState(inactiveHamburger)
+  const [ hamburgerStatus, setHamburgerStatus ] = useState(inactiveHamburger);
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
@@ -18,7 +18,7 @@ export const Nav = () => {
   const printNavButtons = () => {
     const navHeadings = ['home', 'about', 'simon', 'experience', 'projects', 'contact'];
     const navButtons = navHeadings.map(heading => {
-      return <p tabIndex='0' aria-label={`${heading} section`} key={`${heading}`} onClick={() => performSmoothScroll(`${heading}`)} className='nav-links'>{`${heading}`}</p>
+      return <button tabIndex='0' aria-label={`${heading} section`} key={`${heading}`} onClick={() => performSmoothScroll(`${heading}`)} className='nav-buttons'>{`${heading}`}</button>
     })
     return navButtons;
   }
