@@ -100,10 +100,16 @@
 
   .experience-heading-box {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .experience-title {
     font-size: 120%;
+  }
+
+  .experience-heading-border {
+    margin: 0px;
   }
 
 }
