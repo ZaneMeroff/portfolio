@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "232c9b11752225f480f9a26a1adfcf54",
+    "revision": "d74671ee9649fa704d4e52b39f3cd67c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "05f05a92a5e28f98469c",
-    "url": "/portfolio/static/css/main.20d23d44.chunk.css"
+    "revision": "a717b0f07ae667bc1dbd",
+    "url": "/portfolio/static/css/main.f4c15a49.chunk.css"
   },
   {
     "revision": "7f707353b972fdbc302c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a3a1dbd6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05f05a92a5e28f98469c",
+    "revision": "a717b0f07ae667bc1dbd",
     "url": "/portfolio/static/js/main.e20c9aa2.chunk.js"
   },
   {
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/runtime-main.ab3d5e0f.js"
   },
   {
-    "revision": "9d180bd27a1c59127754e2c1ecea0f16",
-    "url": "/portfolio/static/media/color_smoke.9d180bd2.jpeg"
-  },
-  {
     "revision": "0e1a0128d43a1e98b3ffbad41c32a377",
     "url": "/portfolio/static/media/down_arrow_icon.0e1a0128.png"
+  },
+  {
+    "revision": "cb5d93c2c4e7e5ebf2b8cefd065e760a",
+    "url": "/portfolio/static/media/himalayas_sky.cb5d93c2.jpg"
   },
   {
     "revision": "1b299d2ec5b8d087f9c6e51e67907f8b",
