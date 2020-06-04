@@ -16,7 +16,7 @@
 }
 
 .resume-button-footer {
-  background-color: #11ABB0;
+  background-color: #752082;
   border: none;
   border-radius: 10px;
   color: #FFF;
@@ -27,7 +27,8 @@
 }
 
 .resume-button-footer:hover {
-  background-color: #B635B9;
+  background-color: #a72db9;
+  color: #FFF;
   cursor: pointer;
 }
 
