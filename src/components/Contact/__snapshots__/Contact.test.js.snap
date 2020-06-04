@@ -45,12 +45,13 @@ exports[`Contact should match the snapshot 1`] = `
     </p>
   </a>
   <a
-    aria-label="view resume as PDF"
     href="https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020_0.pdf"
     rel="noopener noreferrer"
+    tabIndex="-1"
     target="_blank"
   >
     <button
+      aria-label="view resume as PDF"
       className="resume-button-footer"
     >
       view resume.pdf

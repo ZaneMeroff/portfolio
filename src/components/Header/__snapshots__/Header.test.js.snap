@@ -55,13 +55,10 @@ exports[`Header should match the snapshot 1`] = `
       />
     </a>
   </div>
-  <img
-    alt="down arrow button"
+  <button
     aria-label="scroll down"
-    className="social-icons down-arrow-button"
+    className="down-arrow"
     onClick={[Function]}
-    src="down_arrow_icon.png"
-    tabIndex="0"
   />
 </section>
 `;

@@ -229,7 +229,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
     <div
       className="tech-skills-right-container"
     >
-      <div
+      <ul
         className="tech-skills-bullets"
       >
         <li
@@ -274,8 +274,8 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           React Navigator
         </li>
-      </div>
-      <div
+      </ul>
+      <ul
         className="tech-skills-bullets"
       >
         <li
@@ -320,7 +320,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           Git / GitHub
         </li>
-      </div>
+      </ul>
     </div>
   </div>
 </section>

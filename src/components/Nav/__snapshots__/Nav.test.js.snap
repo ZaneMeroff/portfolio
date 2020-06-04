@@ -4,129 +4,128 @@ exports[`Nav should match the snapshot 1`] = `
 <nav>
   <div
     className="mobile-nav-container"
-    onClick={[Function]}
   >
-    <img
-      alt="menu icon"
-      className="hamburger-image"
-      src="hamburger_icon.png"
+    <button
+      aria-label="toggle menu visibility"
+      className="hamburger-button"
+      onClick={[Function]}
     />
     <div
       className="hidden"
     >
-      <p
+      <button
         aria-label="home section"
-        className="nav-links"
+        className="nav-buttons"
         key="home"
         onClick={[Function]}
         tabIndex="0"
       >
         home
-      </p>
-      <p
+      </button>
+      <button
         aria-label="about section"
-        className="nav-links"
+        className="nav-buttons"
         key="about"
         onClick={[Function]}
         tabIndex="0"
       >
         about
-      </p>
-      <p
+      </button>
+      <button
         aria-label="simon section"
-        className="nav-links"
+        className="nav-buttons"
         key="simon"
         onClick={[Function]}
         tabIndex="0"
       >
         simon
-      </p>
-      <p
+      </button>
+      <button
         aria-label="experience section"
-        className="nav-links"
+        className="nav-buttons"
         key="experience"
         onClick={[Function]}
         tabIndex="0"
       >
         experience
-      </p>
-      <p
+      </button>
+      <button
         aria-label="projects section"
-        className="nav-links"
+        className="nav-buttons"
         key="projects"
         onClick={[Function]}
         tabIndex="0"
       >
         projects
-      </p>
-      <p
+      </button>
+      <button
         aria-label="contact section"
-        className="nav-links"
+        className="nav-buttons"
         key="contact"
         onClick={[Function]}
         tabIndex="0"
       >
         contact
-      </p>
+      </button>
     </div>
   </div>
   <div
     className="full-nav-container"
   >
-    <p
+    <button
       aria-label="home section"
-      className="nav-links"
+      className="nav-buttons"
       key="home"
       onClick={[Function]}
       tabIndex="0"
     >
       home
-    </p>
-    <p
+    </button>
+    <button
       aria-label="about section"
-      className="nav-links"
+      className="nav-buttons"
       key="about"
       onClick={[Function]}
       tabIndex="0"
     >
       about
-    </p>
-    <p
+    </button>
+    <button
       aria-label="simon section"
-      className="nav-links"
+      className="nav-buttons"
       key="simon"
       onClick={[Function]}
       tabIndex="0"
     >
       simon
-    </p>
-    <p
+    </button>
+    <button
       aria-label="experience section"
-      className="nav-links"
+      className="nav-buttons"
       key="experience"
       onClick={[Function]}
       tabIndex="0"
     >
       experience
-    </p>
-    <p
+    </button>
+    <button
       aria-label="projects section"
-      className="nav-links"
+      className="nav-buttons"
       key="projects"
       onClick={[Function]}
       tabIndex="0"
     >
       projects
-    </p>
-    <p
+    </button>
+    <button
       aria-label="contact section"
-      className="nav-links"
+      className="nav-buttons"
       key="contact"
       onClick={[Function]}
       tabIndex="0"
     >
       contact
-    </p>
+    </button>
   </div>
 </nav>
 `;
