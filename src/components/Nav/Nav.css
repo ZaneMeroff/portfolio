@@ -55,13 +55,13 @@
   height: auto;
   padding-top: 55px;
   position: fixed;
-  width: 150px;
+  width: 200px;
   z-index: 9;
 }
 
 @keyframes slide-in {
   0% {
-    left: -165px;
+    left: -200px;
   }
   100% {
     left: 0px;
@@ -73,16 +73,16 @@
     left: 0px;
   }
   100% {
-    left: -165px;
+    left: -210px;
   }
 }
 
 .animate-slide-in {
-  animation: slide-in 1s 1;
+  animation: slide-in 0.9s 1;
 }
 
 .animate-slide-out {
-  animation: slide-out 1s 1;
+  animation: slide-out 0.9s 1;
 }
 
 @media only screen and (max-width: 660px) {
@@ -96,7 +96,7 @@
   }
 
   .nav-buttons {
-    font-size: 90%;
+    font-size: 110%;
     width: 100%;
   }
 
