@@ -11,6 +11,7 @@ export const Nav = () => {
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
+    onHamburgerClick();
   }
 
   const printNavButtons = () => {
