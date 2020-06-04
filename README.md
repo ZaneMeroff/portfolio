@@ -8,7 +8,7 @@ http://zanemeroff.github.io/portfolio
 This mobile friendly website built with ReactJS showcases projects created while at Turing School of Software and Design and beyond. I included information about my previous jobs, a profile picture, and a built-in Mr. Simon game. If you have any questions, suggestions, or comments, feel free to contact me using the info found on this site. Thanks for looking!
 
 #### Screenshot
-![header screenshot](https://user-images.githubusercontent.com/53405028/83282807-61226880-a197-11ea-97b5-7dc58b6ab14c.png)
+![header screenshot](https://user-images.githubusercontent.com/53405028/83808117-7a348900-a671-11ea-8a3d-5eff141417c9.png)
 
 #### Directions for Use
 - A navigation bar at the top of the site allows a user to quickly scroll to each of the six sections (Home, About, Simon, Experience, Projects, Contact)
