@@ -51,29 +51,30 @@
 
 .mobile-menu {
   background-color: #752082;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   box-shadow: 5px 5px 13px 2px #000;
   height: auto;
-  padding-top: 55px;
   position: fixed;
-  width: 200px;
+  width: auto;
   z-index: 9;
 }
 
 @keyframes slide-in {
   0% {
-    left: -200px;
+    top: -250px;
   }
   100% {
-    left: 0px;
+    top: 0px;
   }
 }
 
 @keyframes slide-out {
   0% {
-    left: 0px;
+    top: 0px;
   }
   100% {
-    left: -210px;
+    top: -260px;
   }
 }
 
@@ -98,6 +99,11 @@
   .nav-buttons {
     font-size: 110%;
     width: 100%;
+  }
+
+  .nav-buttons:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
 }
