@@ -36,7 +36,7 @@
 }
 
 .project-button {
-  background-color: #11ABB0;
+  background-color: #752082;
   border-radius: 5px;
   border: none;
   color: #FFF;
@@ -47,7 +47,8 @@
 }
 
 .project-button:hover {
-  background-color: #B635B9;
+  background-color: #a72db9;
+  color: #FFF;;
   cursor: pointer;
 }
 
@@ -58,7 +59,15 @@
   }
 
   .project-button {
-    margin: 5% 5% 5% 2%;
+    font-size: 80%;
+    margin: 10px 10px;
+    padding: 0px 20px;
+    width: auto;
+  }
+
+  .project-buttons-container {
+    display: flex;
+    justify-content: flex-start;
   }
 
   .project-container {

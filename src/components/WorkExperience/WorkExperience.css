@@ -90,8 +90,12 @@
   }
 
   .tech-skills-bullets {
-    margin: 0px;
+    margin: 0px 0px 0px 40px;
     padding: 0px;
+  }
+
+  .tech-skills-bullets:first-child {
+    margin-top: -30px;
   }
 
   .tech-skills-right-container {

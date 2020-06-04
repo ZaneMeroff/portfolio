@@ -7,6 +7,7 @@ export const Nav = () => {
   smoothscroll.polyfill();
 
   const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
+  const [ animateClass, setAnimateClass ] = useState('hidden');
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
@@ -23,6 +24,10 @@ export const Nav = () => {
   const onHamburgerClick = () => {
     if (mobileNavVisible) {
       setMobileNavVisible(false);
+      setAnimateClass('mobile-menu animate-slide-out');
+      setTimeout(() => {
+        setAnimateClass('hidden');
+      }, 900);
     } else {
       setMobileNavVisible(true);
     }
@@ -32,7 +37,7 @@ export const Nav = () => {
     <nav>
       <div className='mobile-nav-container'>
         <button onClick={onHamburgerClick} aria-label='toggle menu visibility' className={ !mobileNavVisible ? 'hamburger-button' : 'hamburger-button-active' }></button>
-        <div className={ mobileNavVisible ? 'mobile-menu' : 'hidden'}>
+        <div className={ mobileNavVisible ? 'mobile-menu animate-slide-in' : `${animateClass}`}>
           { printNavButtons() }
         </div>
       </div>
