@@ -4,10 +4,10 @@ export const resumeData = {
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription: "My name is Zachary Nemeroff, and I’m a front end software developer and recent graduate of the Turing School of Software and Design. I have an affinity for test driven development and object-oriented programming with agile workflow processes. At Turing I focused on building applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React, and React Native, using Git/GitHub for version control and creating comprehensive unit testing suites. I'm currently seeking a new career opportunity where I will be challenged daily, so that I may expand my knowledge and grow my technical skills. If you're up for a challenge, try the Mr. Simon Game I created below!",
+  bioDescription: "My name is Zachary Nemeroff, and I’m an energetic JavaScript developer and recent graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React, and React Native while creating comprehensive unit testing suites. I’m seeking a career opportunity that presents unique challenges calling for creative solutions, so I may expand my knowledge and grow new technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
-    position: "Graduate of Front End Development Program",
+    position: "Graduate of Front End Web Development Program",
     time: "September 2019 - April 2020",
     description: [
       "Built 14 unique web applications from scratch with vanilla JS, React, & React Native",
@@ -34,14 +34,14 @@ export const resumeData = {
     },
     {
       name: "Camp Watcha Wanna Do",
-      position: "Event Planner / Board Secretary",
+      position: "Board of Directors / Event Planner",
       time: "June 2010 - March 2016",
       description: [
-        "Nonprofit organization bettering the quality of life for individuals with childhood cancer",
-        "Served on camp planning committee and as camp counselor",
+        "Non-profit organization bettering the quality of life for adolescent cancer survivors",
         "Organized and ran fundraising events generating over one million dollars",
-        "Led and ran board meetings and created detailed outlines/records",
-        "Served as leader and adult role model to all campers and staff",
+        "Led Board of Directors and served as Camp Counselor",
+        "Created detailed outlines for camp procedures/activities and board agendas",
+        "Served as team leader and adult role model to all campers and staff",
       ]
     }
   ],
