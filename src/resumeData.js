@@ -53,6 +53,8 @@ export const resumeData = {
     "React Native",
     "React Router",
     "React Navigator",
+    "Photoshop",
+    "Illustrator",
     "jQuery",
     "Redux",
     "TravisCI",
