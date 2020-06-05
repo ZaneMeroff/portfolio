@@ -274,10 +274,22 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           React Navigator
         </li>
+        <li
+          className="experience-item"
+          key="Photoshop"
+        >
+          Photoshop
+        </li>
       </ul>
       <ul
         className="tech-skills-bullets"
       >
+        <li
+          className="experience-item"
+          key="Illustrator"
+        >
+          Illustrator
+        </li>
         <li
           className="experience-item"
           key="jQuery"
