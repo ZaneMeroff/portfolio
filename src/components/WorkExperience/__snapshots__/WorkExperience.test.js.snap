@@ -32,7 +32,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
       <i
         className="experience-position"
       >
-        Graduate of Front End Development Program
+        Graduate of Front End Web Development Program
       </i>
       <i
         className="experience-time"
@@ -168,7 +168,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <i
           className="experience-position"
         >
-          Event Planner / Board Secretary
+          Board of Directors / Event Planner
         </i>
         <i
           className="experience-time"
@@ -178,15 +178,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <ul>
           <li
             className="experience-item"
-            key="Nonprofit organization bettering the quality of life for individuals with childhood cancer"
+            key="Non-profit organization bettering the quality of life for adolescent cancer survivors"
           >
-            Nonprofit organization bettering the quality of life for individuals with childhood cancer
-          </li>
-          <li
-            className="experience-item"
-            key="Served on camp planning committee and as camp counselor"
-          >
-            Served on camp planning committee and as camp counselor
+            Non-profit organization bettering the quality of life for adolescent cancer survivors
           </li>
           <li
             className="experience-item"
@@ -196,15 +190,21 @@ exports[`WorkExperience should match the snapshot 1`] = `
           </li>
           <li
             className="experience-item"
-            key="Led and ran board meetings and created detailed outlines/records"
+            key="Led Board of Directors and served as Camp Counselor"
           >
-            Led and ran board meetings and created detailed outlines/records
+            Led Board of Directors and served as Camp Counselor
           </li>
           <li
             className="experience-item"
-            key="Served as leader and adult role model to all campers and staff"
+            key="Created detailed outlines for camp procedures/activities and board agendas"
           >
-            Served as leader and adult role model to all campers and staff
+            Created detailed outlines for camp procedures/activities and board agendas
+          </li>
+          <li
+            className="experience-item"
+            key="Served as team leader and adult role model to all campers and staff"
+          >
+            Served as team leader and adult role model to all campers and staff
           </li>
         </ul>
       </div>

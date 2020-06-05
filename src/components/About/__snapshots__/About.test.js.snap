@@ -25,7 +25,7 @@ exports[`About should match the snapshot 1`] = `
     <p
       className="about-text"
     >
-      My name is Zachary Nemeroff, and I’m a front end software developer and recent graduate of the Turing School of Software and Design. I have an affinity for test driven development and object-oriented programming with agile workflow processes. At Turing I focused on building applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React, and React Native, using Git/GitHub for version control and creating comprehensive unit testing suites. I'm currently seeking a new career opportunity where I will be challenged daily, so that I may expand my knowledge and grow my technical skills. If you're up for a challenge, try the Mr. Simon Game I created below!
+      My name is Zachary Nemeroff, and I’m an energetic JavaScript developer and recent graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React, and React Native while creating comprehensive unit testing suites. I’m seeking a career opportunity that presents unique challenges calling for creative solutions, so I may expand my knowledge and grow new technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!
     </p>
     <div
       className="contact-info-container"
