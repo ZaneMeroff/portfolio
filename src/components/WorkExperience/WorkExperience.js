@@ -22,7 +22,7 @@ export const WorkExperience = () => {
           <h1 className='experience-title'>{resumeData.education.school}</h1>
           <i className='experience-position'>{resumeData.education.position}</i>
           <i className='experience-time'>{resumeData.education.time}</i>
-          <ul>
+          <ul className='description-list'>
             {resumeData.education.description.map(item => <li key={item} className='experience-item'>{item}</li>)}
           </ul>
         </div>
@@ -36,7 +36,7 @@ export const WorkExperience = () => {
                 <h1 className='experience-title'>{job.name}</h1>
                 <i className='experience-position'>{job.position}</i>
                 <i className='experience-time'>{job.time}</i>
-                <ul className='job-description-list'>
+                <ul className='description-list'>
                   {job.description.map(item => <li key={item} className='experience-item'>{item}</li>)}
                 </ul>
               </div>)
