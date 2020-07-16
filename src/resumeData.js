@@ -4,18 +4,18 @@ export const resumeData = {
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription: "My name is Zachary Nemeroff, and I’m an enthusiastic JavaScript developer and graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React, and React Native while creating comprehensive unit testing suites. Recently, I have focused my energy to learn Vue.js and its seemingly infinite modern applications. I’m constantly seeking opportunities that present unique challenges calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
+  bioDescription: "My name is Zachary Nemeroff, and I’m an enthusiastic JavaScript developer and graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React.js, and React Native while creating comprehensive unit testing suites. Recently, I have focused my energy to learn Vue.js and its seemingly infinite modern applications. I’m constantly seeking opportunities that present unique challenges calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
     position: "Graduate of Front End Web Development Program",
     time: "September 2019 - April 2020",
     description: [
-      "Built 14 unique web applications from scratch with vanilla JS, React, & React Native",
+      "Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native",
       "Created thorough unit testing suites for every application",
       "Programmed for team projects of four people, paired projects, and solo projects",
       "Focused on JavaScript fundamentals for 12 weeks",
       "Commited 1,200 hours building applications with front end and back end technologies",
-      "Dedicated 600 hours working strictly with React, React Native, Router, and Redux"
+      "Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux"
     ]
   },
   jobs: [
@@ -62,12 +62,12 @@ export const resumeData = {
     "JavaScript",
     "HTML5",
     "CSS3 / SASS",
-    "ReactJS",
+    "Vue.js",
+    "React.js",
     "React Native",
     "React Router",
     "React Navigator",
     "Photoshop",
-    "Illustrator",
     "jQuery",
     "Redux",
     "TravisCI",
