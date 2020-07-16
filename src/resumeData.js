@@ -20,6 +20,19 @@ export const resumeData = {
   },
   jobs: [
     {
+      name: "B-Line Express",
+      position: "Software Developer",
+      time: "June 2020 - present",
+      description: [
+        "Develop solutions that enhance the user experience, improve processes, and push the boundaries of what is possible from front end technologies",
+        "Involved in all steps of app development, including conception, design, development, release, and iterative improvement",
+        "Responsible for guiding code architecture, standards, and approvals",
+        "Implement modern frameworks including Vue.js to legacy projects",
+        "Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives",
+        "Consistently and effectively collaborate remotely with team members throughout the country"
+      ]
+    },
+    {
       name: "Adrift Tiki Bar & Restaurant",
       position: "General Manager",
       time: "March 2016 - March 2019",
@@ -47,7 +60,7 @@ export const resumeData = {
   ],
   techSkillz: [
     "JavaScript",
-    "HTML 5",
+    "HTML5",
     "CSS3 / SASS",
     "ReactJS",
     "React Native",
