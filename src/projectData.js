@@ -22,5 +22,13 @@ export const projectData = [
     repoURL: 'https://github.com/ZaneMeroff/simon_game',
     liveButtonText: 'play game',
     liveLink: 'https://zanemeroff.github.io/simon_game'
+  },
+  {
+    name: 'Team Generator',
+    techsUsed: 'Vue.js, Vue Test Utils, Jest, CSS',
+    description: 'After selecting an amount of players and desired number of teams, Team Generator creates random team assignments with ease. This project was built with focus on unit testing using Vue Test Utils with Jest for Vue.js. Methods are tested with happy/sad paths. Default props and data values are tested along with snapshot render tests for HTML outputs.',
+    repoURL: 'https://github.com/ZaneMeroff/team-picker',
+    liveButtonText: 'live app',
+    liveLink: 'http://zanemeroff.github.io/team-picker'
   }
 ]
