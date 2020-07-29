@@ -18,9 +18,17 @@ export const projectData = [
   {
     name: 'Mr. Simon Game',
     techsUsed: 'React.js, CSS, Jest, Enzyme',
-    description: 'A virtual recreation of the 1978 electronic handheld game by Milton Bradley. I built this project for fun shortly after graduating from the Turing School of Software and Design. It is written using React.js with Hooks and includes snapshot render tests for each component using Jest with Enzyme.',
+    description: 'A virtual recreation of the 1978 electronic handheld game by Milton Bradley. I built this project for fun shortly after graduating from the Turing School of Software and Design. It is written using React.js with Hooks and includes snapshot render tests for each component using Jest with Enzyme. Just like this portfolio webiste, this project was created with accessibility in mind and can be enjoyed entirely with just the tab and return key.',
     repoURL: 'https://github.com/ZaneMeroff/simon_game',
     liveButtonText: 'play game',
     liveLink: 'https://zanemeroff.github.io/simon_game'
+  },
+  {
+    name: 'Team Generator',
+    techsUsed: 'Vue.js, Vue Test Utils, Jest, CSS',
+    description: 'After selecting an amount of players and desired number of teams, Team Generator creates random team assignments with ease. This project was built with focus on unit testing using Vue Test Utils with Jest for Vue.js. Methods are tested with happy/sad paths. Default props and data values are tested along with snapshot render tests for HTML outputs.',
+    repoURL: 'https://github.com/ZaneMeroff/team-picker',
+    liveButtonText: 'live app',
+    liveLink: 'http://zanemeroff.github.io/team-picker'
   }
 ]
