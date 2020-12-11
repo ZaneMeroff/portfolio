@@ -4,6 +4,7 @@
   flex-direction: column;
   height: auto;
   width: 100%;
+  padding-bottom: 60px;
 }
 
 .experience-container,
@@ -40,7 +41,7 @@
 }
 
 .tech-skills-right-container {
-  display: flex;
+  columns: 2;
 }
 
 .tech-skills-bullets {
@@ -70,11 +71,13 @@
 
 .experience-item {
   font-family: 'Muli';
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .description-list {
   padding-right: 100px;
+  line-height: 150%;
+  letter-spacing: .3px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -83,10 +86,6 @@
   .tech-experience-container {
     align-items: center;
     flex-direction: column;
-  }
-
-  .tech-experience-container {
-    padding-bottom: 50px;
   }
 
   .experience-heading-box {
@@ -122,6 +121,14 @@
 
   .description-list {
     padding-right: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  .tech-skills-right-container {
+    columns: 1;
   }
 
 }
