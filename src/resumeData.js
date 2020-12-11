@@ -1,5 +1,5 @@
 export const resumeData = {
-  resumeURL: "http://zanemeroff.github.io/portfolio/public/Zachary_Nemeroff_resume_2020.pdf",
+  resumeURL: "https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020_1.pdf",
   turingAlumniURL: "https://alumni.turing.io/alumni/zachary-nemeroff",
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
