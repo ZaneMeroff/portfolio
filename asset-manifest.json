@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fa153bb1.chunk.css",
-    "main.js": "/portfolio/static/js/main.69e3df4c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.69e3df4c.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.ab3d5e0f.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ab3d5e0f.js.map",
-    "static/js/2.a3a1dbd6.chunk.js": "/portfolio/static/js/2.a3a1dbd6.chunk.js",
-    "static/js/2.a3a1dbd6.chunk.js.map": "/portfolio/static/js/2.a3a1dbd6.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.03a84a1a2bc5659574730c12df4122ad.js": "/portfolio/precache-manifest.03a84a1a2bc5659574730c12df4122ad.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.fa153bb1.chunk.css.map": "/portfolio/static/css/main.fa153bb1.chunk.css.map",
-    "static/js/2.a3a1dbd6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a3a1dbd6.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/portfolio/static/media/himalayas_sky.cb5d93c2.jpg",
-    "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.1b299d2e.jpg"
+    "main.css": "/static/css/main.5eb8de87.chunk.css",
+    "main.js": "/static/js/main.7f1fecea.chunk.js",
+    "main.js.map": "/static/js/main.7f1fecea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f788fbad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f788fbad.js.map",
+    "static/js/2.a3a1dbd6.chunk.js": "/static/js/2.a3a1dbd6.chunk.js",
+    "static/js/2.a3a1dbd6.chunk.js.map": "/static/js/2.a3a1dbd6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.74618803267b500f589bce07f271dd26.js": "/precache-manifest.74618803267b500f589bce07f271dd26.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5eb8de87.chunk.css.map": "/static/css/main.5eb8de87.chunk.css.map",
+    "static/js/2.a3a1dbd6.chunk.js.LICENSE.txt": "/static/js/2.a3a1dbd6.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/static/media/himalayas_sky.cb5d93c2.jpg",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.1b299d2e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab3d5e0f.js",
+    "static/js/runtime-main.f788fbad.js",
     "static/js/2.a3a1dbd6.chunk.js",
-    "static/css/main.fa153bb1.chunk.css",
-    "static/js/main.69e3df4c.chunk.js"
+    "static/css/main.5eb8de87.chunk.css",
+    "static/js/main.7f1fecea.chunk.js"
   ]
 }
