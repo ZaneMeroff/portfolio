@@ -46,8 +46,7 @@ export const WorkExperience = () => {
       <div className='tech-experience-container'>
         { buildExperienceHeading('Tech Skills') }
         <div className='tech-skills-right-container'>
-          <ul className='tech-skills-bullets'>{resumeData.techSkillz.slice(0, 8).map(item => <li key={item} className='experience-item'>{item}</li>)}</ul>
-          <ul className='tech-skills-bullets'>{resumeData.techSkillz.slice(8).map(item => <li key={item} className='experience-item'>{item}</li>)}</ul>
+          <ul className='tech-skills-bullets'>{resumeData.techSkillz.map(item => <li key={item} className='experience-item'>{item}</li>)}</ul>
         </div>
       </div>
     </section>

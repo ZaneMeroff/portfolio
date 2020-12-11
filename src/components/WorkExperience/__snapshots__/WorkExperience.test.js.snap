@@ -39,12 +39,14 @@ exports[`WorkExperience should match the snapshot 1`] = `
       >
         September 2019 - April 2020
       </i>
-      <ul>
+      <ul
+        className="description-list"
+      >
         <li
           className="experience-item"
-          key="Built 14 unique web applications from scratch with vanilla JS, React, & React Native"
+          key="Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native"
         >
-          Built 14 unique web applications from scratch with vanilla JS, React, & React Native
+          Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native
         </li>
         <li
           className="experience-item"
@@ -72,9 +74,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="Dedicated 600 hours working strictly with React, React Native, Router, and Redux"
+          key="Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux"
         >
-          Dedicated 600 hours working strictly with React, React Native, Router, and Redux
+          Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux
         </li>
       </ul>
     </div>
@@ -100,6 +102,102 @@ exports[`WorkExperience should match the snapshot 1`] = `
     >
       <div
         className="job-container"
+        key="B-Line Express"
+      >
+        <h1
+          className="experience-title"
+        >
+          B-Line Express
+        </h1>
+        <i
+          className="experience-position"
+        >
+          Software Developer (remote)
+        </i>
+        <i
+          className="experience-time"
+        >
+          June 2020 - present
+        </i>
+        <ul
+          className="description-list"
+        >
+          <li
+            className="experience-item"
+            key="Create modern apps using Vue.js and develop solutions to enhance the UI/UX, improve processes, and push the boundaries of what is possible from front end technologies"
+          >
+            Create modern apps using Vue.js and develop solutions to enhance the UI/UX, improve processes, and push the boundaries of what is possible from front end technologies
+          </li>
+          <li
+            className="experience-item"
+            key="Involved in all steps of app development, including conception, design, development, release, and iterative improvement"
+          >
+            Involved in all steps of app development, including conception, design, development, release, and iterative improvement
+          </li>
+          <li
+            className="experience-item"
+            key="Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives"
+          >
+            Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives
+          </li>
+          <li
+            className="experience-item"
+            key="Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application"
+          >
+            Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application
+          </li>
+        </ul>
+      </div>
+      <div
+        className="job-container"
+        key="Boom Supersonic"
+      >
+        <h1
+          className="experience-title"
+        >
+          Boom Supersonic
+        </h1>
+        <i
+          className="experience-position"
+        >
+          Software Developer Internship
+        </i>
+        <i
+          className="experience-time"
+        >
+          August 2020 - November 2020
+        </i>
+        <ul
+          className="description-list"
+        >
+          <li
+            className="experience-item"
+            key="Implemented test driven development for flight software in a legacy code base with Vue.js"
+          >
+            Implemented test driven development for flight software in a legacy code base with Vue.js
+          </li>
+          <li
+            className="experience-item"
+            key="Built visual representations of dynamic data for TelViz flight management tool using D3 JavaScript library with SVG"
+          >
+            Built visual representations of dynamic data for TelViz flight management tool using D3 JavaScript library with SVG
+          </li>
+          <li
+            className="experience-item"
+            key="Worked to identify and fix bugs affecting UI/UX, functionality, and performance"
+          >
+            Worked to identify and fix bugs affecting UI/UX, functionality, and performance
+          </li>
+          <li
+            className="experience-item"
+            key="Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration"
+          >
+            Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration
+          </li>
+        </ul>
+      </div>
+      <div
+        className="job-container"
         key="Adrift Tiki Bar & Restaurant"
       >
         <h1
@@ -117,7 +215,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           March 2016 - March 2019
         </i>
-        <ul>
+        <ul
+          className="description-list"
+        >
           <li
             className="experience-item"
             key="Sole general manager responsible for overseeing two million dollar gross annual operation"
@@ -175,7 +275,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           June 2010 - March 2016
         </i>
-        <ul>
+        <ul
+          className="description-list"
+        >
           <li
             className="experience-item"
             key="Non-profit organization bettering the quality of life for adolescent cancer survivors"
@@ -240,21 +342,39 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="HTML 5"
+          key="HTML5"
         >
-          HTML 5
+          HTML5
         </li>
         <li
           className="experience-item"
-          key="CSS3 / SASS"
+          key="CSS3"
         >
-          CSS3 / SASS
+          CSS3
         </li>
         <li
           className="experience-item"
-          key="ReactJS"
+          key="Vue.js"
         >
-          ReactJS
+          Vue.js
+        </li>
+        <li
+          className="experience-item"
+          key="Vuex"
+        >
+          Vuex
+        </li>
+        <li
+          className="experience-item"
+          key="Vue Router"
+        >
+          Vue Router
+        </li>
+        <li
+          className="experience-item"
+          key="React.js"
+        >
+          React.js
         </li>
         <li
           className="experience-item"
@@ -276,19 +396,15 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
+          key="D3.js"
+        >
+          D3.js
+        </li>
+        <li
+          className="experience-item"
           key="Photoshop"
         >
           Photoshop
-        </li>
-      </ul>
-      <ul
-        className="tech-skills-bullets"
-      >
-        <li
-          className="experience-item"
-          key="Illustrator"
-        >
-          Illustrator
         </li>
         <li
           className="experience-item"
@@ -307,6 +423,30 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="TravisCI"
         >
           TravisCI
+        </li>
+        <li
+          className="experience-item"
+          key="CircleCI"
+        >
+          CircleCI
+        </li>
+        <li
+          className="experience-item"
+          key="Puppeteer"
+        >
+          Puppeteer
+        </li>
+        <li
+          className="experience-item"
+          key="Cypress"
+        >
+          Cypress
+        </li>
+        <li
+          className="experience-item"
+          key="SCSS / SASS"
+        >
+          SCSS / SASS
         </li>
         <li
           className="experience-item"

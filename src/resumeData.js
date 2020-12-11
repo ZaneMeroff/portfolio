@@ -4,7 +4,7 @@ export const resumeData = {
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription: "My name is Zachary Nemeroff, and I’m an enthusiastic JavaScript developer and graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building accessible applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React.js, and React Native while creating comprehensive unit testing suites. Recently, I have focused my energy to learn Vue.js and its seemingly infinite modern applications. I’m constantly seeking opportunities that present unique challenges calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
+  bioDescription: "My name is Zachary Nemeroff, and I’m an enthusiastic JavaScript developer and graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building accessible applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React.js, and React Native while creating comprehensive unit testing suites. Recently, I’ve been working with Vue.js, Vuex, and Vue Router to create robust single page web apps that feature thorough unit and integration testing. I’m constantly seeking opportunities that present unique challenges calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
     position: "Graduate of Front End Web Development Program",
@@ -21,15 +21,24 @@ export const resumeData = {
   jobs: [
     {
       name: "B-Line Express",
-      position: "Software Developer",
+      position: "Software Developer (remote)",
       time: "June 2020 - present",
       description: [
-        "Develop solutions that enhance the user experience, improve processes, and push the boundaries of what is possible from front end technologies",
+        "Create modern apps using Vue.js and develop solutions to enhance the UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
         "Involved in all steps of app development, including conception, design, development, release, and iterative improvement",
-        "Responsible for guiding code architecture, standards, and approvals",
-        "Implement modern frameworks including Vue.js to legacy projects",
         "Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives",
-        "Consistently and effectively collaborate remotely with team members throughout the country"
+        "Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application"
+      ]
+    },
+    {
+      name: "Boom Supersonic",
+      position: "Software Developer Internship",
+      time: "August 2020 - November 2020",
+      description: [
+        "Implemented test driven development for flight software in a legacy code base with Vue.js",
+        "Built visual representations of dynamic data for TelViz flight management tool using D3 JavaScript library with SVG",
+        "Worked to identify and fix bugs affecting UI/UX, functionality, and performance",
+        "Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration"
       ]
     },
     {
@@ -61,16 +70,23 @@ export const resumeData = {
   techSkillz: [
     "JavaScript",
     "HTML5",
-    "CSS3 / SASS",
+    "CSS3",
     "Vue.js",
+    "Vuex",
+    "Vue Router",
     "React.js",
     "React Native",
     "React Router",
     "React Navigator",
+    "D3.js",
     "Photoshop",
     "jQuery",
     "Redux",
     "TravisCI",
+    "CircleCI",
+    "Puppeteer",
+    "Cypress",
+    "SCSS / SASS",
     "Jest / Enzyme",
     "Mocha / Chai",
     "NPM / Yarn",
