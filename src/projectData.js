@@ -5,7 +5,7 @@ export const projectData = [
     description: "This is the most recent project I’ve created to showcase the evolution of my programming skills. The app features clean, reusable code and components built with methods leveraging the single responsibility principle. A simple global Vuex store is integrated with Vue Router for view mapping. Jest is used to accomplish nearly 100% unit testing coverage. The app allows a user to randomly assign groups/teams after selecting a number of desired teams and players.",
     repoURL: "https://github.com/ZaneMeroff/team_gen",
     liveButtonText: "live app",
-    liveLink: "https://github.com/ZaneMeroff/team_gen"
+    liveLink: "http://zanemeroff.github.io/team_gen"
   },
   {
     name: "Game On! iOS Mobile App",
