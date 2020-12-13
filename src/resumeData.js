@@ -4,17 +4,17 @@ export const resumeData = {
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription: "My name is Zachary Nemeroff, and I’m an enthusiastic JavaScript developer and graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building accessible applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React.js, and React Native while creating comprehensive unit testing suites. Recently, I’ve been working with Vue.js, Vuex, and Vue Router to create robust single page web apps that feature thorough unit and integration testing. I’m constantly seeking opportunities that present unique challenges calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
+  bioDescription: "My name is Zachary Nemeroff, and I’m an enthusiastic JavaScript developer and graduate of Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building accessible applications using REST APIs with JavaScript, HTML5, CSS3, jQuery, React.js, and React Native while creating comprehensive unit testing suites. I then directed my focus to learning Vue.js, Vuex, and Vue Router to create robust single page web apps that boast thorough unit and integration testing. I’m constantly seeking opportunities that present unique challenges calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
-    position: "Graduate of Front End Web Development Program",
+    position: "Graduate Front End Web Development Program",
     time: "September 2019 - April 2020",
     description: [
       "Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native",
       "Created thorough unit testing suites for every application",
       "Programmed for team projects of four people, paired projects, and solo projects",
       "Focused on JavaScript fundamentals for 12 weeks",
-      "Commited 1,200 hours building applications with front end and back end technologies",
+      "Completed 1,200 hours building applications with front end and back end technologies",
       "Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux"
     ]
   },
