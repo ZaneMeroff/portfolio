@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efbfdd0fc444d22f22b9216822756e82",
+    "revision": "bc7feb399ac35919f41b36fbebb97d28",
     "url": "/index.html"
   },
   {
-    "revision": "c7eb72fb5b86ceb1e6ae",
-    "url": "/static/css/main.5eb8de87.chunk.css"
+    "revision": "4723b56c8714bf0da68f",
+    "url": "/static/css/main.61375aa2.chunk.css"
   },
   {
     "revision": "7f707353b972fdbc302c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a3a1dbd6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7eb72fb5b86ceb1e6ae",
-    "url": "/static/js/main.1c8d9556.chunk.js"
+    "revision": "4723b56c8714bf0da68f",
+    "url": "/static/js/main.6b94a599.chunk.js"
   },
   {
     "revision": "35e5f1e8248fa932c41b",
@@ -28,11 +28,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/down_arrow_icon.0e1a0128.png"
   },
   {
-    "revision": "cb5d93c2c4e7e5ebf2b8cefd065e760a",
-    "url": "/static/media/himalayas_sky.cb5d93c2.jpg"
-  },
-  {
     "revision": "1b299d2ec5b8d087f9c6e51e67907f8b",
     "url": "/static/media/profile_pic.1b299d2e.jpg"
+  },
+  {
+    "revision": "0357c25fdd58dd1c6763b239fab3d630",
+    "url": "/static/media/purple_lines.0357c25f.jpg"
   }
 ]);
