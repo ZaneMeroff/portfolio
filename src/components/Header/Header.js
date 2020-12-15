@@ -13,8 +13,9 @@ export const Header = () => {
 
   return (
     <section id='home-section' className='header-outer-container'>
-      <h1 className='title-name'>Zachary Nemeroff</h1>
-      <h3 className='title-industry'>Software Developer</h3>
+      <h1 className='title-name'>Zachary</h1>
+      <h1 className='title-name'>Nemeroff</h1>
+      <h2 className='title-industry'>Software Developer</h2>
       <div className='social-icon-container'>
         <a rel='noopener noreferrer' aria-label='my github profile' href={resumeData.gitHubURL} target='_blank'><img alt='Github icon' src={gitHubIcon} className='social-icons'/></a>
         <a rel='noopener noreferrer' aria-label='my linkedin profile' href={resumeData.linkedInURL} target='_blank'><img alt='Linkedin icon' src={linkedInIcon} className='social-icons'/></a>
