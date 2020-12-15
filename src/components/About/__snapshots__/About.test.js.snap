@@ -25,7 +25,7 @@ exports[`About should match the snapshot 1`] = `
     <p
       className="about-text"
     >
-      My name is Zachary Nemeroff, and I’m an enthusiastic JavaScript developer and graduate of the front end program at Turing School of Software & Design. I’m passionate about test driven development and object-oriented programming using agile workflow processes. At Turing I focused on building accessible applications using REST APIs with HTML5, CSS3, vanilla JavaScript, jQuery, React.js, and React Native while creating comprehensive unit testing suites. Recently, I’ve been working with Vue.js, Vuex, and Vue Router to create robust single page web apps that feature thorough unit and integration testing. I’m constantly seeking opportunities that present unique challenges calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!
+      My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I've built accessible applications using REST APIs with JavaScript, HTML5, CSS3, jQuery, React.js, and React Native while creating comprehensive unit testing suites. Recently, I focused on learning Vue.js, Vuex, and Vue Router to create robust single page web apps that boast thorough unit and integration testing. I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!
     </p>
     <div
       className="contact-info-container"
@@ -58,7 +58,7 @@ exports[`About should match the snapshot 1`] = `
         </p>
       </a>
       <a
-        href="https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020.pdf"
+        href="https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020_1.pdf"
         rel="noopener noreferrer"
         target="_blank"
       >

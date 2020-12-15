@@ -1,10 +1,9 @@
 .header-outer-container {
   align-items: center;
-  background: center/100% url(../../images/himalayas_sky.jpg);
+  background: center/100% url(../../images/purple_lines.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   height: auto;
   padding-bottom: 100px;
   width: 100%;
@@ -26,13 +25,12 @@
 }
 
 .social-icon-container {
-  display: flex;
   margin-top: 8%;
 }
 
 .social-icons {
   height: 35px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px;
   width: 35px;
 }
 
