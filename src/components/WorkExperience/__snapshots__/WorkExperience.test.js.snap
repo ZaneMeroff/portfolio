@@ -17,82 +17,6 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <h3
           className="experience-heading"
         >
-          Education
-        </h3>
-      </div>
-    </div>
-    <div
-      className="experience-right-container"
-    >
-      <h1
-        className="experience-title"
-      >
-        Turing School of Software & Design
-      </h1>
-      <i
-        className="experience-position"
-      >
-        Graduate of Front End Web Development Program
-      </i>
-      <i
-        className="experience-time"
-      >
-        September 2019 - April 2020
-      </i>
-      <ul
-        className="description-list"
-      >
-        <li
-          className="experience-item"
-          key="Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native"
-        >
-          Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native
-        </li>
-        <li
-          className="experience-item"
-          key="Created thorough unit testing suites for every application"
-        >
-          Created thorough unit testing suites for every application
-        </li>
-        <li
-          className="experience-item"
-          key="Programmed for team projects of four people, paired projects, and solo projects"
-        >
-          Programmed for team projects of four people, paired projects, and solo projects
-        </li>
-        <li
-          className="experience-item"
-          key="Focused on JavaScript fundamentals for 12 weeks"
-        >
-          Focused on JavaScript fundamentals for 12 weeks
-        </li>
-        <li
-          className="experience-item"
-          key="Commited 1,200 hours building applications with front end and back end technologies"
-        >
-          Commited 1,200 hours building applications with front end and back end technologies
-        </li>
-        <li
-          className="experience-item"
-          key="Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux"
-        >
-          Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div
-    className="experience-container"
-  >
-    <div
-      className="experience-heading-box"
-    >
-      <div
-        className="experience-heading-border"
-      >
-        <h3
-          className="experience-heading"
-        >
           Experience
         </h3>
       </div>
@@ -471,6 +395,82 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="Git / GitHub"
         >
           Git / GitHub
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="experience-container"
+  >
+    <div
+      className="experience-heading-box"
+    >
+      <div
+        className="experience-heading-border"
+      >
+        <h3
+          className="experience-heading"
+        >
+          Education
+        </h3>
+      </div>
+    </div>
+    <div
+      className="experience-right-container"
+    >
+      <h1
+        className="experience-title"
+      >
+        Turing School of Software & Design
+      </h1>
+      <i
+        className="experience-position"
+      >
+        Graduate Front End Web Development Program
+      </i>
+      <i
+        className="experience-time"
+      >
+        September 2019 - April 2020
+      </i>
+      <ul
+        className="description-list"
+      >
+        <li
+          className="experience-item"
+          key="Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native"
+        >
+          Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native
+        </li>
+        <li
+          className="experience-item"
+          key="Created thorough unit testing suites for every application"
+        >
+          Created thorough unit testing suites for every application
+        </li>
+        <li
+          className="experience-item"
+          key="Programmed for team projects of four people, paired projects, and solo projects"
+        >
+          Programmed for team projects of four people, paired projects, and solo projects
+        </li>
+        <li
+          className="experience-item"
+          key="Focused on JavaScript fundamentals for 12 weeks"
+        >
+          Focused on JavaScript fundamentals for 12 weeks
+        </li>
+        <li
+          className="experience-item"
+          key="Completed 1,200 hours building applications with front end and back end technologies"
+        >
+          Completed 1,200 hours building applications with front end and back end technologies
+        </li>
+        <li
+          className="experience-item"
+          key="Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux"
+        >
+          Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux
         </li>
       </ul>
     </div>
