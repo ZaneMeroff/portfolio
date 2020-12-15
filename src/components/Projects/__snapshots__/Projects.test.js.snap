@@ -45,7 +45,7 @@ exports[`Projects should match the snapshot 1`] = `
         </a>
         <a
           aria-label="live project"
-          href="https://github.com/ZaneMeroff/team_gen"
+          href="http://zanemeroff.github.io/team_gen"
           rel="noopener noreferrer"
           tabIndex="-1"
           target="_blank"
