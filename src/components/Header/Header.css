@@ -10,11 +10,12 @@
 }
 
 .title-name {
+  display: inline-block;
   color: #FFF;
   font-family: 'Jost';
   font-size: 500%;
   font-weight: lighter;
-  padding-top: 10%;
+  margin: 120px 15px 0px 15px;
   text-transform: uppercase;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .social-icon-container {
-  margin-top: 8%;
+  margin-top: 80px;
 }
 
 .social-icons {
@@ -52,19 +53,29 @@
 @media only screen and (max-width: 950px) {
 
   .title-name {
-    font-size: 200%;
+    font-size: 300%;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .title-name:first-child {
+    padding-top: 100px;
   }
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
 
   .title-name {
-    font-size: 160%;
-    padding-top: 30%;
+    display: block;
+    margin: 0px;
+  }
+
+  .title-name:first-child {
+    padding-top: 100px;
   }
 
   .title-industry {
+    padding-top: 20px;
     font-size: 120%;
   }
 
