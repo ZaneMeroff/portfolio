@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 100%;
   padding-bottom: 60px;
+  width: 100%;
 }
 
 .experience-container,
@@ -35,12 +35,12 @@
 }
 
 .experience-right-container,
-.tech-skills-right-container {
+.tech-skills-container {
   margin-top: 80px;
   width: 70%;
 }
 
-.tech-skills-right-container {
+.tech-skills-container {
   columns: 2;
 }
 
@@ -75,9 +75,9 @@
 }
 
 .description-list {
-  padding-right: 100px;
-  line-height: 150%;
   letter-spacing: .3px;
+  line-height: 150%;
+  padding-right: 100px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -93,22 +93,15 @@
   }
 
   .tech-skills-bullets {
-    margin: 0px 0px 0px 40px;
+    margin-bottom: 40px;
+    margin-left: 30%;
     padding: 0px;
   }
 
-  .tech-skills-bullets:first-child {
-    margin-top: -30px;
-  }
-
-  .tech-skills-right-container {
-    flex-direction: column;
-  }
-
   .experience-heading-box {
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   .experience-title {
@@ -127,7 +120,7 @@
 
 @media only screen and (max-width: 450px) {
 
-  .tech-skills-right-container {
+  .tech-skills-container {
     columns: 1;
   }
 
