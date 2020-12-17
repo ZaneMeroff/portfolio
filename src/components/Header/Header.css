@@ -17,6 +17,7 @@
   font-size: 500%;
   font-weight: lighter;
   margin: 120px 15px 0px 15px;
+  text-shadow: 1px 1px 2px #000;
   text-transform: uppercase;
 }
 
