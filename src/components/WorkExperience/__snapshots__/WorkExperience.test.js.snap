@@ -253,7 +253,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
       </div>
     </div>
     <div
-      className="tech-skills-right-container"
+      className="tech-skills-container"
     >
       <ul
         className="tech-skills-bullets"
