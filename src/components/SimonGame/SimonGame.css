@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  text-align: center;
   padding-bottom: 100px;
+  text-align: center;
   width: 100%;
 }
 

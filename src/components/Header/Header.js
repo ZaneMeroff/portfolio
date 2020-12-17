@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { resumeData } from '../../resumeData';
+import { TrianglesAnimation } from '../TrianglesAnimation/TrianglesAnimation';
 import gitHubIcon from '../../images/github_icon.png';
 import twitterIcon from '../../images/twitter_icon.png';
 import linkedInIcon from '../../images/linkedin_icon.png';
@@ -13,6 +14,7 @@ export const Header = () => {
 
   return (
     <section id='home-section' className='header-outer-container'>
+      <TrianglesAnimation />
       <h1 className='title-name'>Zachary</h1>
       <h1 className='title-name'>Nemeroff</h1>
       <h2 className='title-industry'>Software Developer</h2>

@@ -5,16 +5,22 @@ exports[`Header should match the snapshot 1`] = `
   className="header-outer-container"
   id="home-section"
 >
+  <TrianglesAnimation />
   <h1
     className="title-name"
   >
-    Zachary Nemeroff
+    Zachary
   </h1>
-  <h3
+  <h1
+    className="title-name"
+  >
+    Nemeroff
+  </h1>
+  <h2
     className="title-industry"
   >
     Software Developer
-  </h3>
+  </h2>
   <div
     className="social-icon-container"
   >
