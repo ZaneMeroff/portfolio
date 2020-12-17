@@ -62,21 +62,27 @@
 }
 
 @keyframes slide-in {
+
   0% {
     top: -250px;
   }
+
   100% {
     top: 0px;
   }
+
 }
 
 @keyframes slide-out {
+
   0% {
     top: 0px;
   }
+
   100% {
     top: -260px;
   }
+
 }
 
 .animate-slide-in {
