@@ -42,7 +42,7 @@ export const Nav = () => {
       setAnimateClass('mobile-menu animate-slide-out');
       setTimeout(() => {
         setAnimateClass('hidden');
-      }, 900);
+      }, 800);
     } else {
       setMobileNavVisible(true);
     }
