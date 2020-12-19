@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import './Nav.css';
 
@@ -8,6 +8,20 @@ export const Nav = () => {
 
   const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
   const [ animateClass, setAnimateClass ] = useState('hidden');
+  const mobileNavRef = useRef();
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+  })
+
+  const handleClickOutside = event => {
+    if (mobileNavVisible && !mobileNavRef.current.contains(event.target)) {
+      onHamburgerClick();
+    }
+  }
 
   const performSmoothScroll = sectionName => {
     document.querySelector(`#${sectionName}-section`).scrollIntoView({behavior: 'smooth'});
@@ -36,7 +50,7 @@ export const Nav = () => {
 
   return (
     <nav>
-      <div className='mobile-nav-container'>
+      <div ref={mobileNavRef} className='mobile-nav-container'>
         <button onClick={onHamburgerClick} aria-label='toggle menu visibility' className={ !mobileNavVisible ? 'hamburger-button' : 'hamburger-button-active' }></button>
         <div className={ mobileNavVisible ? 'mobile-menu animate-slide-in' : `${animateClass}`}>
           { printNavButtons() }
