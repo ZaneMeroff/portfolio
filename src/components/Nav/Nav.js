@@ -8,6 +8,7 @@ export const Nav = () => {
 
   const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
   const [ animateClass, setAnimateClass ] = useState('hidden');
+  const [ hamburgerBtnTurnLeft, setHamburgerBtnTurnLeft ] = useState('');
   const mobileNavRef = useRef();
 
   useEffect(() => {
@@ -38,6 +39,7 @@ export const Nav = () => {
 
   const onHamburgerClick = () => {
     if (mobileNavVisible) {
+      setHamburgerBtnTurnLeft('hamburger-button-turn-left')
       setMobileNavVisible(false);
       setAnimateClass('mobile-menu animate-slide-out');
       setTimeout(() => {
@@ -51,7 +53,7 @@ export const Nav = () => {
   return (
     <nav>
       <div ref={mobileNavRef} className='mobile-nav-container'>
-        <button onClick={onHamburgerClick} aria-label='toggle menu visibility' className={ !mobileNavVisible ? 'hamburger-button' : 'hamburger-button-active' }></button>
+        <button onClick={onHamburgerClick} aria-label='toggle menu visibility' className={ !mobileNavVisible ? `hamburger-button ${hamburgerBtnTurnLeft}` : 'hamburger-button-active' }></button>
         <div className={ mobileNavVisible ? 'mobile-menu animate-slide-in' : `${animateClass}`}>
           { printNavButtons() }
         </div>

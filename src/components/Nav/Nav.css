@@ -37,8 +37,14 @@
   z-index: 10;
 }
 
+.hamburger-button-turn-left {
+  animation: turnLeft 0.9s 1;
+}
+
 .hamburger-button-active {
   background: center/100% url(../../images/hamburger_icon_white.png);
+  transform: rotate(90deg);
+  animation: turnRight 0.9s 1;
 }
 
 .hamburger-button:hover {
@@ -59,6 +65,30 @@
   position: fixed;
   width: auto;
   z-index: 9;
+}
+
+@keyframes turnRight {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(90deg);
+  }
+
+}
+
+@keyframes turnLeft {
+
+  0% {
+    transform: rotate(90deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+
 }
 
 @keyframes slide-in {
