@@ -7,7 +7,7 @@ exports[`Nav should match the snapshot 1`] = `
   >
     <button
       aria-label="toggle menu visibility"
-      className="hamburger-button"
+      className="hamburger-button "
       onClick={[Function]}
     />
     <div
