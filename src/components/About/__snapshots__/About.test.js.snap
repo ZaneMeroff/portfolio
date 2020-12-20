@@ -67,7 +67,7 @@ exports[`About should match the snapshot 1`] = `
           className="resume-button"
           tabIndex="-1"
         >
-          view resume.pdf
+          resume.pdf
         </button>
       </a>
     </div>
