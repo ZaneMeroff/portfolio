@@ -37,7 +37,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          view repo
+          GitHub Repo
         </button>
       </a>
       <a
@@ -50,7 +50,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          live app
+          Launch App
         </button>
       </a>
     </div>
@@ -87,7 +87,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          view repo
+          GitHub Repo
         </button>
       </a>
       <a
@@ -100,7 +100,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          demo video
+          Demo Video
         </button>
       </a>
     </div>
@@ -137,7 +137,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          view repo
+          GitHub Repo
         </button>
       </a>
       <a
@@ -150,7 +150,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          play game
+          Launch App
         </button>
       </a>
     </div>
@@ -187,7 +187,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          view repo
+          GitHub Repo
         </button>
       </a>
       <a
@@ -200,7 +200,7 @@ exports[`Projects should match the snapshot 1`] = `
         <button
           className="project-button"
         >
-          play game
+          Launch App
         </button>
       </a>
     </div>
