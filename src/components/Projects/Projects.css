@@ -34,10 +34,10 @@
 }
 
 .project-button {
-  background-color: #752082;
+  background-color: #FFF;
   border: 2px solid #a72db9;
   border-radius: 21px;
-  color: #FFF;
+  color: #000;
   font-size: 80%;
   height: 40px;
   margin: 2% 2% 0% 0%;

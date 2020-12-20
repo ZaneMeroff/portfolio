@@ -1,6 +1,7 @@
 .header-outer-container {
   align-items: center;
-  background: center/100% url(../../images/purple_lines.jpg);
+  /* background: center/100% url(../../images/purple_lines.jpg); */
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -17,7 +18,6 @@
   font-size: 500%;
   font-weight: lighter;
   margin: 120px 15px 0px 15px;
-  text-shadow: 1px 1px 2px #000;
   text-transform: uppercase;
 }
 
