@@ -38,7 +38,7 @@
   border: 2px solid #a72db9;
   border-radius: 21px;
   color: #FFF;
-  font-size: 90%;
+  font-size: 80%;
   height: 40px;
   margin: 2% 2% 0% 0%;
   width: 130px;
@@ -62,7 +62,6 @@
   }
 
   .project-button {
-    font-size: 80%;
     margin: 10px 10px;
     padding: 0px 20px;
     width: auto;
