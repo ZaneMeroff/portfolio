@@ -326,6 +326,12 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
+          key="MD Bootstrap"
+        >
+          MD Bootstrap
+        </li>
+        <li
+          className="experience-item"
           key="Photoshop"
         >
           Photoshop
