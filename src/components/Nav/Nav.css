@@ -29,7 +29,7 @@
 
 .hamburger-button,
 .hamburger-button-active {
-  background: center/100% url(../../images/hamburger_icon.png);
+  background: center/100% url(../../images/triangle_purple.png);
   border: 2px solid #a72db9;
   height: 50px;
   position: fixed;
@@ -42,8 +42,8 @@
 }
 
 .hamburger-button-active {
-  background: center/100% url(../../images/hamburger_icon_white.png);
-  transform: rotate(90deg);
+  background: center/100% url(../../images/triangle_white.png);
+  transform: rotate(180deg);
   animation: turnRight 0.9s 1;
 }
 
@@ -63,7 +63,7 @@
   box-shadow: 5px 5px 13px 2px #000;
   height: auto;
   position: fixed;
-  width: auto;
+  width: 100%;
   z-index: 9;
 }
 
@@ -74,7 +74,7 @@
   }
 
   100% {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
   }
 
 }
@@ -82,7 +82,7 @@
 @keyframes turnLeft {
 
   0% {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
   }
 
   100% {
@@ -110,7 +110,7 @@
   }
 
   100% {
-    top: -260px;
+    top: -250px;
   }
 
 }
