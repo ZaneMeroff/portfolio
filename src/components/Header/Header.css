@@ -18,6 +18,7 @@
   font-size: 500%;
   font-weight: lighter;
   margin: 120px 15px 0px 15px;
+  position: relative;
   text-transform: uppercase;
 }
 
@@ -25,6 +26,7 @@
   color: #FFF;
   font-family: 'Jost';
   font-size: 150%;
+  position: relative;
 }
 
 .social-icon-container {
