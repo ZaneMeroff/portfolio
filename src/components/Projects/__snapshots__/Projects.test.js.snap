@@ -7,12 +7,12 @@ exports[`Projects should match the snapshot 1`] = `
 >
   <div
     className="project-container"
-    key="Team Generator"
+    key="Team Generator App"
   >
     <h1
       className="project-title"
     >
-      Team Generator
+      Team Generator App
     </h1>
     <i
       className="project-techs"
