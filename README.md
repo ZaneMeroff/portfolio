@@ -5,7 +5,7 @@ a mobile friendly website showcasing my code and work history
 http://zanemeroff.github.io/portfolio
 
 #### Introduction
-A mobile friendly website built with ReactJS to showcase some of my personal projects. I’ve included information about my experience, a profile picture, and a built-in Mr. Simon game. All CSS (including animations) are built from scratch, there are no additional libraries or packages used. If you have any questions, suggestions, or comments, feel free to contact me using the info found on this site. Thanks for looking!
+A mobile friendly website built with ReactJS to showcase some of my personal projects. I’ve included information about my experience, a profile picture, and a built-in Mr. Simon game. All CSS (including triangles and mobile nav animations) are hand-rolled without the use of additional libraries or packages. If you have any questions, suggestions, or comments, feel free to contact me using the info found on this site. Thanks for looking!
 
 #### Screenshot
 ![header screenshot](https://user-images.githubusercontent.com/53405028/102726032-94b21500-42d8-11eb-8f14-a4e07ec166ad.png)
