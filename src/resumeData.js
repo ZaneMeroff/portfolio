@@ -89,6 +89,7 @@ export const resumeData = {
     "CircleCI",
     "Puppeteer",
     "Cypress",
+    "Stylus",
     "SCSS / SASS",
     "Jest / Enzyme",
     "Mocha / Chai",
