@@ -15,19 +15,19 @@ export const resumeData = {
       "Programmed for team projects of four people, paired projects, and solo projects",
       "Focused on JavaScript fundamentals for 12 weeks",
       "Completed 1,200 hours building applications with front end and back end technologies",
-      "Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux"
+      "Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux",
     ]
   },
   jobs: [
     {
       name: "Hylio",
       position: "Software Developer (remote)",
-      time: "January 2020 - present",
+      time: "January 2021 - present",
       description: [
-        "",
-        "",
-        "",
-        ""
+        "Build eye catching, accessible, and responsive front end software using Vue.js with Quasar and Electron",
+        "Work closely with marketing team to develop new design concepts and bring Figma wire frame layouts to life for web and native platforms",
+        "Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives",
+        "Accomplishments include successfully completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk",
       ]
     },
     {
@@ -37,8 +37,7 @@ export const resumeData = {
       description: [
         "Create modern apps using Vue.js and develop solutions to enhance the UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
         "Involved in all steps of app development, including conception, design, development, release, and iterative improvement",
-        "Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives",
-        "Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application"
+        "Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application",
       ]
     },
     {
@@ -49,7 +48,7 @@ export const resumeData = {
         "Implemented test driven development for flight software in a legacy code base with Vue.js",
         "Built visual representations of dynamic data for TelViz flight management tool using D3 JavaScript library with SVG",
         "Worked to identify and fix bugs affecting UI/UX, functionality, and performance",
-        "Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration"
+        "Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration",
       ]
     },
     {
@@ -61,8 +60,7 @@ export const resumeData = {
         "Reduced annual labor costs by 8% within first year",
         "Increased annual gross sales by 15% within first year",
         "Created multiple successful marketing campaigns and special events",
-        "Managed social media accounts to increase brand awareness",
-        "Created SOPs for all positions and comprehensive onboard training programs"
+        "Created SOPs for all positions and comprehensive onboard training programs",
       ]
     },
     {
@@ -74,7 +72,6 @@ export const resumeData = {
         "Organized and ran fundraising events generating over one million dollars",
         "Led Board of Directors and served as Camp Counselor",
         "Created detailed outlines for camp procedures/activities and board agendas",
-        "Served as team leader and adult role model to all campers and staff"
       ]
     }
   ],
@@ -105,6 +102,6 @@ export const resumeData = {
     "Jest / Enzyme",
     "Mocha / Chai",
     "NPM / Yarn",
-    "Git / GitHub"
+    "Git / GitHub",
   ]
 }
