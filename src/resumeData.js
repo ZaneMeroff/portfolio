@@ -78,6 +78,7 @@ export const resumeData = {
     "React Native",
     "React Router",
     "React Navigator",
+    "Quasar",
     "D3.js",
     "MD Bootstrap",
     "Photoshop",
