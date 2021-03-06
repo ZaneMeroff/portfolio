@@ -20,6 +20,17 @@ export const resumeData = {
   },
   jobs: [
     {
+      name: "Hylio",
+      position: "Software Developer (remote)",
+      time: "January 2020 - present",
+      description: [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
       name: "B-Line Express",
       position: "Software Developer (remote)",
       time: "June 2020 - present",
