@@ -4,18 +4,18 @@ export const resumeData = {
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription: "My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I've built numerous responsive and accessible apps using REST APIs with JavaScript, HTML5, CSS3, jQuery, React.js, and React Native while creating comprehensive unit testing suites. More recently, I focused on learning Vue.js, Vuex, and Vue Router to create robust single page web apps that boast thorough unit and integration testing. I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
+  bioDescription: "My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I've built numerous responsive and accessible apps using REST APIs with JavaScript, HTML5, CSS3, jQuery, React, and React Native while creating comprehensive unit testing suites. More recently, I focused on learning Vue.js, Vuex, and Vue Router to create robust single page web apps that boast thorough unit and integration testing. I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
     position: "Graduate Front End Web Development Program",
     time: "September 2019 - April 2020",
     description: [
-      "Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native",
+      "Built 14 unique web applications from scratch with vanilla JS, React, & React Native",
       "Created thorough unit testing suites for every application",
       "Programmed for team projects of four people, paired projects, and solo projects",
       "Focused on JavaScript fundamentals for 12 weeks",
       "Completed 1,200 hours building applications with front end and back end technologies",
-      "Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux",
+      "Dedicated 600 hours working strictly with React, React Native, Router, and Redux",
     ]
   },
   jobs: [
@@ -35,7 +35,7 @@ export const resumeData = {
       position: "Software Developer (remote)",
       time: "June 2020 - present",
       description: [
-        "Create modern apps using Vue.js and develop solutions to enhance the UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
+        "Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
         "Involved in all steps of app development, including conception, design, development, release, and iterative improvement",
         "Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application",
       ]
@@ -77,12 +77,13 @@ export const resumeData = {
   ],
   techSkillz: [
     "JavaScript",
+    "TypeScript",
     "HTML5",
     "CSS3",
     "Vue.js",
     "Vuex",
     "Vue Router",
-    "React.js",
+    "React",
     "React Native",
     "React Router",
     "React Navigator",
@@ -103,5 +104,6 @@ export const resumeData = {
     "Mocha / Chai",
     "NPM / Yarn",
     "Git / GitHub",
+    "Bitbucket"
   ]
 }
