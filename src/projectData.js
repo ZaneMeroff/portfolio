@@ -17,7 +17,7 @@ export const projectData = [
   },
   {
     name: "MTV Music Trivia App",
-    techsUsed: "React.js . Redux . Router . Jest . Enzyme",
+    techsUsed: "React . Redux . Router . Jest . Enzyme",
     description: "A mobile friendly music trivia app using Redux for global state management and React Router for dynamic URL routing. Jest and Enzyme are used for 97% testing coverage. All Redux and asynchronous functions are tested with happy and sad paths (62 tests overall). PropTypes are implemented for typechecking each variable and function.",
     repoURL: "https://github.com/ZaneMeroff/mtv_music_trivia",
     liveButtonText: "Launch App",
@@ -25,8 +25,8 @@ export const projectData = [
   },
   {
     name: "Mr. Simon Game",
-    techsUsed: "React.js . CSS . Jest . Enzyme",
-    description: "A virtual recreation of the 1978 electronic handheld game by Milton Bradley. I built this project for fun shortly after graduating from the Turing School of Software and Design. It is written using React.js with Hooks and includes snapshot render tests for each component using Jest with Enzyme. Just like this portfolio webiste, this project was created with accessibility in mind and can be enjoyed entirely with just the tab and return key.",
+    techsUsed: "React . CSS . Jest . Enzyme",
+    description: "A virtual recreation of the 1978 electronic handheld game by Milton Bradley. I built this project for fun shortly after graduating from the Turing School of Software and Design. It is written using React with Hooks and includes snapshot render tests for each component using Jest with Enzyme. Just like this portfolio webiste, this project was created with accessibility in mind and can be enjoyed entirely with just the tab and return key.",
     repoURL: "https://github.com/ZaneMeroff/simon_game",
     liveButtonText: "Launch App",
     liveLink: "https://zanemeroff.github.io/simon_game"
