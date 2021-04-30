@@ -89,6 +89,8 @@ export const resumeData = {
     "React Navigator",
     "Quasar",
     "Electron",
+    "Elastic Beanstalk",
+    "Docker",
     "D3.js",
     "MD Bootstrap",
     "Photoshop",
