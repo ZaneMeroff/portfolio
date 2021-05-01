@@ -21,7 +21,7 @@ export const resumeData = {
   jobs: [
     {
       name: "Hylio",
-      position: "Software Developer (remote)",
+      position: "Software Developer (full-time, remote)",
       time: "January 2021 - present",
       description: [
         "Build eye catching, accessible, and responsive front end software using Vue.js with Quasar and Electron",
@@ -32,7 +32,7 @@ export const resumeData = {
     },
     {
       name: "B-Line Express",
-      position: "Software Developer (remote)",
+      position: "Software Developer (part-time, remote)",
       time: "June 2020 - present",
       description: [
         "Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
