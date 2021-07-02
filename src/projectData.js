@@ -1,8 +1,16 @@
 export const projectData = [
   {
+    name: "Score Keeper App",
+    techsUsed: "Vue.js . Vuex . TypeScript . Quasar . Jest",
+    description: "This is the most recent project I’ve created to showcase my programming skills. This mobile SPA (single page web application) features strictly typed, unit tested code and can be used to keep track of scores for any kind of game. The app gives a user many customizations including the ability to set score boundaries, customize player/team names, toggle light/dark mode, save to localstorage, and more!",
+    repoURL: "https://github.com/ZaneMeroff/score_keeper",
+    liveButtonText: "Launch App",
+    liveLink: "http://zanemeroff.github.io/score_keeper"
+  },
+  {
     name: "Team Generator App",
     techsUsed: "Vue.js . Vuex . Vue Router . Jest",
-    description: "This is the most recent project I’ve created to showcase the evolution of my programming skills. The app features DRY, reusable code and components built with methods leveraging the single responsibility principle. A simple global Vuex store is integrated with Vue Router for view mapping. Jest is used to accomplish nearly 100% unit testing coverage (90 unit tests total). The app allows a user to randomly assign groups/teams after selecting a number of desired teams and players.",
+    description: "A mobile SPA for randomly assigning players to teams. The app features DRY, reusable code and components built with methods leveraging the single responsibility principle. A simple global Vuex store is integrated with Vue Router for view mapping. Jest is used to accomplish nearly 100% unit testing coverage—90 unit tests total.",
     repoURL: "https://github.com/ZaneMeroff/team_gen",
     liveButtonText: "Launch App",
     liveLink: "http://zanemeroff.github.io/team_gen"
