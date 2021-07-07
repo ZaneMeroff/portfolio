@@ -20,11 +20,41 @@
 	animation: triangle-animation 15s linear infinite;
 	fill: none;
 	stroke: #FFF;
-	stroke-width: 15;
+	stroke-width: 13;
 	transform-origin: center;
 }
 
 .triangle-1 {
+	animation-delay: 0s;
+}
+
+.triangle-2 {
+	animation-delay: -1s;
+}
+
+.triangle-3 {
+	animation-delay: -2s;
+}
+
+.triangle-4 {
+	animation-delay: -3s;
+}
+
+.triangle-5 {
+	animation-delay: -4s;
+}
+
+.triangle-6 {
+	animation-delay: -5s;
+}
+
+.triangle-7 {
+	animation-delay: -6s;
+}
+
+/* ************************************* */
+
+/* .triangle-1 {
 	animation-delay: 0s;
 }
 
@@ -78,7 +108,7 @@
 
 .triangle-14 {
 	animation-delay: -6.5s;
-}
+} */
 
 @keyframes triangle-animation {
 
