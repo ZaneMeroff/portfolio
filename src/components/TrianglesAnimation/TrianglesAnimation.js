@@ -5,7 +5,7 @@ export const TrianglesAnimation = () => {
 
   const buildTringles = () => {
     let triangles = []
-    for ( let i = 1; i <= 14; i++ ) {
+    for ( let i = 1; i <= 7; i++ ) {
       triangles.push(<polygon className={`triangle triangle-${i}`} key={i} points='500,200 759,650 241,650' />)
     }
     return (
