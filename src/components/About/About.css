@@ -60,6 +60,15 @@
   cursor: pointer;
 }
 
+.tech-skills-link {
+  font-family: 'Muli';
+  text-decoration: underline;
+}
+
+.tech-skills-link:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 800px) {
 
   .about-outer-container {
