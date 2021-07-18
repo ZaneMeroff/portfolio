@@ -32,7 +32,7 @@ export const WorkExperience = () => {
           })}
         </div>
       </div>
-      <div className='tech-experience-container'>
+      <div className='tech-experience-container' id="skills-section">
         { buildExperienceHeading('Tech Skills') }
         <div className='tech-skills-container'>
           <ul className='tech-skills-bullets'>{resumeData.techSkillz.map(item => <li key={item} className='experience-item'>{item}</li>)}</ul>
@@ -51,5 +51,4 @@ export const WorkExperience = () => {
       </div>
     </section>
   );
-
 }
