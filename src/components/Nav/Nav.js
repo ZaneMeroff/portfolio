@@ -1,10 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import smoothscroll from 'smoothscroll-polyfill';
 import './Nav.css';
 
 export const Nav = () => {
-
-  smoothscroll.polyfill();
 
   const [ mobileNavVisible, setMobileNavVisible ] = useState(false);
   const [ animateClass, setAnimateClass ] = useState('hidden');
