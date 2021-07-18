@@ -87,6 +87,7 @@ export const resumeData = {
     "React Native",
     "React Router",
     "Redux",
+    "Node.js",
     "Electron",
     "Elastic Beanstalk",
     "Docker",
