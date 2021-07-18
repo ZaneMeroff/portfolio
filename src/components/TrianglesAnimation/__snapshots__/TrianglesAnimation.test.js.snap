@@ -43,41 +43,6 @@ exports[`TrianglesAnimation should match the snapshot 1`] = `
       key="7"
       points="500,200 759,650 241,650"
     />
-    <polygon
-      className="triangle triangle-8"
-      key="8"
-      points="500,200 759,650 241,650"
-    />
-    <polygon
-      className="triangle triangle-9"
-      key="9"
-      points="500,200 759,650 241,650"
-    />
-    <polygon
-      className="triangle triangle-10"
-      key="10"
-      points="500,200 759,650 241,650"
-    />
-    <polygon
-      className="triangle triangle-11"
-      key="11"
-      points="500,200 759,650 241,650"
-    />
-    <polygon
-      className="triangle triangle-12"
-      key="12"
-      points="500,200 759,650 241,650"
-    />
-    <polygon
-      className="triangle triangle-13"
-      key="13"
-      points="500,200 759,650 241,650"
-    />
-    <polygon
-      className="triangle triangle-14"
-      key="14"
-      points="500,200 759,650 241,650"
-    />
   </svg>
 </section>
 `;

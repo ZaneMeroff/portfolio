@@ -33,19 +33,7 @@ exports[`Contact should match the snapshot 1`] = `
     </p>
   </a>
   <a
-    aria-label="Turing alumni portfolio"
-    href="https://alumni.turing.io/alumni/zachary-nemeroff"
-    rel="noopener noreferrer"
-    target="_blank"
-  >
-    <p
-      className="about-text email-text"
-    >
-      Turing School Alumni Page
-    </p>
-  </a>
-  <a
-    href="https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020_0.pdf"
+    href="https://zanemeroff.github.io/resume_host"
     rel="noopener noreferrer"
     tabIndex="-1"
     target="_blank"

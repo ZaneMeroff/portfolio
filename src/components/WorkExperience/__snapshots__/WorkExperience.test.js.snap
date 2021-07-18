@@ -26,6 +26,54 @@ exports[`WorkExperience should match the snapshot 1`] = `
     >
       <div
         className="job-container"
+        key="Hylio"
+      >
+        <h1
+          className="experience-title"
+        >
+          Hylio
+        </h1>
+        <i
+          className="experience-position"
+        >
+          Software Developer (full-time, remote)
+        </i>
+        <i
+          className="experience-time"
+        >
+          January 2021 - present
+        </i>
+        <ul
+          className="description-list"
+        >
+          <li
+            className="experience-item"
+            key="Build eye catching, accessible, and responsive front end software using Vue.js with Quasar and Electron"
+          >
+            Build eye catching, accessible, and responsive front end software using Vue.js with Quasar and Electron
+          </li>
+          <li
+            className="experience-item"
+            key="Work closely with marketing team to develop new design concepts and bring Figma wire frame layouts to life for web and native platforms"
+          >
+            Work closely with marketing team to develop new design concepts and bring Figma wire frame layouts to life for web and native platforms
+          </li>
+          <li
+            className="experience-item"
+            key="Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives"
+          >
+            Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives
+          </li>
+          <li
+            className="experience-item"
+            key="Accomplishments include successfully completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk"
+          >
+            Accomplishments include successfully completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk
+          </li>
+        </ul>
+      </div>
+      <div
+        className="job-container"
         key="B-Line Express"
       >
         <h1
@@ -36,7 +84,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <i
           className="experience-position"
         >
-          Software Developer (remote)
+          Software Developer (part-time, remote)
         </i>
         <i
           className="experience-time"
@@ -48,21 +96,15 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           <li
             className="experience-item"
-            key="Create modern apps using Vue.js and develop solutions to enhance the UI/UX, improve processes, and push the boundaries of what is possible from front end technologies"
+            key="Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies"
           >
-            Create modern apps using Vue.js and develop solutions to enhance the UI/UX, improve processes, and push the boundaries of what is possible from front end technologies
+            Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies
           </li>
           <li
             className="experience-item"
             key="Involved in all steps of app development, including conception, design, development, release, and iterative improvement"
           >
             Involved in all steps of app development, including conception, design, development, release, and iterative improvement
-          </li>
-          <li
-            className="experience-item"
-            key="Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives"
-          >
-            Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives
           </li>
           <li
             className="experience-item"
@@ -168,12 +210,6 @@ exports[`WorkExperience should match the snapshot 1`] = `
           </li>
           <li
             className="experience-item"
-            key="Managed social media accounts to increase brand awareness"
-          >
-            Managed social media accounts to increase brand awareness
-          </li>
-          <li
-            className="experience-item"
             key="Created SOPs for all positions and comprehensive onboard training programs"
           >
             Created SOPs for all positions and comprehensive onboard training programs
@@ -226,18 +262,13 @@ exports[`WorkExperience should match the snapshot 1`] = `
           >
             Created detailed outlines for camp procedures/activities and board agendas
           </li>
-          <li
-            className="experience-item"
-            key="Served as team leader and adult role model to all campers and staff"
-          >
-            Served as team leader and adult role model to all campers and staff
-          </li>
         </ul>
       </div>
     </div>
   </div>
   <div
     className="tech-experience-container"
+    id="skills-section"
   >
     <div
       className="experience-heading-box"
@@ -263,6 +294,12 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="JavaScript"
         >
           JavaScript
+        </li>
+        <li
+          className="experience-item"
+          key="TypeScript"
+        >
+          TypeScript
         </li>
         <li
           className="experience-item"
@@ -296,9 +333,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="React.js"
+          key="React"
         >
-          React.js
+          React
         </li>
         <li
           className="experience-item"
@@ -314,21 +351,39 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="React Navigator"
+          key="Redux"
         >
-          React Navigator
+          Redux
+        </li>
+        <li
+          className="experience-item"
+          key="Node.js"
+        >
+          Node.js
+        </li>
+        <li
+          className="experience-item"
+          key="Electron"
+        >
+          Electron
+        </li>
+        <li
+          className="experience-item"
+          key="Elastic Beanstalk"
+        >
+          Elastic Beanstalk
+        </li>
+        <li
+          className="experience-item"
+          key="Docker"
+        >
+          Docker
         </li>
         <li
           className="experience-item"
           key="D3.js"
         >
           D3.js
-        </li>
-        <li
-          className="experience-item"
-          key="MD Bootstrap"
-        >
-          MD Bootstrap
         </li>
         <li
           className="experience-item"
@@ -341,12 +396,6 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="jQuery"
         >
           jQuery
-        </li>
-        <li
-          className="experience-item"
-          key="Redux"
-        >
-          Redux
         </li>
         <li
           className="experience-item"
@@ -371,6 +420,24 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="Cypress"
         >
           Cypress
+        </li>
+        <li
+          className="experience-item"
+          key="Quasar"
+        >
+          Quasar
+        </li>
+        <li
+          className="experience-item"
+          key="Stylus"
+        >
+          Stylus
+        </li>
+        <li
+          className="experience-item"
+          key="MD Bootstrap"
+        >
+          MD Bootstrap
         </li>
         <li
           className="experience-item"
@@ -401,6 +468,12 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="Git / GitHub"
         >
           Git / GitHub
+        </li>
+        <li
+          className="experience-item"
+          key="Bitbucket"
+        >
+          Bitbucket
         </li>
       </ul>
     </div>
@@ -444,9 +517,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
       >
         <li
           className="experience-item"
-          key="Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native"
+          key="Built 14 unique web applications from scratch with vanilla JS, React, & React Native"
         >
-          Built 14 unique web applications from scratch with vanilla JS, React.js, & React Native
+          Built 14 unique web applications from scratch with vanilla JS, React, & React Native
         </li>
         <li
           className="experience-item"
@@ -474,9 +547,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux"
+          key="Dedicated 600 hours working strictly with React, React Native, Router, and Redux"
         >
-          Dedicated 600 hours working strictly with React.js, React Native, Router, and Redux
+          Dedicated 600 hours working strictly with React, React Native, Router, and Redux
         </li>
       </ul>
     </div>

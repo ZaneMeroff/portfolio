@@ -25,7 +25,14 @@ exports[`About should match the snapshot 1`] = `
     <p
       className="about-text"
     >
-      My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I've built numerous accessible applications using REST APIs with JavaScript, HTML5, CSS3, jQuery, React.js, and React Native while creating comprehensive unit testing suites. More recently, I focused on learning Vue.js, Vuex, and Vue Router to create robust single page web apps that boast thorough unit and integration testing. I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!
+      My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I love to build responsive and accessible apps using REST APIs with JavaScript, TypeScript, Vue.js, React, HTML5, CSS3, and jQuery to name a few (
+      <span
+        className="tech-skills-link"
+        onClick={[Function]}
+      >
+        see complete list
+      </span>
+      ). I'm always seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!
     </p>
     <div
       className="contact-info-container"
@@ -58,7 +65,7 @@ exports[`About should match the snapshot 1`] = `
         </p>
       </a>
       <a
-        href="https://alumni.turing.io/sites/default/files/resumes/Zachary_Nemeroff_resume_2020_0.pdf"
+        href="https://zanemeroff.github.io/resume_host"
         rel="noopener noreferrer"
         target="_blank"
       >
