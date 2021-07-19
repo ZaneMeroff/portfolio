@@ -6,10 +6,28 @@ export const ParticlesAnimation = () => {
 
   return (
     <section className='particles-outer-container'>
-     
-     <p>test</p>
-     
-     <Particles />
+          
+      <Particles
+        className='particles'
+        params={{
+          particles: {
+            number: {
+              value: 50,
+            },
+            size: {
+              value: 3,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: 'repulse'
+              }
+            }
+          }
+        }} 
+      />
 
     </section>
   );
