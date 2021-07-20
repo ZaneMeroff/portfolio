@@ -25,14 +25,14 @@ exports[`About should match the snapshot 1`] = `
     <p
       className="about-text"
     >
-      My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I love to build responsive and accessible apps using REST APIs with JavaScript, TypeScript, Vue.js, React, HTML5, CSS3, and jQuery to name a few (
+      My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I love to build responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, HTML5, CSS3, and jQuery to name a few (
       <span
         className="tech-skills-link"
         onClick={[Function]}
       >
         see complete list
       </span>
-      ). I'm always seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!
+      ). I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!
     </p>
     <div
       className="contact-info-container"
