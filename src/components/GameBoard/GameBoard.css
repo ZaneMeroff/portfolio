@@ -66,6 +66,7 @@
   border: 3px solid red;
   box-shadow: 0 0 40px 20px red;
   opacity: 1;
+  -webkit-tap-highlight-color: rgba(255,0,0,1);
 }
 
 .green-box {
@@ -84,6 +85,7 @@
   border: 3px solid #00ff00;
   box-shadow: 0 0 40px 20px #00ff00;
   opacity: 1;
+  -webkit-tap-highlight-color: rgba(0,255,0,1);
 }
 
 .blue-box {
@@ -102,6 +104,7 @@
   border: 3px solid #006bff;
   box-shadow: 0 0 40px 20px #006bff;
   opacity: 1;
+  -webkit-tap-highlight-color: rgba(0,107,255,1);
 }
 
 .yellow-box {
@@ -120,6 +123,7 @@
   border: 3px solid yellow;
   box-shadow: 0 0 40px 20px yellow;
   opacity: 1;
+  -webkit-tap-highlight-color: rgba(255,255,0,1);
 }
 
 .disabled {

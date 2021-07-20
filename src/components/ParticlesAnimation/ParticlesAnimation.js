@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Particles from 'react-particles-js';
 import './ParticlesAnimation.css';
 
 export const ParticlesAnimation = () => {
+
+  const [ numParticles, setNumParticles ] = useState(120)
+
+  useEffect(() => {
+    window.addEventListener('resize', updateParticles)
+    updateParticles()
+  })
+
+  const updateParticles = () => {
+    const viewportWidth = window.innerWidth
+    if (viewportWidth > 400) setNumParticles(120)
+    else setNumParticles(200)
+  }
 
   return (
     <section className='particles-outer-container'>
@@ -12,7 +25,7 @@ export const ParticlesAnimation = () => {
         params={{
           particles: {
             number: {
-              value: 80,
+              value: numParticles,
               density: {
                 enable: true,
                 value_area: 1000,
