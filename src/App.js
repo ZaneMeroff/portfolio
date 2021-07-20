@@ -15,7 +15,7 @@ const App = () => {
 
   useEffect(() => {
     document.addEventListener('touchstart', () => {}, false);
-  })
+  });
 
   return (
     <section>
