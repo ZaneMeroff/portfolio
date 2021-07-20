@@ -20,7 +20,7 @@ export const GameBoard = () => {
   const [disableButtons, setDisableButtons] = useState(true);
   const [rulesVisible, setRulesVisible] = useState(false);
   const [gameBoardVisible, setGameBoardVisible] = useState(true);
-  const [disableScoreBoard, setDisableScoreBoard] = useState(false);   // NEW CODE
+  const [disableScoreBoard, setDisableScoreBoard] = useState(false);   
 
   const colorKey = {
     0 : setRedActive,
@@ -38,16 +38,16 @@ export const GameBoard = () => {
     setMyOrYours('MY');
     setTurnText('TURN!');
     nextRound();
-    setDisableScoreBoard(true);     // NEW CODE
+    setDisableScoreBoard(true);     
   }
 
   const onViewRulesClick = () => {
     if (!rulesVisible) {
-      setRulesVisible(true)
-      setGameBoardVisible(false)
+      setRulesVisible(true);
+      setGameBoardVisible(false);
     } else {
-      setRulesVisible(false)
-      setGameBoardVisible(true)
+      setRulesVisible(false);
+      setGameBoardVisible(true);
     }
   }
 
@@ -69,14 +69,14 @@ export const GameBoard = () => {
     setMyOrYours('GAME');
     setTurnText('OVER!');
     setDisableButtons(true);
-    setDisableScoreBoard(false);  // NEW CODE
+    setDisableScoreBoard(false);  
   }
 
   const onCorrectRoundGuess = () => {
     setMyOrYours('RIGHT!');
     setTurnText('');
     setDisableButtons(true);
-    setDisableScoreBoard(true);    // NEW CODE
+    setDisableScoreBoard(true);    
     playerResponse = [];
     setTimeout(() => {
       nextRound();
@@ -116,7 +116,7 @@ export const GameBoard = () => {
       if (i === (roundCount * 2)) {
         setMyOrYours('YOUR');
         setDisableButtons(false);
-        setDisableScoreBoard(false);    // NEW CODE
+        setDisableScoreBoard(false);    
       }
     }, i * 800 );
   }
