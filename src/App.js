@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import { Nav } from './components/Nav/Nav';
 import { Header } from './components/Header/Header';
@@ -12,6 +12,10 @@ import './App.css';
 const App = () => {
 
   smoothscroll.polyfill();
+
+  useEffect(() => {
+    document.addEventListener('touchstart', () => {}, false);
+  })
 
   return (
     <section>
