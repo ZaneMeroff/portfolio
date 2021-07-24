@@ -22,7 +22,7 @@ export const WorkExperience = () => {
           {resumeData.jobs.map(job => {
             return (
               <div key={job.name} className='job-container'>
-                <h1 className='experience-title'>{job.name}</h1>
+                <p className='experience-title'>{job.name}</p>
                 <i className='experience-position'>{job.position}</i>
                 <i className='experience-time'>{job.time}</i>
                 <ul className='description-list'>
@@ -41,7 +41,7 @@ export const WorkExperience = () => {
       <div className='experience-container'>
         { buildExperienceHeading('Education') }
         <div className='experience-right-container'>
-          <h1 className='experience-title'>{resumeData.education.school}</h1>
+          <h3 className='experience-title'>{resumeData.education.school}</h3>
           <i className='experience-position'>{resumeData.education.position}</i>
           <i className='experience-time'>{resumeData.education.time}</i>
           <ul className='description-list'>
