@@ -8,7 +8,7 @@ export const Projects = () => {
       {projectData.map(project => {
         return (
           <div key={project.name} className='project-container'>
-            <h1 className='project-title'>{project.name}</h1>
+            <h3 className='project-title'>{project.name}</h3>
             <i className='project-techs'>{project.techsUsed}</i>
             <p className='project-description'>{project.description}</p>
             <div className='project-buttons-container'>
