@@ -34,16 +34,21 @@
   position: relative;
 }
 
-.social-icons {
+.social-icon {
   height: 35px;
   margin: 0px 10px;
   width: 35px;
 }
 
-.social-icons:hover,
+.social-icon:hover,
 .down-arrow:hover {
   cursor: pointer;
   transform: scale(1.2);
+  transition: transform .5s;
+}
+
+.mouse-leave {
+  transform: scale(1);
   transition: transform .5s;
 }
 
