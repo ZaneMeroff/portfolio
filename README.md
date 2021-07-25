@@ -2,7 +2,7 @@
 a mobile friendly website showcasing my code and work history
 
 #### Links to Live Site
-http://zanemeroff.github.io/portfolio || https://zacharynemeroff.com
+https://zacharynemeroff.com || http://zanemeroff.github.io/portfolio
 
 #### Introduction
 A mobile friendly website built with ReactJS to showcase some of my personal projects. I’ve included information about my experience, a profile picture, and a built-in Mr. Simon game. I built the template and all components from scratch (including mobile menu animations) without the use of component libraries. If you have any questions, suggestions, or comments, feel free to contact me using the info found on this site. Thanks for looking!
@@ -17,14 +17,14 @@ A mobile friendly website built with ReactJS to showcase some of my personal pro
 - Please feel free to contact me using any of the linked social media accounts or email
 
 #### Technologies Used
-- ReactJS
-- React Hooks
+- React
+- Particles.js
 - CSS
 - Jest
 - Enzyme
 
 #### How to run on a local machine with NPM
-1. shut down any live servers you currently have running (`control` + `c`)
+1. shut down any live servers you currently have running (on mac use `control` + `c`)
 2. clone down this repo to desired location
 3. `cd` into the new repo directory
 4. run `npm install`
