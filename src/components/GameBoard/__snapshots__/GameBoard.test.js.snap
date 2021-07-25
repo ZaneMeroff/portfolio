@@ -3,6 +3,7 @@
 exports[`GameBoard should match the snapshot 1`] = `
 <section>
   <ScoreBoard
+    disableScoreBoard={false}
     onViewRulesClick={[Function]}
     playerClickDisplay={0}
     randomNumArray={Array []}
