@@ -37,7 +37,7 @@ exports[`ParticlesAnimation should match the snapshot 1`] = `
               "enable": true,
               "value_area": 1000,
             },
-            "value": 80,
+            "value": 120,
           },
           "opacity": Object {
             "anim": Object {

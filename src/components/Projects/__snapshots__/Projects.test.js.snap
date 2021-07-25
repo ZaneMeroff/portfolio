@@ -9,11 +9,11 @@ exports[`Projects should match the snapshot 1`] = `
     className="project-container"
     key="Score Keeper App"
   >
-    <h1
+    <h3
       className="project-title"
     >
       Score Keeper App
-    </h1>
+    </h3>
     <i
       className="project-techs"
     >
@@ -59,11 +59,11 @@ exports[`Projects should match the snapshot 1`] = `
     className="project-container"
     key="Team Generator App"
   >
-    <h1
+    <h3
       className="project-title"
     >
       Team Generator App
-    </h1>
+    </h3>
     <i
       className="project-techs"
     >
@@ -109,11 +109,11 @@ exports[`Projects should match the snapshot 1`] = `
     className="project-container"
     key="Game On! iOS Mobile App"
   >
-    <h1
+    <h3
       className="project-title"
     >
       Game On! iOS Mobile App
-    </h1>
+    </h3>
     <i
       className="project-techs"
     >
@@ -159,11 +159,11 @@ exports[`Projects should match the snapshot 1`] = `
     className="project-container"
     key="MTV Music Trivia App"
   >
-    <h1
+    <h3
       className="project-title"
     >
       MTV Music Trivia App
-    </h1>
+    </h3>
     <i
       className="project-techs"
     >
@@ -209,11 +209,11 @@ exports[`Projects should match the snapshot 1`] = `
     className="project-container"
     key="Mr. Simon Game"
   >
-    <h1
+    <h3
       className="project-title"
     >
       Mr. Simon Game
-    </h1>
+    </h3>
     <i
       className="project-techs"
     >

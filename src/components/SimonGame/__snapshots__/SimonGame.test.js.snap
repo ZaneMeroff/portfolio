@@ -5,11 +5,11 @@ exports[`SimonGame should match the snapshot 1`] = `
   className="simon-game-outer-container"
   id="simon-section"
 >
-  <h1
+  <h2
     className="simon-title"
   >
     Mr. Simon Game
-  </h1>
+  </h2>
   <GameBoard />
 </section>
 `;
