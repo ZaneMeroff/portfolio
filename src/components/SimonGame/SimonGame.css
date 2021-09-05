@@ -5,6 +5,7 @@
   flex-direction: column;
   height: 500px;
   padding-bottom: 100px;
+  padding-top: 70px;
   text-align: center;
   width: 100%;
 }
@@ -17,10 +18,33 @@
   margin-top: 60px;
 }
 
-@media only screen and (max-width: 550px) {
+.simon-clip-path-bottom {
+  background-color: #313131;
+  clip-path: polygon(0% 0%, 100% -50%, 100% 100%);
+  height: 80px;
+  margin-bottom: -80px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .simon-clip-path-bottom {
+    height: 60px;
+    margin-bottom: -60px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  .simon-clip-path-bottom {
+    height: 40px;
+    margin-bottom: -40px;
+  }
 
   .simon-game-outer-container {
-    /* padding-bottom: 50px; */
+    padding-bottom: 80px;
+    padding-top: 50px;
   }
 
 }
