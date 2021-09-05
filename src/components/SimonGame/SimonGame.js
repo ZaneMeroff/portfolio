@@ -4,9 +4,12 @@ import './SimonGame.css';
 
 export const SimonGame = () => {
   return (
-    <section id='simon-section' className='simon-game-outer-container'>
-      <h2 className='simon-title'>Mr. Simon Game</h2>
-      <GameBoard />
-    </section>
+    <div>
+      <section id='simon-section' className='simon-game-outer-container'>
+        <h2 className='simon-title'>Mr. Simon Game</h2>
+        <GameBoard />
+      </section>
+      <div className="simon-clip-path-bottom"></div>
+    </div>
   )
 }
