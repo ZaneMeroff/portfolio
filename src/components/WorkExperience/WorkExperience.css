@@ -83,6 +83,10 @@
 
 @media only screen and (max-width: 760px) {
 
+  .work-experience-outer-container {
+    padding-top: 40px;
+  }
+
   .experience-container,
   .tech-experience-container {
     align-items: center;
