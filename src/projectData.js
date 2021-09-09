@@ -17,7 +17,7 @@ export const projectData = [
   },
   {
     name: "Game On! iOS Mobile App",
-    techsUsed: "React Native . Redux . TravisCI . Python . Flask",
+    techsUsed: "React Native . Redux . TravisCI . Python",
     description: "A mobile platform for connecting individuals with pickup games in their communities. Features Google Maps integration. Utilizes TravisCI for continuous integration. React Navigator is used for screen transitions and to manage navigation history. Backend database built in Python with Flask. Component render tests written with Jest and Enzyme. This was a team project created in one week with three other teammates.",
     repoURL: "https://github.com/Mod-4-Cross-Pol/FE_game_on",
     liveButtonText: "Demo Video",
