@@ -31,7 +31,6 @@ export const About = () => {
           </div>
         </div>
       </section>
-      <div className="about-clip-path-bottom"></div>
     </div>
   );
 }
