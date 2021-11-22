@@ -16,7 +16,7 @@ export const resumeData = {
       "Focused on JavaScript fundamentals for 12 weeks",
       "Completed 1,200 hours building applications with front end and back end technologies",
       "Dedicated 600 hours working strictly with React, React Native, Router, and Redux",
-      "Continue to work 1:1 with enrolled students as a mentor to provide technical tutoring, professional guidance and support",
+      "Continue to work 1:1 with enrolled students as a mentor to provide technical tutoring, professional guidance, and support",
     ]
   },
   jobs: [
