@@ -81,11 +81,4 @@
     justify-content: flex-start;
     margin-top: 5px;
   }
-
-  .project-description,
-  .project-title,
-  .project-techs {
-    padding: 10px;
-  }
-
 }
