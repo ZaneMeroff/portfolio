@@ -7,7 +7,7 @@ export const resumeData = {
   bioDescription: "My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I love to build responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, HTML5, CSS3, and jQuery to name a few (<skillsLink>). I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
-    position: "Graduate Front End Web Development Program",
+    position: "Graduate Front End Software Engineering Program",
     time: "September 2019 - April 2020",
     description: [
       "Built 14 unique web applications from scratch with vanilla JS, React, & React Native",
@@ -22,7 +22,7 @@ export const resumeData = {
   jobs: [
     {
       name: "Hylio",
-      position: "Software Developer (full-time, remote)",
+      position: "Software Engineer (full-time, remote)",
       time: "January 2021 - present",
       description: [
         "Build eye catching, accessible, and responsive front end software using Vue.js with TypeScript, Quasar, and Electron",
@@ -33,7 +33,7 @@ export const resumeData = {
     },
     {
       name: "B-Line Express",
-      position: "Software Developer (part-time, remote)",
+      position: "Software Engineer (part-time, remote)",
       time: "June 2020 - present",
       description: [
         "Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
@@ -43,7 +43,7 @@ export const resumeData = {
     },
     {
       name: "Boom Supersonic",
-      position: "Software Developer Internship",
+      position: "Software Engineer Internship",
       time: "August 2020 - November 2020",
       description: [
         "Implemented test driven development for flight software in a legacy code base with Vue.js",

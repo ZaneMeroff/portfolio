@@ -24,7 +24,7 @@ export const Header = () => {
       <ParticlesAnimation />
       <h1 className='title-name'>Zachary</h1>
       <h1 className='title-name'>Nemeroff</h1>
-      <h2 className='title-industry'>Software Developer</h2>
+      <h2 className='title-industry'>Software Engineer</h2>
       <div className='social-icon-container'>
         <a rel='noopener noreferrer' aria-label='github profile' href={resumeData.gitHubURL} target='_blank'><img alt='Github icon' src={gitHubIcon} className='social-icon icon'/></a>
         <a rel='noopener noreferrer' aria-label='linkedin profile' href={resumeData.linkedInURL} target='_blank'><img alt='Linkedin icon' src={linkedInIcon} className='social-icon icon'/></a>
