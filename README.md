@@ -8,7 +8,7 @@ https://zacharynemeroff.com || http://zanemeroff.github.io/portfolio
 A mobile friendly website built with ReactJS to showcase some of my personal projects. I’ve included information about my experience, a profile picture, and a built-in Mr. Simon game. I built the template and all components from scratch (including mobile menu animations) without the use of component libraries. If you have any questions, suggestions, or comments, feel free to contact me using the info found on this site. Thanks for looking!
 
 #### Screenshot
-![header screenshot](https://user-images.githubusercontent.com/53405028/126342822-2c6fe40a-80fc-4bd9-ba24-6f79d9c23a37.png)
+![header screenshot](https://user-images.githubusercontent.com/53405028/155890822-c6574230-ae4c-4b64-9826-6dced41fe88e.png)
 
 #### Directions for Use
 - A navigation bar at the top of the site allows a user to quickly scroll to each of the six sections (Home, About, Simon, Experience, Projects, Contact)
