@@ -25,7 +25,7 @@ export const resumeData = {
       position: "Software Developer (full-time, remote)",
       time: "January 2021 - present",
       description: [
-        "Build eye catching, accessible, and responsive front end software using Vue.js with Quasar and Electron",
+        "Build eye catching, accessible, and responsive front end software using Vue.js with TypeScript, Quasar, and Electron",
         "Work closely with marketing team to develop new design concepts and bring Figma wire frame layouts to life for web and native platforms",
         "Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives",
         "Accomplishments include successfully completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk",
