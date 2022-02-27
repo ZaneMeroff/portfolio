@@ -19,7 +19,7 @@ exports[`Header should match the snapshot 1`] = `
   <h2
     className="title-industry"
   >
-    Software Developer
+    Software Engineer
   </h2>
   <div
     className="social-icon-container"

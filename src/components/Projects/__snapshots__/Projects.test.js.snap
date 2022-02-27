@@ -17,7 +17,7 @@ exports[`Projects should match the snapshot 1`] = `
     <i
       className="project-techs"
     >
-      Vue.js . Vuex . TypeScript . Quasar . Jest
+      Vue.js, Vuex, TypeScript, Quasar, Jest
     </i>
     <p
       className="project-description"
@@ -67,7 +67,7 @@ exports[`Projects should match the snapshot 1`] = `
     <i
       className="project-techs"
     >
-      Vue.js . Vuex . Vue Router . Jest
+      Vue.js, Vuex, Vue Router, Jest
     </i>
     <p
       className="project-description"
@@ -117,7 +117,7 @@ exports[`Projects should match the snapshot 1`] = `
     <i
       className="project-techs"
     >
-      React Native . Redux . TravisCI . Python . Flask
+      React Native, Redux, TravisCI, Python
     </i>
     <p
       className="project-description"
@@ -167,7 +167,7 @@ exports[`Projects should match the snapshot 1`] = `
     <i
       className="project-techs"
     >
-      React . Redux . Router . Jest . Enzyme
+      React, Redux, Router, Jest, Enzyme
     </i>
     <p
       className="project-description"
@@ -217,7 +217,7 @@ exports[`Projects should match the snapshot 1`] = `
     <i
       className="project-techs"
     >
-      React . CSS . Jest . Enzyme
+      React, CSS, Jest, Enzyme
     </i>
     <p
       className="project-description"

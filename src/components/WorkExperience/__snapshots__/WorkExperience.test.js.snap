@@ -36,7 +36,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <i
           className="experience-position"
         >
-          Software Developer (full-time, remote)
+          Software Engineer (full-time, remote)
         </i>
         <i
           className="experience-time"
@@ -48,9 +48,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           <li
             className="experience-item"
-            key="Build eye catching, accessible, and responsive front end software using Vue.js with Quasar and Electron"
+            key="Build eye catching, accessible, and responsive front end software using Vue.js with TypeScript, Quasar, and Electron"
           >
-            Build eye catching, accessible, and responsive front end software using Vue.js with Quasar and Electron
+            Build eye catching, accessible, and responsive front end software using Vue.js with TypeScript, Quasar, and Electron
           </li>
           <li
             className="experience-item"
@@ -84,7 +84,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <i
           className="experience-position"
         >
-          Software Developer (part-time, remote)
+          Software Engineer (part-time, remote)
         </i>
         <i
           className="experience-time"
@@ -126,7 +126,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <i
           className="experience-position"
         >
-          Software Developer Internship
+          Software Engineer Internship
         </i>
         <i
           className="experience-time"
@@ -363,6 +363,12 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
+          key="Express"
+        >
+          Express
+        </li>
+        <li
+          className="experience-item"
           key="Electron"
         >
           Electron
@@ -505,7 +511,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
       <i
         className="experience-position"
       >
-        Graduate Front End Web Development Program
+        Graduate Front End Software Engineering Program
       </i>
       <i
         className="experience-time"
@@ -550,6 +556,12 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="Dedicated 600 hours working strictly with React, React Native, Router, and Redux"
         >
           Dedicated 600 hours working strictly with React, React Native, Router, and Redux
+        </li>
+        <li
+          className="experience-item"
+          key="Continue to work 1:1 with enrolled students as a mentor to provide technical tutoring, professional guidance, and support"
+        >
+          Continue to work 1:1 with enrolled students as a mentor to provide technical tutoring, professional guidance, and support
         </li>
       </ul>
     </div>
