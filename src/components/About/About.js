@@ -10,8 +10,9 @@ export const About = () => {
   }
 
   const printBio = () => {
-    const bio = resumeData.bioDescription.split('<skillsLink>')
-    return <p className='about-text'>{bio[0]}<span onClick={scrollToTechSkillsSection} className='tech-skills-link'>see complete list</span>{bio[1]}</p>
+    const bio1 = resumeData.bioDescription1.split('<skillsLink>')
+    const bio2 = resumeData.bioDescription2
+    return <div><p className='about-text'>{bio1[0]}<span onClick={scrollToTechSkillsSection} className='tech-skills-link'>see complete list</span>{bio1[1]}</p><p className='about-text about-text-2'>{bio2}</p></div>
   }
 
   return (

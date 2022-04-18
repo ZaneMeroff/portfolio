@@ -4,7 +4,8 @@ export const resumeData = {
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription: "My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I love to build responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, HTML5, CSS3, and jQuery to name a few (<skillsLink>). I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
+  bioDescription1: "My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I enjoy building responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, Node, HTML5, and CSS3 to name a few (<skillsLink>).",
+  bioDescription2: "I'm always seeking opportunities calling for new and creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
     position: "Graduate Front End Software Engineering Program",
@@ -34,7 +35,7 @@ export const resumeData = {
     {
       name: "B-Line Express",
       position: "Software Engineer (part-time, remote)",
-      time: "June 2020 - present",
+      time: "June 2020 - June 2021",
       description: [
         "Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
         "Involved in all steps of app development, including conception, design, development, release, and iterative improvement",

@@ -42,6 +42,10 @@
   line-height: 180%;
 }
 
+.about-text-2 {
+  margin-top: 12px;
+}
+
 .email-text {
   text-decoration-line: underline;
 }
