@@ -4,7 +4,7 @@ export const resumeData = {
   gitHubURL: "https://github.com/ZaneMeroff",
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription1: "My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I enjoy building responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, Node, HTML5, and CSS3 to name a few (<skillsLink>).",
+  bioDescription1: "My name is Zachary Nemeroff, and I'm a full stack JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I enjoy building responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, Node.js, HTML5, and CSS3 to name a few (<skillsLink>).",
   bioDescription2: "I'm always seeking opportunities calling for new and creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
