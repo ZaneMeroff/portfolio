@@ -32,7 +32,7 @@ export const projectData = [
     liveLink: "https://zanemeroff.github.io/mtv_music_trivia"
   },
   {
-    name: "Mr. Simon Game",
+    name: "Simon Game",
     techsUsed: "React, CSS, Jest, Enzyme",
     description: "A virtual recreation of the 1978 electronic handheld game by Milton Bradley. I built this project for fun shortly after graduating from the Turing School of Software and Design. It is written using React with Hooks and includes snapshot render tests for each component using Jest with Enzyme. Just like this portfolio webiste, this project was created with accessibility in mind and can be enjoyed entirely with just the tab and return key.",
     repoURL: "https://github.com/ZaneMeroff/simon_game",

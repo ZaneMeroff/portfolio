@@ -6,7 +6,7 @@ export const SimonGame = () => {
   return (
     <div>
       <section id='simon-section' className='simon-game-outer-container'>
-        <h2 className='simon-title'>Mr. Simon Game</h2>
+        <h2 className='simon-title'>Simon Game</h2>
         <GameBoard />
       </section>
       <div className="simon-clip-path-bottom"></div>

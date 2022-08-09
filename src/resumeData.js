@@ -5,7 +5,7 @@ export const resumeData = {
   twitterURL: "https://twitter.com/zanemeroff",
   linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
   bioDescription1: "My name is Zachary Nemeroff, and I'm a full stack JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I enjoy building responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, Node.js, HTML5, and CSS3 to name a few (<skillsLink>).",
-  bioDescription2: "I'm always seeking opportunities calling for new and creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
+  bioDescription2: "I'm always seeking opportunities calling for new and creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Simon game I created below!",
   education: {
     school: "Turing School of Software & Design",
     position: "Graduate Front End Software Engineering Program",
@@ -29,7 +29,7 @@ export const resumeData = {
         "Build eye catching, accessible, and responsive front end software using Vue.js with TypeScript, Quasar, and Electron",
         "Work closely with marketing team to develop new design concepts and bring Figma wire frame layouts to life for web and native platforms",
         "Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives",
-        "Accomplishments include successfully completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk",
+        "Accomplishments include completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk/continue maintenance",
       ]
     },
     {
@@ -39,7 +39,7 @@ export const resumeData = {
       description: [
         "Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies",
         "Involved in all steps of app development, including conception, design, development, release, and iterative improvement",
-        "Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application",
+        "Accomplishments include leading dev team to complete the Porsche Club of America's GloveBox application from conception to deployment",
       ]
     },
     {
@@ -50,7 +50,7 @@ export const resumeData = {
         "Implemented test driven development for flight software in a legacy code base with Vue.js",
         "Built visual representations of dynamic data for TelViz flight management tool using D3 JavaScript library with SVG",
         "Worked to identify and fix bugs affecting UI/UX, functionality, and performance",
-        "Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration",
+        "Accomplishments include creating unit regression and e2e testing coverage across entire TeCSys SPA using Jest and Cypress with CircleCI for continuous integration",
       ]
     },
     {
@@ -63,17 +63,6 @@ export const resumeData = {
         "Increased annual gross sales by 15% within first year",
         "Created multiple successful marketing campaigns and special events",
         "Created SOPs for all positions and comprehensive onboard training programs",
-      ]
-    },
-    {
-      name: "Camp Watcha Wanna Do",
-      position: "Board of Directors / Event Planner",
-      time: "June 2010 - March 2016",
-      description: [
-        "Non-profit organization bettering the quality of life for adolescent cancer survivors",
-        "Organized and ran fundraising events generating over one million dollars",
-        "Led Board of Directors and served as Camp Counselor",
-        "Created detailed outlines for camp procedures/activities and board agendas",
       ]
     }
   ],
