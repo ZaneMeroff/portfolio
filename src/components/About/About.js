@@ -16,7 +16,7 @@ export const About = () => {
   }
 
   return (
-    <div>
+    <div class="about-wrapper">
       <div className="about-clip-path-top"></div>
       <section id='about-section' className='about-outer-container'>
         <div className='profile-pic-container'><img alt='zacharys profile' src={profilePic} className='profile-pic'/></div>
