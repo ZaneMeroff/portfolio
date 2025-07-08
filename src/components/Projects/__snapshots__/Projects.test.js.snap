@@ -22,7 +22,7 @@ exports[`Projects should match the snapshot 1`] = `
     <p
       className="project-description"
     >
-      A mobile SPA (single page web application) that features strictly typed, unit tested code that can be used to keep track of scores for any kind of game. The app gives a user many customizations including the ability to set score boundaries, customize player/team names, toggle light/dark mode, save to localstorage, and more!
+      A comprehensive mobile-first single-page application engineered with strict TypeScript implementation and comprehensive unit testing to deliver a versatile game score tracking solution. Features advanced customization capabilities including configurable score boundaries, dynamic player and team management, adaptive light/dark theming, persistent local storage, and an intuitive interface designed for seamless experiences across all devices.
     </p>
     <div
       className="project-buttons-container"
@@ -57,6 +57,56 @@ exports[`Projects should match the snapshot 1`] = `
   </div>
   <div
     className="project-container"
+    key="Simon Game"
+  >
+    <h3
+      className="project-title"
+    >
+      Simon Game
+    </h3>
+    <i
+      className="project-techs"
+    >
+      React, CSS, Jest, Enzyme
+    </i>
+    <p
+      className="project-description"
+    >
+      A meticulously crafted digital recreation of the iconic 1978 Milton Bradley electronic handheld game, developed as a passion project following graduation from the Turing School of Software and Design. Built with modern React Hooks architecture and comprehensive snapshot testing using Jest and Enzyme to ensure component reliability. Features full accessibility compliance with intuitive keyboard navigation, allowing complete gameplay using only tab and return keys for an inclusive user experience across all abilities.
+    </p>
+    <div
+      className="project-buttons-container"
+    >
+      <a
+        aria-label="github project repo"
+        href="https://github.com/ZaneMeroff/simon_game"
+        rel="noopener noreferrer"
+        tabIndex="-1"
+        target="_blank"
+      >
+        <button
+          className="project-button"
+        >
+          GitHub Repo
+        </button>
+      </a>
+      <a
+        aria-label="live project"
+        href="https://zanemeroff.github.io/simon_game"
+        rel="noopener noreferrer"
+        tabIndex="-1"
+        target="_blank"
+      >
+        <button
+          className="project-button"
+        >
+          Launch App
+        </button>
+      </a>
+    </div>
+  </div>
+  <div
+    className="project-container"
     key="Team Generator App"
   >
     <h3
@@ -72,7 +122,7 @@ exports[`Projects should match the snapshot 1`] = `
     <p
       className="project-description"
     >
-      A mobile SPA for randomly assigning players to teams. The app features DRY, reusable code and components built with methods leveraging the single responsibility principle. A simple global Vuex store is integrated with Vue Router for view mapping. Jest is used to accomplish nearly 100% unit testing coverage—90 unit tests total.
+      A simple, mobile single-page application engineered for dynamic team assignment with intelligent randomization algorithms. Built with maintainable, reusable components following single responsibility principles and DRY methodology. Features seamless state management through Vuex integration with Vue Router for optimized navigation, backed by comprehensive Jest testing suite achieving near-complete coverage with 90 unit tests ensuring robust functionality and reliability.
     </p>
     <div
       className="project-buttons-container"
@@ -122,7 +172,7 @@ exports[`Projects should match the snapshot 1`] = `
     <p
       className="project-description"
     >
-      A mobile platform for connecting individuals with pickup games in their communities. Features Google Maps integration. Utilizes TravisCI for continuous integration. React Navigator is used for screen transitions and to manage navigation history. Backend database built in Python with Flask. Component render tests written with Jest and Enzyme. This was a team project created in one week with three other teammates.
+      A dynamic mobile platform engineered to connect community members with local pickup games through seamless geolocation services and Google Maps integration. Built with robust continuous integration via TravisCI and smooth navigation management using React Navigator for optimal user experience. Features a scalable Python Flask backend with comprehensive component testing using Jest and Enzyme. Successfully delivered as a collaborative team project with three developers within an intensive one-week development cycle.
     </p>
     <div
       className="project-buttons-container"
@@ -172,7 +222,7 @@ exports[`Projects should match the snapshot 1`] = `
     <p
       className="project-description"
     >
-      A mobile friendly music trivia app using Redux for global state management and React Router for dynamic URL routing. Jest and Enzyme are used for 97% testing coverage. All Redux and asynchronous functions are tested with happy and sad paths (62 tests overall). PropTypes are implemented for typechecking each variable and function.
+      A comprehensive mobile-optimized music trivia application featuring sophisticated Redux state management architecture and dynamic React Router implementation for seamless URL routing. Engineered with rigorous testing protocols achieving 97% coverage through Jest and Enzyme, including comprehensive validation of all Redux actions and asynchronous operations with both success and error path testing across 62 test suites. Enhanced with PropTypes implementation ensuring robust type checking and component reliability throughout the application.
     </p>
     <div
       className="project-buttons-container"
@@ -193,56 +243,6 @@ exports[`Projects should match the snapshot 1`] = `
       <a
         aria-label="live project"
         href="https://zanemeroff.github.io/mtv_music_trivia"
-        rel="noopener noreferrer"
-        tabIndex="-1"
-        target="_blank"
-      >
-        <button
-          className="project-button"
-        >
-          Launch App
-        </button>
-      </a>
-    </div>
-  </div>
-  <div
-    className="project-container"
-    key="Simon Game"
-  >
-    <h3
-      className="project-title"
-    >
-      Simon Game
-    </h3>
-    <i
-      className="project-techs"
-    >
-      React, CSS, Jest, Enzyme
-    </i>
-    <p
-      className="project-description"
-    >
-      A virtual recreation of the 1978 electronic handheld game by Milton Bradley. I built this project for fun shortly after graduating from the Turing School of Software and Design. It is written using React with Hooks and includes snapshot render tests for each component using Jest with Enzyme. Just like this portfolio webiste, this project was created with accessibility in mind and can be enjoyed entirely with just the tab and return key.
-    </p>
-    <div
-      className="project-buttons-container"
-    >
-      <a
-        aria-label="github project repo"
-        href="https://github.com/ZaneMeroff/simon_game"
-        rel="noopener noreferrer"
-        tabIndex="-1"
-        target="_blank"
-      >
-        <button
-          className="project-button"
-        >
-          GitHub Repo
-        </button>
-      </a>
-      <a
-        aria-label="live project"
-        href="https://zanemeroff.github.io/simon_game"
         rel="noopener noreferrer"
         tabIndex="-1"
         target="_blank"

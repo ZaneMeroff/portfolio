@@ -108,9 +108,9 @@ exports[`WorkExperience should match the snapshot 1`] = `
           </li>
           <li
             className="experience-item"
-            key="Strategically utilize AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes"
+            key="Strategically utilized AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes"
           >
-            Strategically utilize AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes
+            Strategically utilized AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes
           </li>
           <li
             className="experience-item"
@@ -150,15 +150,15 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           <li
             className="experience-item"
-            key="Develop modern applications using Vue.js to enhance UI/UX, streamline processes, and leverage cutting-edge front-end technologies"
+            key="Built the frontend for Porsche's GloveBox admin web application using Vue.js with Material Design"
           >
-            Develop modern applications using Vue.js to enhance UI/UX, streamline processes, and leverage cutting-edge front-end technologies
+            Built the frontend for Porsche's GloveBox admin web application using Vue.js with Material Design
           </li>
           <li
             className="experience-item"
-            key="Participate in full application lifecycle including conception, design, development, deployment, and iterative enhancement"
+            key="Participated in full application lifecycle including conception, design, development, deployment, and iterative enhancements"
           >
-            Participate in full application lifecycle including conception, design, development, deployment, and iterative enhancement
+            Participated in full application lifecycle including conception, design, development, deployment, and iterative enhancements
           </li>
           <li
             className="experience-item"
