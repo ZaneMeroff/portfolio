@@ -8,9 +8,17 @@ export const projectData = [
     liveLink: "http://zanemeroff.github.io/score_keeper"
   },
   {
+    name: "Simon Game",
+    techsUsed: "React, CSS, Jest, Enzyme",
+    description: "A meticulously crafted digital recreation of the iconic 1978 Milton Bradley electronic handheld game, developed as a passion project following graduation from the Turing School of Software and Design. Built with modern React Hooks architecture and comprehensive snapshot testing using Jest and Enzyme to ensure component reliability. Features full accessibility compliance with intuitive keyboard navigation, allowing complete gameplay using only tab and return keys for an inclusive user experience across all abilities.",
+    repoURL: "https://github.com/ZaneMeroff/simon_game",
+    liveButtonText: "Launch App",
+    liveLink: "https://zanemeroff.github.io/simon_game"
+  },
+  {
     name: "Team Generator App",
     techsUsed: "Vue.js, Vuex, Vue Router, Jest",
-    description: "A mobile single-page application engineered for dynamic team assignment with intelligent randomization algorithms. Built with maintainable, reusable components following single responsibility principles and DRY methodology. Features seamless state management through Vuex integration with Vue Router for optimized navigation, backed by comprehensive Jest testing suite achieving near-complete coverage with 90 unit tests ensuring robust functionality and reliability.",
+    description: "A simple, mobile single-page application engineered for dynamic team assignment with intelligent randomization algorithms. Built with maintainable, reusable components following single responsibility principles and DRY methodology. Features seamless state management through Vuex integration with Vue Router for optimized navigation, backed by comprehensive Jest testing suite achieving near-complete coverage with 90 unit tests ensuring robust functionality and reliability.",
     repoURL: "https://github.com/ZaneMeroff/team_gen",
     liveButtonText: "Launch App",
     liveLink: "http://zanemeroff.github.io/team_gen"
@@ -30,13 +38,5 @@ export const projectData = [
     repoURL: "https://github.com/ZaneMeroff/mtv_music_trivia",
     liveButtonText: "Launch App",
     liveLink: "https://zanemeroff.github.io/mtv_music_trivia"
-  },
-  {
-    name: "Simon Game",
-    techsUsed: "React, CSS, Jest, Enzyme",
-    description: "A meticulously crafted digital recreation of the iconic 1978 Milton Bradley electronic handheld game, developed as a passion project following graduation from the Turing School of Software and Design. Built with modern React Hooks architecture and comprehensive snapshot testing using Jest and Enzyme to ensure component reliability. Features full accessibility compliance with intuitive keyboard navigation, allowing complete gameplay using only tab and return keys for an inclusive user experience across all abilities.",
-    repoURL: "https://github.com/ZaneMeroff/simon_game",
-    liveButtonText: "Launch App",
-    liveLink: "https://zanemeroff.github.io/simon_game"
   }
 ]
