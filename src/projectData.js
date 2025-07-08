@@ -1,8 +1,8 @@
 export const projectData = [
   {
     name: "Score Keeper App",
-    techsUsed: "Vue.js, Vuex, TypeScript, Quasar, Jest",
-    description: "This is the most recent project I’ve created to showcase my programming skills. This mobile SPA (single page web application) features strictly typed, unit tested code and can be used to keep track of scores for any kind of game. The app gives a user many customizations including the ability to set score boundaries, customize player/team names, toggle light/dark mode, save to localstorage, and more!",
+    techsUsed: "TypeScript, Vue.js, Vuex, Quasar, Jest",
+    description: "A mobile SPA (single page web application) that features strictly typed, unit tested code that can be used to keep track of scores for any kind of game. The app gives a user many customizations including the ability to set score boundaries, customize player/team names, toggle light/dark mode, save to localstorage, and more!",
     repoURL: "https://github.com/ZaneMeroff/score_keeper",
     liveButtonText: "Launch App",
     liveLink: "http://zanemeroff.github.io/score_keeper"

@@ -38,6 +38,7 @@
 .about-text {
   color: #FFF;
   font-family: 'Muli';
+  font-weight: 300;
   letter-spacing: 0.7px;
   line-height: 180%;
 }

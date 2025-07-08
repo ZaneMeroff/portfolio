@@ -9,7 +9,7 @@ exports[`SimonGame should match the snapshot 1`] = `
     <h2
       className="simon-title"
     >
-      Mr. Simon Game
+      Simon Game
     </h2>
     <GameBoard />
   </section>

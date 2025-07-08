@@ -48,69 +48,123 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           <li
             className="experience-item"
-            key="Build eye catching, accessible, and responsive front end software using Vue.js with TypeScript, Quasar, and Electron"
+            key="Develop visually compelling, accessible, and responsive front-end applications using Vue.js with TypeScript, Quasar, and Electron"
           >
-            Build eye catching, accessible, and responsive front end software using Vue.js with TypeScript, Quasar, and Electron
+            Develop visually compelling, accessible, and responsive front-end applications using Vue.js with TypeScript, Quasar, and Electron
           </li>
           <li
             className="experience-item"
-            key="Work closely with marketing team to develop new design concepts and bring Figma wire frame layouts to life for web and native platforms"
+            key="Responsibly integrate AI tools and technologies to enhance development efficiency while maintaining code quality, security standards, and thorough testing practices"
           >
-            Work closely with marketing team to develop new design concepts and bring Figma wire frame layouts to life for web and native platforms
+            Responsibly integrate AI tools and technologies to enhance development efficiency while maintaining code quality, security standards, and thorough testing practices
           </li>
           <li
             className="experience-item"
-            key="Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives"
+            key="Collaborate with marketing team to transform Figma wireframes into production-ready web and native applications"
           >
-            Employ agile methodologies throughout the development process, including stand-ups, sprint planning, backlog grooming, scrum framework, and retrospectives
+            Collaborate with marketing team to transform Figma wireframes into production-ready web and native applications
           </li>
           <li
             className="experience-item"
-            key="Accomplishments include successfully completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk"
+            key="Implement agile development practices including daily stand-ups, sprint planning, backlog refinement, and retrospectives"
           >
-            Accomplishments include successfully completing the Hylio Drone Configurator app (sole programmer) from conception to deployment on AWS using Elastic Beanstalk
+            Implement agile development practices including daily stand-ups, sprint planning, backlog refinement, and retrospectives
+          </li>
+          <li
+            className="experience-item"
+            key="Designed and deployed the Hylio Drone Configurator versions 1 & 2 as sole developer, managing full lifecycle from conception through AWS deployment using Elastic Beanstalk and CodePipelines for CI/CD with ongoing maintenance"
+          >
+            Designed and deployed the Hylio Drone Configurator versions 1 & 2 as sole developer, managing full lifecycle from conception through AWS deployment using Elastic Beanstalk and CodePipelines for CI/CD with ongoing maintenance
           </li>
         </ul>
       </div>
       <div
         className="job-container"
-        key="B-Line Express"
+        key="B-Line Express (Porsche Club of America Parade Web App)"
       >
         <p
           className="experience-title"
         >
-          B-Line Express
+          B-Line Express (Porsche Club of America Parade Web App)
         </p>
         <i
           className="experience-position"
         >
-          Software Engineer (part-time, remote)
+          Software Engineer (contract role, remote)
         </i>
         <i
           className="experience-time"
         >
-          June 2020 - present
+          October 2024 - June 2025
         </i>
         <ul
           className="description-list"
         >
           <li
             className="experience-item"
-            key="Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies"
+            key="Architected and developed a comprehensive event management platform using TypeScript, Vue3, Pinia, and Vite to streamline registration and coordination for national Porsche Club events"
           >
-            Create modern apps using Vue.js and develop solutions to enhance UI/UX, improve processes, and push the boundaries of what is possible from front end technologies
+            Architected and developed a comprehensive event management platform using TypeScript, Vue3, Pinia, and Vite to streamline registration and coordination for national Porsche Club events
           </li>
           <li
             className="experience-item"
-            key="Involved in all steps of app development, including conception, design, development, release, and iterative improvement"
+            key="Strategically utilize AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes"
           >
-            Involved in all steps of app development, including conception, design, development, release, and iterative improvement
+            Strategically utilize AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes
           </li>
           <li
             className="experience-item"
-            key="Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application"
+            key="Engineered responsive user interfaces and state management solutions to handle complex event workflows, participant tracking, and real-time updates"
           >
-            Accomplishments include successfully leading development team to meet deadline for creating the membership management module for Porsche Club of America’s GloveBox application
+            Engineered responsive user interfaces and state management solutions to handle complex event workflows, participant tracking, and real-time updates
+          </li>
+          <li
+            className="experience-item"
+            key="Collaborated directly with the client to deliver a scalable web application serving thousands of Porsche enthusiasts nationwide, ensuring seamless event experiences and improved operational efficiency"
+          >
+            Collaborated directly with the client to deliver a scalable web application serving thousands of Porsche enthusiasts nationwide, ensuring seamless event experiences and improved operational efficiency
+          </li>
+        </ul>
+      </div>
+      <div
+        className="job-container"
+        key="B-Line Express (Porsche Club of America GloveBox Application)"
+      >
+        <p
+          className="experience-title"
+        >
+          B-Line Express (Porsche Club of America GloveBox Application)
+        </p>
+        <i
+          className="experience-position"
+        >
+          Software Engineer (contract role, remote)
+        </i>
+        <i
+          className="experience-time"
+        >
+          June 2020 - June 2021
+        </i>
+        <ul
+          className="description-list"
+        >
+          <li
+            className="experience-item"
+            key="Develop modern applications using Vue.js to enhance UI/UX, streamline processes, and leverage cutting-edge front-end technologies"
+          >
+            Develop modern applications using Vue.js to enhance UI/UX, streamline processes, and leverage cutting-edge front-end technologies
+          </li>
+          <li
+            className="experience-item"
+            key="Participate in full application lifecycle including conception, design, development, deployment, and iterative enhancement"
+          >
+            Participate in full application lifecycle including conception, design, development, deployment, and iterative enhancement
+          </li>
+          <li
+            className="experience-item"
+            key="Lead development team to deliver application on schedule and within budget parameters"
+          >
+            Lead development team to deliver application on schedule and within budget parameters
           </li>
         </ul>
       </div>
@@ -138,27 +192,27 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           <li
             className="experience-item"
-            key="Implemented test driven development for flight software in a legacy code base with Vue.js"
+            key="Implemented test-driven development practices for flight software within legacy codebase using Vue.js"
           >
-            Implemented test driven development for flight software in a legacy code base with Vue.js
+            Implemented test-driven development practices for flight software within legacy codebase using Vue.js
           </li>
           <li
             className="experience-item"
-            key="Built visual representations of dynamic data for TelViz flight management tool using D3 JavaScript library with SVG"
+            key="Developed dynamic data visualizations for TelViz flight management tool utilizing D3 JavaScript library and SVG"
           >
-            Built visual representations of dynamic data for TelViz flight management tool using D3 JavaScript library with SVG
+            Developed dynamic data visualizations for TelViz flight management tool utilizing D3 JavaScript library and SVG
           </li>
           <li
             className="experience-item"
-            key="Worked to identify and fix bugs affecting UI/UX, functionality, and performance"
+            key="Identified and resolved critical bugs impacting user interface, functionality, and application performance"
           >
-            Worked to identify and fix bugs affecting UI/UX, functionality, and performance
+            Identified and resolved critical bugs impacting user interface, functionality, and application performance
           </li>
           <li
             className="experience-item"
-            key="Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration"
+            key="Established comprehensive testing infrastructure including unit, regression, and end-to-end testing coverage across entire TeCSys SPA using Jest and Cypress with CircleCI continuous integration"
           >
-            Accomplishments include creating unit regression and end to end testing coverage across entire TeCSys single page web application using Jest and Cypress with CircleCI for continuous integration
+            Established comprehensive testing infrastructure including unit, regression, and end-to-end testing coverage across entire TeCSys SPA using Jest and Cypress with CircleCI continuous integration
           </li>
         </ul>
       </div>
@@ -186,81 +240,33 @@ exports[`WorkExperience should match the snapshot 1`] = `
         >
           <li
             className="experience-item"
-            key="Sole general manager responsible for overseeing two million dollar gross annual operation"
+            key="Managed comprehensive operations for $2M annual revenue hospitality establishment as sole general manager"
           >
-            Sole general manager responsible for overseeing two million dollar gross annual operation
+            Managed comprehensive operations for $2M annual revenue hospitality establishment as sole general manager
           </li>
           <li
             className="experience-item"
-            key="Reduced annual labor costs by 8% within first year"
+            key="Achieved 8% reduction in annual labor costs through strategic workforce optimization and process improvements"
           >
-            Reduced annual labor costs by 8% within first year
+            Achieved 8% reduction in annual labor costs through strategic workforce optimization and process improvements
           </li>
           <li
             className="experience-item"
-            key="Increased annual gross sales by 15% within first year"
+            key="Drove 15% increase in annual gross sales through operational excellence and customer experience enhancements"
           >
-            Increased annual gross sales by 15% within first year
+            Drove 15% increase in annual gross sales through operational excellence and customer experience enhancements
           </li>
           <li
             className="experience-item"
-            key="Created multiple successful marketing campaigns and special events"
+            key="Developed and executed targeted marketing campaigns and special events to increase customer engagement and revenue"
           >
-            Created multiple successful marketing campaigns and special events
+            Developed and executed targeted marketing campaigns and special events to increase customer engagement and revenue
           </li>
           <li
             className="experience-item"
-            key="Created SOPs for all positions and comprehensive onboard training programs"
+            key="Established standardized operating procedures and comprehensive onboarding programs across all positions to ensure consistent service quality"
           >
-            Created SOPs for all positions and comprehensive onboard training programs
-          </li>
-        </ul>
-      </div>
-      <div
-        className="job-container"
-        key="Camp Watcha Wanna Do"
-      >
-        <p
-          className="experience-title"
-        >
-          Camp Watcha Wanna Do
-        </p>
-        <i
-          className="experience-position"
-        >
-          Board of Directors / Event Planner
-        </i>
-        <i
-          className="experience-time"
-        >
-          June 2010 - March 2016
-        </i>
-        <ul
-          className="description-list"
-        >
-          <li
-            className="experience-item"
-            key="Non-profit organization bettering the quality of life for adolescent cancer survivors"
-          >
-            Non-profit organization bettering the quality of life for adolescent cancer survivors
-          </li>
-          <li
-            className="experience-item"
-            key="Organized and ran fundraising events generating over one million dollars"
-          >
-            Organized and ran fundraising events generating over one million dollars
-          </li>
-          <li
-            className="experience-item"
-            key="Led Board of Directors and served as Camp Counselor"
-          >
-            Led Board of Directors and served as Camp Counselor
-          </li>
-          <li
-            className="experience-item"
-            key="Created detailed outlines for camp procedures/activities and board agendas"
-          >
-            Created detailed outlines for camp procedures/activities and board agendas
+            Established standardized operating procedures and comprehensive onboarding programs across all positions to ensure consistent service quality
           </li>
         </ul>
       </div>
@@ -279,7 +285,7 @@ exports[`WorkExperience should match the snapshot 1`] = `
         <h3
           className="experience-heading"
         >
-          Tech Skills
+          Technologies
         </h3>
       </div>
     </div>
@@ -300,36 +306,6 @@ exports[`WorkExperience should match the snapshot 1`] = `
           key="TypeScript"
         >
           TypeScript
-        </li>
-        <li
-          className="experience-item"
-          key="HTML5"
-        >
-          HTML5
-        </li>
-        <li
-          className="experience-item"
-          key="CSS3"
-        >
-          CSS3
-        </li>
-        <li
-          className="experience-item"
-          key="Vue.js"
-        >
-          Vue.js
-        </li>
-        <li
-          className="experience-item"
-          key="Vuex"
-        >
-          Vuex
-        </li>
-        <li
-          className="experience-item"
-          key="Vue Router"
-        >
-          Vue Router
         </li>
         <li
           className="experience-item"
@@ -357,6 +333,36 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
+          key="Vue.js"
+        >
+          Vue.js
+        </li>
+        <li
+          className="experience-item"
+          key="Vuex"
+        >
+          Vuex
+        </li>
+        <li
+          className="experience-item"
+          key="Vue Router"
+        >
+          Vue Router
+        </li>
+        <li
+          className="experience-item"
+          key="HTML5"
+        >
+          HTML5
+        </li>
+        <li
+          className="experience-item"
+          key="CSS3"
+        >
+          CSS3
+        </li>
+        <li
+          className="experience-item"
           key="Node.js"
         >
           Node.js
@@ -375,9 +381,21 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
+          key="AWS"
+        >
+          AWS
+        </li>
+        <li
+          className="experience-item"
           key="Elastic Beanstalk"
         >
           Elastic Beanstalk
+        </li>
+        <li
+          className="experience-item"
+          key="Figma"
+        >
+          Figma
         </li>
         <li
           className="experience-item"
@@ -447,33 +465,33 @@ exports[`WorkExperience should match the snapshot 1`] = `
         </li>
         <li
           className="experience-item"
-          key="SCSS / SASS"
+          key="SCSS & SASS"
         >
-          SCSS / SASS
+          SCSS & SASS
         </li>
         <li
           className="experience-item"
-          key="Jest / Enzyme"
+          key="Jest & Enzyme"
         >
-          Jest / Enzyme
+          Jest & Enzyme
         </li>
         <li
           className="experience-item"
-          key="Mocha / Chai"
+          key="Mocha & Chai"
         >
-          Mocha / Chai
+          Mocha & Chai
         </li>
         <li
           className="experience-item"
-          key="NPM / Yarn"
+          key="NPM & Yarn"
         >
-          NPM / Yarn
+          NPM & Yarn
         </li>
         <li
           className="experience-item"
-          key="Git / GitHub"
+          key="Git & GitHub"
         >
-          Git / GitHub
+          Git & GitHub
         </li>
         <li
           className="experience-item"
@@ -523,45 +541,45 @@ exports[`WorkExperience should match the snapshot 1`] = `
       >
         <li
           className="experience-item"
-          key="Built 14 unique web applications from scratch with vanilla JS, React, & React Native"
+          key="Developed 14 full-stack web applications using vanilla JavaScript, React, and React Native"
         >
-          Built 14 unique web applications from scratch with vanilla JS, React, & React Native
+          Developed 14 full-stack web applications using vanilla JavaScript, React, and React Native
         </li>
         <li
           className="experience-item"
-          key="Created thorough unit testing suites for every application"
+          key="Implemented comprehensive unit testing suites for all applications"
         >
-          Created thorough unit testing suites for every application
+          Implemented comprehensive unit testing suites for all applications
         </li>
         <li
           className="experience-item"
-          key="Programmed for team projects of four people, paired projects, and solo projects"
+          key="Collaborated on team projects in groups of four, pair programming, and independent development"
         >
-          Programmed for team projects of four people, paired projects, and solo projects
+          Collaborated on team projects in groups of four, pair programming, and independent development
         </li>
         <li
           className="experience-item"
-          key="Focused on JavaScript fundamentals for 12 weeks"
+          key="Mastered JavaScript fundamentals through intensive 12-week curriculum"
         >
-          Focused on JavaScript fundamentals for 12 weeks
+          Mastered JavaScript fundamentals through intensive 12-week curriculum
         </li>
         <li
           className="experience-item"
-          key="Completed 1,200 hours building applications with front end and back end technologies"
+          key="Completed 1,200 hours of hands-on development with front-end and back-end technologies"
         >
-          Completed 1,200 hours building applications with front end and back end technologies
+          Completed 1,200 hours of hands-on development with front-end and back-end technologies
         </li>
         <li
           className="experience-item"
-          key="Dedicated 600 hours working strictly with React, React Native, Router, and Redux"
+          key="Specialized in React ecosystem with 600 hours focused on React, React Native, Router, and Redux"
         >
-          Dedicated 600 hours working strictly with React, React Native, Router, and Redux
+          Specialized in React ecosystem with 600 hours focused on React, React Native, Router, and Redux
         </li>
         <li
           className="experience-item"
-          key="Continue to work 1:1 with enrolled students as a mentor to provide technical tutoring, professional guidance, and support"
+          key="Provide ongoing technical mentorship and professional guidance to current students"
         >
-          Continue to work 1:1 with enrolled students as a mentor to provide technical tutoring, professional guidance, and support
+          Provide ongoing technical mentorship and professional guidance to current students
         </li>
       </ul>
     </div>

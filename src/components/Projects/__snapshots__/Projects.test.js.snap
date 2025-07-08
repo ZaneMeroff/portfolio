@@ -17,12 +17,12 @@ exports[`Projects should match the snapshot 1`] = `
     <i
       className="project-techs"
     >
-      Vue.js, Vuex, TypeScript, Quasar, Jest
+      TypeScript, Vue.js, Vuex, Quasar, Jest
     </i>
     <p
       className="project-description"
     >
-      This is the most recent project I’ve created to showcase my programming skills. This mobile SPA (single page web application) features strictly typed, unit tested code and can be used to keep track of scores for any kind of game. The app gives a user many customizations including the ability to set score boundaries, customize player/team names, toggle light/dark mode, save to localstorage, and more!
+      A mobile SPA (single page web application) that features strictly typed, unit tested code that can be used to keep track of scores for any kind of game. The app gives a user many customizations including the ability to set score boundaries, customize player/team names, toggle light/dark mode, save to localstorage, and more!
     </p>
     <div
       className="project-buttons-container"
@@ -207,12 +207,12 @@ exports[`Projects should match the snapshot 1`] = `
   </div>
   <div
     className="project-container"
-    key="Mr. Simon Game"
+    key="Simon Game"
   >
     <h3
       className="project-title"
     >
-      Mr. Simon Game
+      Simon Game
     </h3>
     <i
       className="project-techs"
