@@ -37,7 +37,7 @@ export const resumeData = {
       time: "October 2024 - June 2025",
       description: [
         "Architected and developed a comprehensive event management platform using TypeScript, Vue3, Pinia, and Vite to streamline registration and coordination for national Porsche Club events",
-        "Strategically utilize AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes",
+        "Strategically utilized AI-powered development tools to accelerate productivity while ensuring adherence to best practices, security protocols, and comprehensive validation processes",
         "Engineered responsive user interfaces and state management solutions to handle complex event workflows, participant tracking, and real-time updates",
         "Collaborated directly with the client to deliver a scalable web application serving thousands of Porsche enthusiasts nationwide, ensuring seamless event experiences and improved operational efficiency",
       ]
