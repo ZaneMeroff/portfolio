@@ -47,8 +47,8 @@ export const resumeData = {
       position: "Software Engineer (contract role, remote)",
       time: "June 2020 - June 2021",
       description: [
-        "Develop modern applications using Vue.js to enhance UI/UX, streamline processes, and leverage cutting-edge front-end technologies",
-        "Participate in full application lifecycle including conception, design, development, deployment, and iterative enhancement",
+        "Built the frontend for Porsche's GloveBox admin web application using Vue.js with Material Design",
+        "Participated in full application lifecycle including conception, design, development, deployment, and iterative enhancements",
         "Lead development team to deliver application on schedule and within budget parameters",
       ]
     },
