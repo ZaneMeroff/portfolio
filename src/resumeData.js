@@ -25,10 +25,11 @@ export const resumeData = {
       time: "January 2021 - present",
       description: [
         "Develop visually compelling, accessible, and responsive front-end applications using Vue.js with TypeScript, Quasar, and Electron",
+        "Lead development team in overseeing feature implementation and bug fixes for client-facing AgroSol GCS software",
         "Responsibly integrate AI tools and technologies to enhance development efficiency while maintaining code quality, security standards, and thorough testing practices",
         "Collaborate with marketing team to transform Figma wireframes into production-ready web and native applications",
         "Implement agile development practices including daily stand-ups, sprint planning, backlog refinement, and retrospectives",
-        "Designed and deployed the Hylio Drone Configurator versions 1 & 2 as sole developer, managing full lifecycle from conception through AWS deployment using Elastic Beanstalk and CodePipelines for CI/CD with ongoing maintenance",
+        "Designed and deployed the Hylio Drone Configurator managing full lifecycle from conception through AWS deployment using Elastic Beanstalk and CodePipelines for CI/CD with ongoing maintenance",
       ]
     },
     {
